@@ -18,6 +18,7 @@ st.markdown("### Generation of Monte Carlo Input Parameters")
 st.markdown("*Brief Analysis Report of historic failure event data of Feeder Assets for probabilistic risk forecasting using National Grid's datasets*")
 st.write("**Author:** Siddharth Ravichandran, Feb 2026")
 st.write("www.linkedin.com/in/sid-ravichandran")
+st.write("Analysis Code hosted at - https://github.com/sid-ravichandran/transmission-grid-failure-analysis")
 st.write('------------------------------------------------------------------------')
 
 # Sidebar
