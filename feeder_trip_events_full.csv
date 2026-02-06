@@ -1,0 +1,1517 @@
+event_id,feeder_id,trip_start_time,trip_end_time,fault_description
+EVT_000001,FDR_002,14/10/2000 10:00,14/10/2000 17:00,Cable joint failure suspected
+EVT_000002,FDR_023,13/12/2000 04:00,13/12/2000 10:00,HV trip – limited historical detail
+EVT_000003,FDR_002,22/09/2000 12:00,22/09/2000 21:00,UG cable insulation breakdown
+EVT_000004,FDR_005,30/09/2000 10:00,30/09/2000 19:00,Insulator failure reported on cross-arm
+EVT_000005,FDR_002,10/03/2000 14:00,11/03/2000 01:00,Conductor damage mid span
+EVT_000006,FDR_023,08/12/2000 14:00,08/12/2000 19:00,HV trip – limited historical detail
+EVT_000007,FDR_017,20/09/2000 17:00,20/09/2000 20:00,Cable joint failure suspected
+EVT_000008,FDR_019,23/06/2000 02:00,23/06/2000 07:00,HV trip – limited historical detail
+EVT_000009,FDR_013,23/01/2000 16:00,23/01/2000 18:00,"HV trip – cause unclear, no defects found"
+EVT_000010,FDR_001,09/04/2000 08:00,09/04/2000 18:00,HV trip – limited historical detail
+EVT_000011,FDR_005,30/09/2000 04:00,30/09/2000 17:00,Unknown cause – reset successful
+EVT_000012,FDR_009,22/10/2000 15:00,22/10/2000 21:00,Cable joint failure suspected
+EVT_000013,FDR_020,21/11/2000 00:00,21/11/2000 13:00,UG cable strike during excavation works
+EVT_000014,FDR_019,03/03/2000 22:00,03/03/2000 23:00,HV trip – limited historical detail
+EVT_000015,FDR_014,10/06/2000 11:00,10/06/2000 15:00,Squirrel on cross-arm causing fault
+EVT_000016,FDR_006,14/07/2000 01:00,14/07/2000 15:00,HV trip – limited historical detail
+EVT_000017,FDR_018,11/07/2000 11:00,11/07/2000 13:00,"HV trip – cause unclear, no defects found"
+EVT_000018,FDR_020,13/06/2000 01:00,13/06/2000 08:00,HV trip – limited historical detail
+EVT_000019,FDR_025,27/12/2000 10:00,27/12/2000 14:00,Squirrel on cross-arm causing fault
+EVT_000020,FDR_012,07/05/2000 22:00,08/05/2000 06:00,HV trip – limited historical detail
+EVT_000020_DUP,FDR_012,07/05/2000 22:02,08/05/2000 06:00,Duplicate trip record from control system
+EVT_000021,FDR_004,11/01/2000 13:00,12/01/2000 00:00,Bird strike on overhead conductor
+EVT_000021_DUP,FDR_004,11/01/2000 13:02,12/01/2000 00:00,Duplicate trip record from control system
+EVT_000022,FDR_018,13/03/2000 10:00,14/03/2000 00:00,Cable joint failure suspected
+EVT_000022_DUP,FDR_018,13/03/2000 10:02,14/03/2000 00:00,Duplicate trip record from control system
+EVT_000023,FDR_017,03/11/2000 09:00,03/11/2000 21:00,HV trip – limited historical detail
+EVT_000024,FDR_023,02/02/2000 08:00,02/02/2000 13:00,HV trip – limited historical detail
+EVT_000024_DUP,FDR_023,02/02/2000 08:02,02/02/2000 13:00,Duplicate trip record from control system
+EVT_000025,FDR_001,11/09/2000 21:00,12/09/2000 00:00,Conductor damage mid span
+EVT_000026,FDR_017,09/04/2000 09:00,09/04/2000 17:00,HV trip – limited historical detail
+EVT_000027,FDR_004,14/08/2000 19:00,15/08/2000 04:00,HV trip – limited historical detail
+EVT_000028,FDR_003,21/11/2000 12:00,21/11/2000 19:00,HV trip – limited historical detail
+EVT_000029,FDR_025,30/11/2000 13:00,30/11/2000 22:00,HV trip – limited historical detail
+EVT_000030,FDR_008,20/01/2000 07:00,20/01/2000 11:00,HV trip – limited historical detail
+EVT_000031,FDR_018,16/01/2000 01:00,16/01/2000 05:00,"Storm-related outage, multiple spans affected"
+EVT_000032,FDR_006,04/06/2000 03:00,04/06/2000 08:00,HV trip – limited historical detail
+EVT_000033,FDR_024,04/07/2000 04:00,04/07/2000 12:00,Insulator failure reported on cross-arm
+EVT_000034,FDR_013,13/10/2000 06:00,13/10/2000 13:00,Conductor damage mid span
+EVT_000035,FDR_016,24/02/2000 04:00,24/02/2000 06:00,HV trip – limited historical detail
+EVT_000036,FDR_015,23/09/2000 11:00,23/09/2000 16:00,UG cable insulation breakdown
+EVT_000036_DUP,FDR_015,23/09/2000 11:02,23/09/2000 16:00,Duplicate trip record from control system
+EVT_000037,FDR_025,18/02/2000 18:00,19/02/2000 05:00,Cable joint failure suspected
+EVT_000038,FDR_013,02/04/2000 13:00,02/04/2000 16:00,"HV trip – cause unclear, no defects found"
+EVT_000038_DUP,FDR_013,02/04/2000 13:02,02/04/2000 16:00,Duplicate trip record from control system
+EVT_000039,FDR_003,18/06/2000 01:00,18/06/2000 03:00,Conductor damage mid span
+EVT_000040,FDR_013,31/01/2000 01:00,31/01/2000 04:00,HV trip – limited historical detail
+EVT_000040_DUP,FDR_013,31/01/2000 01:02,31/01/2000 04:00,Duplicate trip record from control system
+EVT_000041,FDR_015,16/04/2001 07:00,16/04/2001 11:00,Squirrel on cross-arm causing fault
+EVT_000041_DUP,FDR_015,16/04/2001 07:02,16/04/2001 11:00,Duplicate trip record from control system
+EVT_000042,FDR_001,30/05/2001 10:00,30/05/2001 21:00,HV trip – limited historical detail
+EVT_000042_DUP,FDR_001,30/05/2001 10:02,30/05/2001 21:00,Duplicate trip record from control system
+EVT_000043,FDR_018,03/02/2001 03:00,03/02/2001 07:00,Cable joint failure suspected
+EVT_000043_DUP,FDR_018,03/02/2001 03:02,03/02/2001 07:00,Duplicate trip record from control system
+EVT_000044,FDR_020,25/11/2001 17:00,25/11/2001 22:00,HV trip – limited historical detail
+EVT_000045,FDR_014,18/01/2001 19:00,19/01/2001 00:00,Cable joint failure suspected
+EVT_000046,FDR_001,28/11/2001 09:00,28/11/2001 11:00,Cable joint failure suspected
+EVT_000047,FDR_004,02/11/2001 23:00,03/11/2001 08:00,HV trip – limited historical detail
+EVT_000048,FDR_014,04/09/2001 09:00,04/09/2001 20:00,HV trip – limited historical detail
+EVT_000049,FDR_001,17/11/2001 21:00,18/11/2001 00:00,HV trip – limited historical detail
+EVT_000050,FDR_023,06/11/2001 03:00,06/11/2001 08:00,HV trip – limited historical detail
+EVT_000051,FDR_012,08/03/2001 08:00,08/03/2001 15:00,Conductor damage mid span
+EVT_000052,FDR_004,08/12/2001 17:00,08/12/2001 19:00,HV trip – limited historical detail
+EVT_000053,FDR_025,03/12/2001 09:00,03/12/2001 17:00,HV trip – limited historical detail
+EVT_000053_DUP,FDR_025,03/12/2001 09:02,03/12/2001 17:00,Duplicate trip record from control system
+EVT_000054,FDR_004,14/08/2001 12:00,15/08/2001 02:00,Unknown cause – reset successful
+EVT_000055,FDR_005,18/07/2001 00:00,18/07/2001 07:00,Insulator failure reported on cross-arm
+EVT_000056,FDR_003,31/03/2001 17:00,31/03/2001 22:00,"Storm-related outage, multiple spans affected"
+EVT_000057,FDR_003,13/01/2001 03:00,13/01/2001 16:00,Squirrel on cross-arm causing fault
+EVT_000058,FDR_018,07/04/2001 09:00,07/04/2001 14:00,"Storm-related outage, multiple spans affected"
+EVT_000059,FDR_022,16/03/2001 09:00,16/03/2001 14:00,"HV trip – cause unclear, no defects found"
+EVT_000060,FDR_014,03/02/2001 04:00,03/02/2001 07:00,HV trip – limited historical detail
+EVT_000061,FDR_015,24/10/2001 06:00,24/10/2001 13:00,"Storm-related outage, multiple spans affected"
+EVT_000062,FDR_012,08/02/2001 06:00,08/02/2001 08:00,UG cable strike during excavation works
+EVT_000063,FDR_007,12/12/2001 01:00,12/12/2001 04:00,"HV trip – cause unclear, no defects found"
+EVT_000063_DUP,FDR_007,12/12/2001 01:02,12/12/2001 04:00,Duplicate trip record from control system
+EVT_000064,FDR_014,30/08/2001 19:00,31/08/2001 02:00,Cable joint failure suspected
+EVT_000065,FDR_014,03/12/2001 21:00,03/12/2001 23:00,HV trip – limited historical detail
+EVT_000066,FDR_005,28/12/2001 21:00,29/12/2001 07:00,UG cable insulation breakdown
+EVT_000067,FDR_006,01/10/2001 16:00,02/10/2001 06:00,HV trip – limited historical detail
+EVT_000068,FDR_001,25/10/2001 19:00,26/10/2001 07:00,Insulator failure reported on cross-arm
+EVT_000069,FDR_021,10/10/2001 15:00,10/10/2001 16:00,HV trip – limited historical detail
+EVT_000070,FDR_018,16/10/2001 18:00,17/10/2001 05:00,HV trip – limited historical detail
+EVT_000070_DUP,FDR_018,16/10/2001 18:02,17/10/2001 05:00,Duplicate trip record from control system
+EVT_000071,FDR_002,27/10/2001 03:00,27/10/2001 11:00,"Storm-related outage, multiple spans affected"
+EVT_000072,FDR_004,03/12/2001 19:00,03/12/2001 21:00,Conductor damage mid span
+EVT_000073,FDR_023,20/02/2001 15:00,21/02/2001 00:00,Tree contact on overhead line during high winds
+EVT_000074,FDR_011,06/11/2001 20:00,07/11/2001 10:00,"Storm-related outage, multiple spans affected"
+EVT_000075,FDR_022,04/09/2001 05:00,04/09/2001 09:00,Insulator failure reported on cross-arm
+EVT_000076,FDR_005,08/07/2001 01:00,08/07/2001 04:00,Insulator failure reported on cross-arm
+EVT_000077,FDR_006,13/10/2001 07:00,13/10/2001 16:00,"HV trip – cause unclear, no defects found"
+EVT_000078,FDR_022,03/01/2001 15:00,03/01/2001 18:00,HV trip – limited historical detail
+EVT_000079,FDR_016,22/07/2001 10:00,22/07/2001 11:00,"Storm-related outage, multiple spans affected"
+EVT_000079_DUP,FDR_016,22/07/2001 10:02,22/07/2001 11:00,Duplicate trip record from control system
+EVT_000080,FDR_011,16/08/2001 14:00,16/08/2001 15:00,HV trip – limited historical detail
+EVT_000081,FDR_023,08/10/2001 22:00,09/10/2001 09:00,Unknown cause – reset successful
+EVT_000082,FDR_023,24/06/2002 21:00,25/06/2002 01:00,Insulator failure reported on cross-arm
+EVT_000083,FDR_022,29/08/2002 13:00,30/08/2002 00:00,Squirrel on cross-arm causing fault
+EVT_000084,FDR_009,02/07/2002 17:00,02/07/2002 22:00,HV trip – limited historical detail
+EVT_000084_DUP,FDR_009,02/07/2002 17:02,02/07/2002 22:00,Duplicate trip record from control system
+EVT_000085,FDR_018,07/03/2002 16:00,07/03/2002 17:00,UG cable strike during excavation works
+EVT_000086,FDR_003,07/04/2002 05:00,07/04/2002 11:00,Conductor damage mid span
+EVT_000086_DUP,FDR_003,07/04/2002 05:02,07/04/2002 11:00,Duplicate trip record from control system
+EVT_000087,FDR_003,03/07/2002 16:00,03/07/2002 23:00,HV trip – limited historical detail
+EVT_000088,FDR_006,08/04/2002 02:00,08/04/2002 16:00,Conductor damage mid span
+EVT_000089,FDR_015,21/01/2002 13:00,21/01/2002 14:00,Conductor damage mid span
+EVT_000090,FDR_024,20/06/2002 11:00,20/06/2002 17:00,HV trip – limited historical detail
+EVT_000091,FDR_017,14/06/2002 01:00,14/06/2002 15:00,HV trip – limited historical detail
+EVT_000092,FDR_011,06/11/2002 15:00,06/11/2002 21:00,Insulator failure reported on cross-arm
+EVT_000093,FDR_007,19/06/2002 07:00,19/06/2002 19:00,Bird strike on overhead conductor
+EVT_000094,FDR_006,11/04/2002 14:00,11/04/2002 22:00,Swan strike mid span over river
+EVT_000095,FDR_009,12/08/2002 23:00,13/08/2002 04:00,Conductor damage mid span
+EVT_000096,FDR_020,14/06/2002 12:00,14/06/2002 22:00,HV trip – limited historical detail
+EVT_000097,FDR_006,23/12/2002 13:00,24/12/2002 02:00,Tree contact on overhead line during high winds
+EVT_000098,FDR_025,29/05/2002 05:00,29/05/2002 14:00,Conductor damage mid span
+EVT_000099,FDR_019,17/07/2002 17:00,17/07/2002 19:00,Cable joint failure suspected
+EVT_000100,FDR_019,07/03/2002 04:00,07/03/2002 17:00,HV trip – limited historical detail
+EVT_000101,FDR_008,10/11/2002 06:00,10/11/2002 11:00,Insulator failure reported on cross-arm
+EVT_000102,FDR_025,09/04/2002 19:00,10/04/2002 03:00,Insulator failure reported on cross-arm
+EVT_000103,FDR_006,16/06/2002 01:00,16/06/2002 03:00,HV trip – limited historical detail
+EVT_000104,FDR_015,11/08/2002 05:00,11/08/2002 07:00,"HV trip – cause unclear, no defects found"
+EVT_000105,FDR_004,01/08/2002 04:00,01/08/2002 08:00,Bird strike on overhead conductor
+EVT_000106,FDR_012,24/07/2002 00:00,24/07/2002 10:00,Swan strike mid span over river
+EVT_000107,FDR_019,15/03/2002 06:00,15/03/2002 10:00,UG cable insulation breakdown
+EVT_000108,FDR_019,26/12/2002 06:00,26/12/2002 09:00,Bird strike on overhead conductor
+EVT_000109,FDR_004,04/06/2002 20:00,04/06/2002 23:00,Swan strike mid span over river
+EVT_000110,FDR_022,27/07/2002 07:00,27/07/2002 16:00,Bird strike on overhead conductor
+EVT_000111,FDR_023,09/02/2002 08:00,09/02/2002 13:00,HV trip – limited historical detail
+EVT_000112,FDR_007,08/04/2002 00:00,08/04/2002 11:00,Foil balloon contact on overhead line
+EVT_000113,FDR_016,06/02/2002 05:00,06/02/2002 13:00,Cable joint failure suspected
+EVT_000114,FDR_025,19/08/2002 20:00,19/08/2002 21:00,HV trip – limited historical detail
+EVT_000115,FDR_024,28/08/2002 09:00,28/08/2002 11:00,Swan strike mid span over river
+EVT_000116,FDR_004,29/04/2002 11:00,29/04/2002 23:00,HV trip – limited historical detail
+EVT_000117,FDR_012,11/07/2002 14:00,11/07/2002 22:00,HV trip – limited historical detail
+EVT_000118,FDR_011,16/04/2002 23:00,17/04/2002 07:00,"Storm-related outage, multiple spans affected"
+EVT_000119,FDR_024,08/08/2002 11:00,08/08/2002 18:00,Conductor damage mid span
+EVT_000120,FDR_013,01/10/2002 22:00,02/10/2002 05:00,Foil balloon contact on overhead line
+EVT_000121,FDR_016,26/04/2002 21:00,27/04/2002 07:00,Conductor damage mid span
+EVT_000122,FDR_011,31/12/2002 00:00,31/12/2002 11:00,Swan strike mid span over river
+EVT_000122_DUP,FDR_011,31/12/2002 00:02,31/12/2002 11:00,Duplicate trip record from control system
+EVT_000123,FDR_001,13/05/2002 04:00,13/05/2002 17:00,HV trip – limited historical detail
+EVT_000124,FDR_006,04/05/2003 16:00,04/05/2003 19:00,Conductor damage mid span
+EVT_000125,FDR_002,15/07/2003 18:00,16/07/2003 01:00,UG cable insulation breakdown
+EVT_000125_DUP,FDR_002,15/07/2003 18:02,16/07/2003 01:00,Duplicate trip record from control system
+EVT_000126,FDR_024,13/08/2003 20:00,14/08/2003 01:00,HV trip – limited historical detail
+EVT_000127,FDR_025,23/08/2003 17:00,24/08/2003 05:00,HV trip – limited historical detail
+EVT_000128,FDR_025,08/08/2003 07:00,08/08/2003 09:00,Foil balloon contact on overhead line
+EVT_000129,FDR_020,11/07/2003 04:00,11/07/2003 08:00,HV trip – limited historical detail
+EVT_000130,FDR_016,03/10/2003 20:00,04/10/2003 04:00,HV trip – limited historical detail
+EVT_000131,FDR_021,29/11/2003 06:00,29/11/2003 15:00,HV trip – limited historical detail
+EVT_000132,FDR_017,10/04/2003 20:00,11/04/2003 10:00,HV trip – limited historical detail
+EVT_000133,FDR_013,14/06/2003 04:00,14/06/2003 08:00,Conductor damage mid span
+EVT_000134,FDR_004,12/11/2003 14:00,13/11/2003 04:00,HV trip – limited historical detail
+EVT_000135,FDR_019,22/01/2003 20:00,23/01/2003 06:00,UG cable insulation breakdown
+EVT_000136,FDR_007,05/06/2003 20:00,06/06/2003 03:00,HV trip – limited historical detail
+EVT_000137,FDR_016,26/10/2003 22:00,27/10/2003 11:00,Tree contact on overhead line during high winds
+EVT_000138,FDR_012,23/03/2003 14:00,23/03/2003 22:00,HV trip – limited historical detail
+EVT_000139,FDR_024,26/01/2003 21:00,27/01/2003 03:00,UG cable insulation breakdown
+EVT_000140,FDR_001,18/04/2003 20:00,19/04/2003 00:00,HV trip – limited historical detail
+EVT_000141,FDR_019,21/09/2003 12:00,21/09/2003 19:00,HV trip – limited historical detail
+EVT_000142,FDR_019,28/12/2003 19:00,28/12/2003 23:00,HV trip – limited historical detail
+EVT_000143,FDR_011,22/06/2003 06:00,22/06/2003 17:00,Cable joint failure suspected
+EVT_000144,FDR_025,14/07/2003 22:00,15/07/2003 01:00,HV trip – limited historical detail
+EVT_000145,FDR_018,26/10/2003 18:00,27/10/2003 05:00,Conductor damage mid span
+EVT_000146,FDR_023,26/02/2003 00:00,26/02/2003 08:00,Insulator failure reported on cross-arm
+EVT_000147,FDR_004,09/03/2003 10:00,09/03/2003 21:00,HV trip – limited historical detail
+EVT_000148,FDR_015,12/01/2003 01:00,12/01/2003 03:00,HV trip – limited historical detail
+EVT_000149,FDR_006,12/09/2003 23:00,13/09/2003 07:00,Tree contact on overhead line during high winds
+EVT_000149_DUP,FDR_006,12/09/2003 23:02,13/09/2003 07:00,Duplicate trip record from control system
+EVT_000150,FDR_004,25/08/2003 02:00,25/08/2003 13:00,"Storm-related outage, multiple spans affected"
+EVT_000151,FDR_005,19/08/2003 18:00,20/08/2003 03:00,HV trip – limited historical detail
+EVT_000152,FDR_003,17/05/2003 19:00,18/05/2003 00:00,HV trip – limited historical detail
+EVT_000153,FDR_012,01/03/2003 07:00,01/03/2003 16:00,"HV trip – cause unclear, no defects found"
+EVT_000154,FDR_023,24/05/2003 02:00,24/05/2003 15:00,UG cable strike during excavation works
+EVT_000155,FDR_008,08/07/2003 10:00,08/07/2003 18:00,"HV trip – cause unclear, no defects found"
+EVT_000156,FDR_003,29/01/2003 03:00,29/01/2003 05:00,HV trip – limited historical detail
+EVT_000157,FDR_017,06/01/2003 17:00,07/01/2003 05:00,Squirrel on cross-arm causing fault
+EVT_000158,FDR_023,18/10/2003 05:00,18/10/2003 15:00,Unknown cause – reset successful
+EVT_000158_DUP,FDR_023,18/10/2003 05:02,18/10/2003 15:00,Duplicate trip record from control system
+EVT_000159,FDR_015,10/01/2003 02:00,10/01/2003 07:00,HV trip – limited historical detail
+EVT_000160,FDR_022,26/08/2003 10:00,26/08/2003 12:00,Insulator failure reported on cross-arm
+EVT_000161,FDR_018,01/11/2003 19:00,02/11/2003 00:00,UG cable strike during excavation works
+EVT_000162,FDR_021,26/11/2003 18:00,26/11/2003 23:00,Insulator failure reported on cross-arm
+EVT_000163,FDR_003,17/02/2003 15:00,18/02/2003 05:00,HV trip – limited historical detail
+EVT_000164,FDR_011,02/10/2003 17:00,03/10/2003 05:00,"HV trip – cause unclear, no defects found"
+EVT_000164_DUP,FDR_011,02/10/2003 17:02,03/10/2003 05:00,Duplicate trip record from control system
+EVT_000165,FDR_022,07/03/2003 04:00,07/03/2003 12:00,"HV trip – cause unclear, no defects found"
+EVT_000166,FDR_024,04/03/2003 08:00,04/03/2003 11:00,HV trip – limited historical detail
+EVT_000167,FDR_019,24/05/2004 10:00,24/05/2004 13:00,HV trip – limited historical detail
+EVT_000168,FDR_019,28/01/2004 16:00,28/01/2004 23:00,HV trip – limited historical detail
+EVT_000169,FDR_010,24/08/2004 21:00,25/08/2004 06:00,HV trip – limited historical detail
+EVT_000170,FDR_006,19/09/2004 21:00,20/09/2004 02:00,HV trip – limited historical detail
+EVT_000171,FDR_008,02/08/2004 23:00,03/08/2004 13:00,HV trip – limited historical detail
+EVT_000172,FDR_001,23/04/2004 14:00,23/04/2004 21:00,HV trip – limited historical detail
+EVT_000173,FDR_025,29/01/2004 23:00,30/01/2004 03:00,HV trip – limited historical detail
+EVT_000174,FDR_012,30/05/2004 04:00,30/05/2004 11:00,HV trip – limited historical detail
+EVT_000175,FDR_006,12/01/2004 17:00,12/01/2004 20:00,Insulator failure reported on cross-arm
+EVT_000176,FDR_018,30/09/2004 16:00,30/09/2004 17:00,HV trip – limited historical detail
+EVT_000177,FDR_022,26/09/2004 16:00,26/09/2004 22:00,Conductor damage mid span
+EVT_000177_DUP,FDR_022,26/09/2004 16:02,26/09/2004 22:00,Duplicate trip record from control system
+EVT_000178,FDR_023,05/11/2004 08:00,05/11/2004 12:00,Unknown cause – reset successful
+EVT_000179,FDR_017,22/10/2004 00:00,22/10/2004 09:00,Insulator failure reported on cross-arm
+EVT_000180,FDR_016,10/01/2004 12:00,11/01/2004 02:00,Conductor damage mid span
+EVT_000181,FDR_015,24/05/2004 04:00,24/05/2004 17:00,Insulator failure reported on cross-arm
+EVT_000182,FDR_011,08/02/2004 06:00,08/02/2004 12:00,HV trip – limited historical detail
+EVT_000183,FDR_022,28/07/2004 01:00,28/07/2004 14:00,Unknown cause – reset successful
+EVT_000184,FDR_013,02/03/2004 18:00,03/03/2004 03:00,HV trip – limited historical detail
+EVT_000185,FDR_002,22/04/2004 16:00,23/04/2004 05:00,"Storm-related outage, multiple spans affected"
+EVT_000186,FDR_024,13/04/2004 05:00,13/04/2004 10:00,"Storm-related outage, multiple spans affected"
+EVT_000187,FDR_019,22/02/2004 00:00,22/02/2004 05:00,Swan strike mid span over river
+EVT_000187_DUP,FDR_019,22/02/2004 00:02,22/02/2004 05:00,Duplicate trip record from control system
+EVT_000188,FDR_022,19/07/2004 13:00,20/07/2004 03:00,Unknown cause – reset successful
+EVT_000189,FDR_025,10/09/2004 12:00,10/09/2004 15:00,"HV trip – cause unclear, no defects found"
+EVT_000190,FDR_022,14/02/2004 11:00,14/02/2004 15:00,"HV trip – cause unclear, no defects found"
+EVT_000191,FDR_014,29/03/2004 19:00,30/03/2004 06:00,HV trip – limited historical detail
+EVT_000192,FDR_019,16/05/2004 18:00,16/05/2004 21:00,Cable joint failure suspected
+EVT_000193,FDR_018,21/01/2004 09:00,21/01/2004 14:00,Cable joint failure suspected
+EVT_000194,FDR_012,13/02/2004 08:00,13/02/2004 10:00,Foil balloon contact on overhead line
+EVT_000195,FDR_017,18/12/2004 19:00,19/12/2004 03:00,HV trip – limited historical detail
+EVT_000196,FDR_018,31/07/2004 08:00,31/07/2004 18:00,Insulator failure reported on cross-arm
+EVT_000197,FDR_019,22/08/2004 13:00,22/08/2004 17:00,Conductor damage mid span
+EVT_000198,FDR_011,25/05/2004 16:00,26/05/2004 04:00,HV trip – limited historical detail
+EVT_000199,FDR_023,01/07/2004 11:00,01/07/2004 17:00,Unknown cause – reset successful
+EVT_000200,FDR_002,29/02/2004 20:00,01/03/2004 07:00,HV trip – limited historical detail
+EVT_000201,FDR_009,07/04/2004 16:00,08/04/2004 04:00,Cable joint failure suspected
+EVT_000202,FDR_025,14/10/2004 18:00,14/10/2004 22:00,Unknown cause – reset successful
+EVT_000203,FDR_012,05/08/2004 22:00,06/08/2004 04:00,Swan strike mid span over river
+EVT_000204,FDR_021,21/02/2004 12:00,21/02/2004 21:00,Conductor damage mid span
+EVT_000205,FDR_003,20/05/2004 09:00,20/05/2004 11:00,HV trip – limited historical detail
+EVT_000206,FDR_021,03/07/2004 22:00,04/07/2004 00:00,Tree contact on overhead line during high winds
+EVT_000207,FDR_014,26/02/2004 21:00,27/02/2004 08:00,Tree contact on overhead line during high winds
+EVT_000208,FDR_017,02/05/2004 01:00,02/05/2004 05:00,HV trip – limited historical detail
+EVT_000209,FDR_018,21/03/2004 03:00,21/03/2004 07:00,Cable joint failure suspected
+EVT_000210,FDR_006,13/06/2004 01:00,13/06/2004 04:00,Bird strike on overhead conductor
+EVT_000211,FDR_009,09/11/2005 02:00,09/11/2005 15:00,HV trip – limited historical detail
+EVT_000212,FDR_020,15/02/2005 11:00,15/02/2005 14:00,"Storm-related outage, multiple spans affected"
+EVT_000213,FDR_014,21/08/2005 01:00,21/08/2005 02:00,HV trip – limited historical detail
+EVT_000214,FDR_007,18/04/2005 16:00,19/04/2005 05:00,"HV trip – cause unclear, no defects found"
+EVT_000215,FDR_013,28/08/2005 17:00,29/08/2005 01:00,HV trip – limited historical detail
+EVT_000216,FDR_008,26/02/2005 19:00,27/02/2005 02:00,HV trip – limited historical detail
+EVT_000217,FDR_012,22/02/2005 20:00,22/02/2005 21:00,"Storm-related outage, multiple spans affected"
+EVT_000218,FDR_015,23/09/2005 08:00,23/09/2005 17:00,UG cable insulation breakdown
+EVT_000219,FDR_018,25/06/2005 00:00,25/06/2005 03:00,Tree contact on overhead line during high winds
+EVT_000220,FDR_017,25/05/2005 09:00,25/05/2005 22:00,"Storm-related outage, multiple spans affected"
+EVT_000221,FDR_019,29/08/2005 10:00,29/08/2005 21:00,HV trip – limited historical detail
+EVT_000222,FDR_003,19/04/2005 22:00,20/04/2005 07:00,UG cable insulation breakdown
+EVT_000223,FDR_006,18/08/2005 10:00,18/08/2005 11:00,HV trip – limited historical detail
+EVT_000224,FDR_005,17/06/2005 05:00,17/06/2005 10:00,Bird strike on overhead conductor
+EVT_000224_DUP,FDR_005,17/06/2005 05:02,17/06/2005 10:00,Duplicate trip record from control system
+EVT_000225,FDR_005,18/10/2005 02:00,18/10/2005 08:00,Unknown cause – reset successful
+EVT_000226,FDR_020,14/07/2005 15:00,14/07/2005 20:00,HV trip – limited historical detail
+EVT_000227,FDR_025,12/07/2005 08:00,12/07/2005 18:00,HV trip – limited historical detail
+EVT_000228,FDR_020,26/08/2005 01:00,26/08/2005 15:00,HV trip – limited historical detail
+EVT_000229,FDR_020,03/02/2005 10:00,03/02/2005 17:00,HV trip – limited historical detail
+EVT_000230,FDR_007,30/03/2005 10:00,30/03/2005 21:00,Unknown cause – reset successful
+EVT_000231,FDR_011,04/08/2005 19:00,05/08/2005 03:00,HV trip – limited historical detail
+EVT_000232,FDR_002,13/04/2005 21:00,14/04/2005 10:00,HV trip – limited historical detail
+EVT_000233,FDR_025,13/03/2005 05:00,13/03/2005 15:00,Cable joint failure suspected
+EVT_000234,FDR_017,11/05/2005 17:00,12/05/2005 02:00,UG cable strike during excavation works
+EVT_000235,FDR_012,29/09/2005 07:00,29/09/2005 08:00,Squirrel on cross-arm causing fault
+EVT_000236,FDR_015,23/01/2005 04:00,23/01/2005 15:00,HV trip – limited historical detail
+EVT_000237,FDR_006,18/02/2005 23:00,19/02/2005 03:00,HV trip – limited historical detail
+EVT_000238,FDR_017,08/03/2005 05:00,08/03/2005 16:00,Insulator failure reported on cross-arm
+EVT_000239,FDR_002,07/02/2005 15:00,08/02/2005 02:00,Cable joint failure suspected
+EVT_000239_DUP,FDR_002,07/02/2005 15:02,08/02/2005 02:00,Duplicate trip record from control system
+EVT_000240,FDR_019,15/07/2005 13:00,15/07/2005 19:00,HV trip – limited historical detail
+EVT_000240_DUP,FDR_019,15/07/2005 13:02,15/07/2005 19:00,Duplicate trip record from control system
+EVT_000241,FDR_017,23/05/2005 18:00,24/05/2005 03:00,HV trip – limited historical detail
+EVT_000242,FDR_023,03/11/2005 17:00,03/11/2005 23:00,HV trip – limited historical detail
+EVT_000243,FDR_015,14/05/2005 17:00,14/05/2005 23:00,Foil balloon contact on overhead line
+EVT_000243_DUP,FDR_015,14/05/2005 17:02,14/05/2005 23:00,Duplicate trip record from control system
+EVT_000244,FDR_006,16/08/2005 00:00,16/08/2005 08:00,Swan strike mid span over river
+EVT_000245,FDR_006,04/08/2005 20:00,05/08/2005 09:00,UG cable insulation breakdown
+EVT_000246,FDR_016,01/10/2005 11:00,02/10/2005 00:00,UG cable insulation breakdown
+EVT_000247,FDR_018,13/06/2005 16:00,13/06/2005 21:00,Unknown cause – reset successful
+EVT_000248,FDR_006,01/11/2005 19:00,01/11/2005 20:00,Bird strike on overhead conductor
+EVT_000249,FDR_004,12/11/2005 15:00,13/11/2005 03:00,HV trip – limited historical detail
+EVT_000250,FDR_004,15/05/2005 19:00,16/05/2005 09:00,Conductor damage mid span
+EVT_000250_DUP,FDR_004,15/05/2005 19:02,16/05/2005 09:00,Duplicate trip record from control system
+EVT_000251,FDR_009,02/02/2005 17:00,03/02/2005 06:00,"HV trip – cause unclear, no defects found"
+EVT_000252,FDR_002,09/11/2005 13:00,10/11/2005 00:00,HV trip – limited historical detail
+EVT_000253,FDR_007,10/05/2005 15:00,10/05/2005 17:00,HV trip – limited historical detail
+EVT_000253_DUP,FDR_007,10/05/2005 15:02,10/05/2005 17:00,Duplicate trip record from control system
+EVT_000254,FDR_020,16/06/2005 15:00,17/06/2005 02:00,Conductor damage mid span
+EVT_000255,FDR_008,18/06/2005 02:00,18/06/2005 13:00,Unknown cause – reset successful
+EVT_000256,FDR_009,07/12/2005 05:00,07/12/2005 07:00,HV trip – limited historical detail
+EVT_000257,FDR_010,26/04/2006 10:00,26/04/2006 12:00,Insulator failure reported on cross-arm
+EVT_000258,FDR_002,26/10/2006 12:00,26/10/2006 14:00,Tree contact on overhead line during high winds
+EVT_000259,FDR_016,12/07/2006 02:00,12/07/2006 04:00,HV trip – limited historical detail
+EVT_000259_DUP,FDR_016,12/07/2006 02:02,12/07/2006 04:00,Duplicate trip record from control system
+EVT_000260,FDR_007,15/07/2006 14:00,15/07/2006 22:00,Unknown cause – reset successful
+EVT_000261,FDR_025,06/07/2006 13:00,06/07/2006 21:00,Conductor damage mid span
+EVT_000262,FDR_023,14/08/2006 20:00,15/08/2006 05:00,HV trip – limited historical detail
+EVT_000262_DUP,FDR_023,14/08/2006 20:02,15/08/2006 05:00,Duplicate trip record from control system
+EVT_000263,FDR_017,07/11/2006 16:00,07/11/2006 21:00,HV trip – limited historical detail
+EVT_000264,FDR_019,14/05/2006 01:00,14/05/2006 02:00,HV trip – limited historical detail
+EVT_000265,FDR_004,16/03/2006 19:00,17/03/2006 04:00,Insulator failure reported on cross-arm
+EVT_000266,FDR_015,14/06/2006 03:00,14/06/2006 17:00,Conductor damage mid span
+EVT_000267,FDR_003,30/04/2006 23:00,01/05/2006 00:00,HV trip – limited historical detail
+EVT_000267_DUP,FDR_003,30/04/2006 23:02,01/05/2006 00:00,Duplicate trip record from control system
+EVT_000268,FDR_004,09/04/2006 10:00,09/04/2006 12:00,HV trip – limited historical detail
+EVT_000269,FDR_011,22/07/2006 14:00,23/07/2006 00:00,Bird strike on overhead conductor
+EVT_000270,FDR_008,09/11/2006 07:00,09/11/2006 12:00,Insulator failure reported on cross-arm
+EVT_000271,FDR_014,18/03/2006 13:00,18/03/2006 18:00,UG cable insulation breakdown
+EVT_000272,FDR_006,24/08/2006 08:00,24/08/2006 15:00,HV trip – limited historical detail
+EVT_000273,FDR_022,31/10/2006 08:00,31/10/2006 13:00,HV trip – limited historical detail
+EVT_000274,FDR_002,12/03/2006 17:00,12/03/2006 21:00,Conductor damage mid span
+EVT_000275,FDR_009,12/09/2006 08:00,12/09/2006 12:00,Unknown cause – reset successful
+EVT_000276,FDR_019,25/11/2006 03:00,25/11/2006 08:00,HV trip – limited historical detail
+EVT_000277,FDR_008,27/09/2006 19:00,27/09/2006 23:00,Insulator failure reported on cross-arm
+EVT_000278,FDR_014,08/02/2006 23:00,09/02/2006 13:00,Foil balloon contact on overhead line
+EVT_000279,FDR_015,21/11/2006 10:00,21/11/2006 13:00,Squirrel on cross-arm causing fault
+EVT_000279_DUP,FDR_015,21/11/2006 10:02,21/11/2006 13:00,Duplicate trip record from control system
+EVT_000280,FDR_011,01/07/2006 07:00,01/07/2006 13:00,HV trip – limited historical detail
+EVT_000281,FDR_007,12/09/2006 01:00,12/09/2006 11:00,HV trip – limited historical detail
+EVT_000281_DUP,FDR_007,12/09/2006 01:02,12/09/2006 11:00,Duplicate trip record from control system
+EVT_000282,FDR_014,05/09/2006 22:00,06/09/2006 12:00,Tree contact on overhead line during high winds
+EVT_000283,FDR_008,16/10/2006 07:00,16/10/2006 18:00,Unknown cause – reset successful
+EVT_000284,FDR_019,27/11/2006 00:00,27/11/2006 14:00,Bird strike on overhead conductor
+EVT_000285,FDR_012,15/01/2006 04:00,15/01/2006 12:00,HV trip – limited historical detail
+EVT_000286,FDR_018,16/06/2006 13:00,17/06/2006 01:00,Swan strike mid span over river
+EVT_000287,FDR_005,06/05/2006 08:00,06/05/2006 19:00,"HV trip – cause unclear, no defects found"
+EVT_000288,FDR_003,01/02/2006 15:00,02/02/2006 05:00,Cable joint failure suspected
+EVT_000289,FDR_021,31/03/2006 21:00,01/04/2006 08:00,Cable joint failure suspected
+EVT_000290,FDR_020,06/04/2006 17:00,06/04/2006 23:00,Conductor damage mid span
+EVT_000291,FDR_021,13/03/2006 11:00,14/03/2006 01:00,Conductor damage mid span
+EVT_000292,FDR_010,08/03/2006 02:00,08/03/2006 16:00,Cable joint failure suspected
+EVT_000293,FDR_023,03/11/2006 16:00,04/11/2006 02:00,Tree contact on overhead line during high winds
+EVT_000294,FDR_002,18/10/2006 10:00,18/10/2006 22:00,HV trip – limited historical detail
+EVT_000295,FDR_025,05/01/2006 07:00,05/01/2006 18:00,HV trip – limited historical detail
+EVT_000296,FDR_009,04/04/2006 18:00,04/04/2006 23:00,HV trip – limited historical detail
+EVT_000297,FDR_020,13/05/2006 07:00,13/05/2006 20:00,HV trip – limited historical detail
+EVT_000298,FDR_007,31/08/2006 03:00,31/08/2006 04:00,Unknown cause – reset successful
+EVT_000299,FDR_006,14/10/2006 01:00,14/10/2006 12:00,Insulator failure reported on cross-arm
+EVT_000300,FDR_001,21/09/2006 20:00,22/09/2006 08:00,HV trip – limited historical detail
+EVT_000301,FDR_008,14/11/2006 02:00,14/11/2006 14:00,HV trip – limited historical detail
+EVT_000302,FDR_016,24/12/2006 23:00,25/12/2006 11:00,Conductor damage mid span
+EVT_000303,FDR_009,28/03/2006 07:00,28/03/2006 15:00,Bird strike on overhead conductor
+EVT_000303_DUP,FDR_009,28/03/2006 07:02,28/03/2006 15:00,Duplicate trip record from control system
+EVT_000304,FDR_016,23/12/2007 11:00,24/12/2007 00:00,Foil balloon contact on overhead line
+EVT_000304_DUP,FDR_016,23/12/2007 11:02,24/12/2007 00:00,Duplicate trip record from control system
+EVT_000305,FDR_023,20/09/2007 16:00,21/09/2007 04:00,"HV trip – cause unclear, no defects found"
+EVT_000306,FDR_006,30/04/2007 07:00,30/04/2007 17:00,Insulator failure reported on cross-arm
+EVT_000307,FDR_023,31/05/2007 11:00,31/05/2007 13:00,Conductor damage mid span
+EVT_000308,FDR_010,13/06/2007 05:00,13/06/2007 08:00,Foil balloon contact on overhead line
+EVT_000309,FDR_025,26/05/2007 14:00,27/05/2007 02:00,HV trip – limited historical detail
+EVT_000310,FDR_005,06/10/2007 12:00,06/10/2007 20:00,"HV trip – cause unclear, no defects found"
+EVT_000310_DUP,FDR_005,06/10/2007 12:02,06/10/2007 20:00,Duplicate trip record from control system
+EVT_000311,FDR_002,23/04/2007 03:00,23/04/2007 10:00,HV trip – limited historical detail
+EVT_000312,FDR_005,30/10/2007 23:00,31/10/2007 07:00,HV trip – limited historical detail
+EVT_000313,FDR_022,02/05/2007 13:00,02/05/2007 22:00,UG cable strike during excavation works
+EVT_000314,FDR_006,18/02/2007 06:00,18/02/2007 10:00,HV trip – limited historical detail
+EVT_000315,FDR_006,15/09/2007 03:00,15/09/2007 10:00,HV trip – limited historical detail
+EVT_000316,FDR_024,30/12/2007 01:00,30/12/2007 02:00,Conductor damage mid span
+EVT_000317,FDR_016,12/03/2007 05:00,12/03/2007 17:00,HV trip – limited historical detail
+EVT_000317_DUP,FDR_016,12/03/2007 05:02,12/03/2007 17:00,Duplicate trip record from control system
+EVT_000318,FDR_011,08/04/2007 17:00,08/04/2007 20:00,Unknown cause – reset successful
+EVT_000319,FDR_025,11/07/2007 23:00,12/07/2007 09:00,"HV trip – cause unclear, no defects found"
+EVT_000320,FDR_018,03/05/2007 12:00,03/05/2007 17:00,HV trip – limited historical detail
+EVT_000321,FDR_002,21/12/2007 06:00,21/12/2007 11:00,HV trip – limited historical detail
+EVT_000322,FDR_018,05/09/2007 00:00,05/09/2007 11:00,Insulator failure reported on cross-arm
+EVT_000322_DUP,FDR_018,05/09/2007 00:02,05/09/2007 11:00,Duplicate trip record from control system
+EVT_000323,FDR_013,26/09/2007 11:00,26/09/2007 13:00,"HV trip – cause unclear, no defects found"
+EVT_000324,FDR_012,26/01/2007 09:00,26/01/2007 13:00,Bird strike on overhead conductor
+EVT_000325,FDR_015,05/01/2007 21:00,06/01/2007 05:00,HV trip – limited historical detail
+EVT_000326,FDR_013,21/02/2007 19:00,22/02/2007 05:00,"Storm-related outage, multiple spans affected"
+EVT_000327,FDR_003,28/09/2007 21:00,29/09/2007 04:00,Cable joint failure suspected
+EVT_000328,FDR_017,26/07/2007 05:00,26/07/2007 08:00,"Storm-related outage, multiple spans affected"
+EVT_000329,FDR_002,06/06/2007 13:00,07/06/2007 03:00,UG cable insulation breakdown
+EVT_000330,FDR_015,13/06/2007 12:00,13/06/2007 15:00,"Storm-related outage, multiple spans affected"
+EVT_000330_DUP,FDR_015,13/06/2007 12:02,13/06/2007 15:00,Duplicate trip record from control system
+EVT_000331,FDR_002,13/06/2007 06:00,13/06/2007 07:00,Unknown cause – reset successful
+EVT_000332,FDR_012,18/05/2007 12:00,19/05/2007 00:00,HV trip – limited historical detail
+EVT_000333,FDR_005,15/11/2007 05:00,15/11/2007 08:00,UG cable strike during excavation works
+EVT_000333_DUP,FDR_005,15/11/2007 05:02,15/11/2007 08:00,Duplicate trip record from control system
+EVT_000334,FDR_005,05/06/2007 17:00,06/06/2007 00:00,HV trip – limited historical detail
+EVT_000335,FDR_018,14/09/2007 19:00,15/09/2007 07:00,Cable joint failure suspected
+EVT_000336,FDR_020,31/07/2007 13:00,31/07/2007 18:00,UG cable strike during excavation works
+EVT_000336_DUP,FDR_020,31/07/2007 13:02,31/07/2007 18:00,Duplicate trip record from control system
+EVT_000337,FDR_021,06/07/2007 22:00,07/07/2007 02:00,"HV trip – cause unclear, no defects found"
+EVT_000338,FDR_009,05/02/2007 13:00,05/02/2007 16:00,HV trip – limited historical detail
+EVT_000339,FDR_015,21/05/2007 21:00,22/05/2007 05:00,HV trip – limited historical detail
+EVT_000340,FDR_003,02/01/2007 21:00,03/01/2007 09:00,HV trip – limited historical detail
+EVT_000341,FDR_001,23/04/2007 11:00,23/04/2007 13:00,HV trip – limited historical detail
+EVT_000342,FDR_004,15/08/2007 10:00,15/08/2007 12:00,Bird strike on overhead conductor
+EVT_000343,FDR_006,17/09/2007 05:00,17/09/2007 08:00,HV trip – limited historical detail
+EVT_000344,FDR_023,30/04/2007 02:00,30/04/2007 15:00,HV trip – limited historical detail
+EVT_000345,FDR_010,09/12/2007 06:00,09/12/2007 10:00,Unknown cause – reset successful
+EVT_000346,FDR_010,03/01/2007 21:00,04/01/2007 00:00,Unknown cause – reset successful
+EVT_000347,FDR_007,24/05/2007 13:00,24/05/2007 14:00,Squirrel on cross-arm causing fault
+EVT_000347_DUP,FDR_007,24/05/2007 13:02,24/05/2007 14:00,Duplicate trip record from control system
+EVT_000348,FDR_023,11/01/2007 18:00,12/01/2007 00:00,UG cable insulation breakdown
+EVT_000348_DUP,FDR_023,11/01/2007 18:02,12/01/2007 00:00,Duplicate trip record from control system
+EVT_000349,FDR_004,06/12/2007 09:00,06/12/2007 16:00,HV trip – limited historical detail
+EVT_000350,FDR_006,14/11/2007 00:00,14/11/2007 01:00,HV trip – limited historical detail
+EVT_000351,FDR_015,10/01/2007 15:00,10/01/2007 23:00,Swan strike mid span over river
+EVT_000351_DUP,FDR_015,10/01/2007 15:02,10/01/2007 23:00,Duplicate trip record from control system
+EVT_000352,FDR_022,09/04/2008 22:00,10/04/2008 00:00,Squirrel on cross-arm causing fault
+EVT_000353,FDR_017,12/06/2008 10:00,12/06/2008 22:00,Conductor damage mid span
+EVT_000354,FDR_005,20/07/2008 22:00,21/07/2008 04:00,"HV trip – cause unclear, no defects found"
+EVT_000354_DUP,FDR_005,20/07/2008 22:02,21/07/2008 04:00,Duplicate trip record from control system
+EVT_000355,FDR_014,27/04/2008 18:00,28/04/2008 04:00,Insulator failure reported on cross-arm
+EVT_000356,FDR_014,25/03/2008 17:00,26/03/2008 00:00,Insulator failure reported on cross-arm
+EVT_000357,FDR_008,11/01/2008 03:00,11/01/2008 10:00,Insulator failure reported on cross-arm
+EVT_000358,FDR_021,15/05/2008 10:00,15/05/2008 18:00,UG cable strike during excavation works
+EVT_000359,FDR_025,24/04/2008 16:00,24/04/2008 23:00,Swan strike mid span over river
+EVT_000360,FDR_015,03/12/2008 19:00,04/12/2008 09:00,Swan strike mid span over river
+EVT_000360_DUP,FDR_015,03/12/2008 19:02,04/12/2008 09:00,Duplicate trip record from control system
+EVT_000361,FDR_013,29/03/2008 21:00,29/03/2008 22:00,Cable joint failure suspected
+EVT_000362,FDR_023,17/05/2008 18:00,18/05/2008 04:00,"HV trip – cause unclear, no defects found"
+EVT_000363,FDR_022,14/04/2008 03:00,14/04/2008 14:00,Insulator failure reported on cross-arm
+EVT_000364,FDR_011,27/06/2008 06:00,27/06/2008 10:00,"Storm-related outage, multiple spans affected"
+EVT_000365,FDR_016,04/05/2008 13:00,05/05/2008 02:00,"HV trip – cause unclear, no defects found"
+EVT_000366,FDR_016,27/03/2008 07:00,27/03/2008 10:00,Insulator failure reported on cross-arm
+EVT_000367,FDR_022,29/11/2008 06:00,29/11/2008 13:00,Swan strike mid span over river
+EVT_000368,FDR_022,26/08/2008 21:00,26/08/2008 23:00,Conductor damage mid span
+EVT_000369,FDR_016,31/01/2008 11:00,31/01/2008 20:00,Tree contact on overhead line during high winds
+EVT_000370,FDR_015,12/06/2008 04:00,12/06/2008 07:00,Swan strike mid span over river
+EVT_000371,FDR_015,17/05/2008 09:00,17/05/2008 17:00,Foil balloon contact on overhead line
+EVT_000372,FDR_003,11/04/2008 08:00,11/04/2008 11:00,Squirrel on cross-arm causing fault
+EVT_000373,FDR_010,18/03/2008 17:00,18/03/2008 18:00,UG cable insulation breakdown
+EVT_000374,FDR_024,13/03/2008 01:00,13/03/2008 07:00,Unknown cause – reset successful
+EVT_000375,FDR_009,11/09/2008 03:00,11/09/2008 06:00,Squirrel on cross-arm causing fault
+EVT_000376,FDR_005,11/03/2008 02:00,11/03/2008 08:00,Squirrel on cross-arm causing fault
+EVT_000377,FDR_002,18/07/2008 13:00,18/07/2008 19:00,Insulator failure reported on cross-arm
+EVT_000378,FDR_012,29/05/2008 04:00,29/05/2008 08:00,"HV trip – cause unclear, no defects found"
+EVT_000379,FDR_006,15/07/2008 02:00,15/07/2008 13:00,Unknown cause – reset successful
+EVT_000380,FDR_023,17/08/2008 02:00,17/08/2008 12:00,Swan strike mid span over river
+EVT_000381,FDR_002,23/12/2008 19:00,24/12/2008 08:00,UG cable strike during excavation works
+EVT_000382,FDR_025,31/05/2008 08:00,31/05/2008 13:00,"Storm-related outage, multiple spans affected"
+EVT_000383,FDR_018,12/04/2008 15:00,12/04/2008 20:00,Conductor damage mid span
+EVT_000384,FDR_022,17/08/2008 11:00,17/08/2008 14:00,Unknown cause – reset successful
+EVT_000385,FDR_024,09/12/2008 11:00,09/12/2008 14:00,Swan strike mid span over river
+EVT_000385_DUP,FDR_024,09/12/2008 11:02,09/12/2008 14:00,Duplicate trip record from control system
+EVT_000386,FDR_010,22/02/2008 20:00,23/02/2008 01:00,Cable joint failure suspected
+EVT_000387,FDR_010,27/07/2008 20:00,28/07/2008 07:00,Conductor damage mid span
+EVT_000388,FDR_017,28/12/2008 03:00,28/12/2008 06:00,Bird strike on overhead conductor
+EVT_000389,FDR_003,01/03/2008 23:00,02/03/2008 13:00,Cable joint failure suspected
+EVT_000390,FDR_004,20/01/2008 13:00,20/01/2008 16:00,Bird strike on overhead conductor
+EVT_000391,FDR_024,02/03/2008 12:00,02/03/2008 20:00,Insulator failure reported on cross-arm
+EVT_000392,FDR_010,03/11/2008 14:00,03/11/2008 19:00,UG cable insulation breakdown
+EVT_000393,FDR_012,02/01/2008 17:00,02/01/2008 18:00,UG cable strike during excavation works
+EVT_000394,FDR_010,09/01/2008 00:00,09/01/2008 13:00,Tree contact on overhead line during high winds
+EVT_000395,FDR_008,29/05/2008 18:00,30/05/2008 04:00,UG cable strike during excavation works
+EVT_000396,FDR_002,15/10/2008 20:00,16/10/2008 06:00,UG cable insulation breakdown
+EVT_000397,FDR_017,17/08/2008 22:00,18/08/2008 12:00,UG cable insulation breakdown
+EVT_000398,FDR_003,13/10/2008 00:00,13/10/2008 08:00,Unknown cause – reset successful
+EVT_000398_DUP,FDR_003,13/10/2008 00:02,13/10/2008 08:00,Duplicate trip record from control system
+EVT_000399,FDR_020,08/02/2008 06:00,08/02/2008 14:00,Conductor damage mid span
+EVT_000400,FDR_015,08/10/2008 22:00,09/10/2008 03:00,Conductor damage mid span
+EVT_000401,FDR_013,28/10/2009 14:00,29/10/2009 01:00,Bird strike on overhead conductor
+EVT_000402,FDR_011,19/07/2009 23:00,20/07/2009 01:00,"Storm-related outage, multiple spans affected"
+EVT_000403,FDR_011,17/05/2009 07:00,17/05/2009 21:00,Conductor damage mid span
+EVT_000404,FDR_024,26/09/2009 05:00,26/09/2009 13:00,Conductor damage mid span
+EVT_000405,FDR_020,28/09/2009 15:00,28/09/2009 23:00,Conductor damage mid span
+EVT_000405_DUP,FDR_020,28/09/2009 15:02,28/09/2009 23:00,Duplicate trip record from control system
+EVT_000406,FDR_016,08/08/2009 02:00,08/08/2009 13:00,Conductor damage mid span
+EVT_000406_DUP,FDR_016,08/08/2009 02:02,08/08/2009 13:00,Duplicate trip record from control system
+EVT_000407,FDR_014,19/01/2009 01:00,19/01/2009 03:00,Insulator failure reported on cross-arm
+EVT_000408,FDR_016,10/12/2009 18:00,11/12/2009 05:00,UG cable insulation breakdown
+EVT_000409,FDR_013,28/02/2009 17:00,01/03/2009 06:00,Squirrel on cross-arm causing fault
+EVT_000410,FDR_022,16/10/2009 21:00,17/10/2009 07:00,Foil balloon contact on overhead line
+EVT_000411,FDR_021,03/04/2009 14:00,03/04/2009 18:00,Insulator failure reported on cross-arm
+EVT_000412,FDR_012,03/01/2009 18:00,03/01/2009 23:00,Insulator failure reported on cross-arm
+EVT_000413,FDR_023,10/09/2009 08:00,10/09/2009 09:00,"HV trip – cause unclear, no defects found"
+EVT_000414,FDR_021,03/02/2009 03:00,03/02/2009 17:00,Swan strike mid span over river
+EVT_000414_DUP,FDR_021,03/02/2009 03:02,03/02/2009 17:00,Duplicate trip record from control system
+EVT_000415,FDR_021,10/09/2009 17:00,10/09/2009 22:00,Foil balloon contact on overhead line
+EVT_000416,FDR_011,04/10/2009 09:00,04/10/2009 21:00,Bird strike on overhead conductor
+EVT_000417,FDR_018,29/04/2009 06:00,29/04/2009 10:00,"HV trip – cause unclear, no defects found"
+EVT_000418,FDR_008,03/10/2009 21:00,04/10/2009 01:00,Swan strike mid span over river
+EVT_000419,FDR_025,22/02/2009 01:00,22/02/2009 11:00,UG cable strike during excavation works
+EVT_000419_DUP,FDR_025,22/02/2009 01:02,22/02/2009 11:00,Duplicate trip record from control system
+EVT_000420,FDR_015,29/09/2009 00:00,29/09/2009 12:00,UG cable insulation breakdown
+EVT_000421,FDR_004,12/09/2009 14:00,13/09/2009 00:00,Bird strike on overhead conductor
+EVT_000422,FDR_012,29/11/2009 00:00,29/11/2009 05:00,Squirrel on cross-arm causing fault
+EVT_000422_DUP,FDR_012,29/11/2009 00:02,29/11/2009 05:00,Duplicate trip record from control system
+EVT_000423,FDR_025,15/10/2009 03:00,15/10/2009 11:00,"HV trip – cause unclear, no defects found"
+EVT_000424,FDR_024,31/08/2009 19:00,01/09/2009 04:00,Conductor damage mid span
+EVT_000425,FDR_016,07/08/2009 15:00,08/08/2009 05:00,Insulator failure reported on cross-arm
+EVT_000426,FDR_006,16/08/2009 03:00,16/08/2009 06:00,Cable joint failure suspected
+EVT_000427,FDR_015,21/04/2009 13:00,21/04/2009 18:00,Insulator failure reported on cross-arm
+EVT_000428,FDR_009,28/08/2009 17:00,28/08/2009 20:00,UG cable strike during excavation works
+EVT_000429,FDR_025,23/03/2009 09:00,23/03/2009 22:00,Unknown cause – reset successful
+EVT_000430,FDR_009,05/12/2009 22:00,06/12/2009 11:00,Bird strike on overhead conductor
+EVT_000431,FDR_014,28/03/2009 09:00,28/03/2009 20:00,Tree contact on overhead line during high winds
+EVT_000431_DUP,FDR_014,28/03/2009 09:02,28/03/2009 20:00,Duplicate trip record from control system
+EVT_000432,FDR_024,09/09/2009 23:00,10/09/2009 09:00,"Storm-related outage, multiple spans affected"
+EVT_000433,FDR_002,31/05/2009 23:00,01/06/2009 02:00,Tree contact on overhead line during high winds
+EVT_000433_DUP,FDR_002,31/05/2009 23:02,01/06/2009 02:00,Duplicate trip record from control system
+EVT_000434,FDR_011,02/03/2009 04:00,02/03/2009 14:00,UG cable insulation breakdown
+EVT_000435,FDR_005,02/03/2009 21:00,03/03/2009 03:00,Unknown cause – reset successful
+EVT_000436,FDR_020,14/12/2009 15:00,14/12/2009 21:00,Insulator failure reported on cross-arm
+EVT_000437,FDR_025,04/04/2009 15:00,05/04/2009 03:00,UG cable strike during excavation works
+EVT_000438,FDR_004,20/12/2009 12:00,20/12/2009 16:00,Swan strike mid span over river
+EVT_000439,FDR_019,15/01/2009 13:00,16/01/2009 01:00,Tree contact on overhead line during high winds
+EVT_000440,FDR_010,29/09/2009 10:00,29/09/2009 22:00,Unknown cause – reset successful
+EVT_000441,FDR_003,11/10/2009 10:00,11/10/2009 15:00,UG cable strike during excavation works
+EVT_000442,FDR_015,03/04/2009 16:00,03/04/2009 19:00,"HV trip – cause unclear, no defects found"
+EVT_000443,FDR_018,01/06/2009 08:00,01/06/2009 14:00,Unknown cause – reset successful
+EVT_000444,FDR_014,22/12/2009 02:00,22/12/2009 10:00,Foil balloon contact on overhead line
+EVT_000445,FDR_010,13/08/2009 12:00,13/08/2009 14:00,Swan strike mid span over river
+EVT_000445_DUP,FDR_010,13/08/2009 12:02,13/08/2009 14:00,Duplicate trip record from control system
+EVT_000446,FDR_022,23/01/2009 06:00,23/01/2009 19:00,Unknown cause – reset successful
+EVT_000447,FDR_013,13/01/2009 17:00,14/01/2009 07:00,"Storm-related outage, multiple spans affected"
+EVT_000448,FDR_025,15/03/2009 05:00,15/03/2009 15:00,UG cable insulation breakdown
+EVT_000449,FDR_016,28/07/2009 15:00,29/07/2009 00:00,"HV trip – cause unclear, no defects found"
+EVT_000449_DUP,FDR_016,28/07/2009 15:02,29/07/2009 00:00,Duplicate trip record from control system
+EVT_000450,FDR_018,01/10/2009 07:00,01/10/2009 11:00,Unknown cause – reset successful
+EVT_000451,FDR_013,11/05/2010 17:00,11/05/2010 22:00,"Storm-related outage, multiple spans affected"
+EVT_000451_DUP,FDR_013,11/05/2010 17:02,11/05/2010 22:00,Duplicate trip record from control system
+EVT_000452,FDR_023,11/07/2010 21:00,12/07/2010 05:00,Conductor damage mid span
+EVT_000453,FDR_022,13/07/2010 13:00,13/07/2010 14:00,Conductor damage mid span
+EVT_000454,FDR_013,19/10/2010 23:00,20/10/2010 13:00,UG cable strike during excavation works
+EVT_000455,FDR_014,16/11/2010 08:00,16/11/2010 12:00,Tree contact on overhead line during high winds
+EVT_000456,FDR_006,25/03/2010 17:00,25/03/2010 18:00,Conductor damage mid span
+EVT_000456_DUP,FDR_006,25/03/2010 17:02,25/03/2010 18:00,Duplicate trip record from control system
+EVT_000457,FDR_007,08/03/2010 00:00,08/03/2010 07:00,Cable joint failure suspected
+EVT_000458,FDR_004,21/03/2010 12:00,21/03/2010 19:00,Foil balloon contact on overhead line
+EVT_000459,FDR_005,13/05/2010 16:00,14/05/2010 02:00,Cable joint failure suspected
+EVT_000460,FDR_020,02/08/2010 18:00,02/08/2010 23:00,"HV trip – cause unclear, no defects found"
+EVT_000460_DUP,FDR_020,02/08/2010 18:02,02/08/2010 23:00,Duplicate trip record from control system
+EVT_000461,FDR_003,25/02/2010 21:00,26/02/2010 01:00,UG cable strike during excavation works
+EVT_000462,FDR_016,27/05/2010 18:00,27/05/2010 22:00,Conductor damage mid span
+EVT_000462_DUP,FDR_016,27/05/2010 18:02,27/05/2010 22:00,Duplicate trip record from control system
+EVT_000463,FDR_005,01/04/2010 22:00,01/04/2010 23:00,Conductor damage mid span
+EVT_000464,FDR_003,27/02/2010 03:00,27/02/2010 17:00,"Storm-related outage, multiple spans affected"
+EVT_000465,FDR_024,11/07/2010 05:00,11/07/2010 14:00,Tree contact on overhead line during high winds
+EVT_000466,FDR_012,12/01/2010 20:00,13/01/2010 05:00,UG cable insulation breakdown
+EVT_000467,FDR_014,13/03/2010 06:00,13/03/2010 08:00,Swan strike mid span over river
+EVT_000468,FDR_005,05/08/2010 11:00,05/08/2010 21:00,Conductor damage mid span
+EVT_000468_DUP,FDR_005,05/08/2010 11:02,05/08/2010 21:00,Duplicate trip record from control system
+EVT_000469,FDR_022,16/04/2010 06:00,16/04/2010 09:00,Conductor damage mid span
+EVT_000470,FDR_008,06/08/2010 12:00,07/08/2010 02:00,Bird strike on overhead conductor
+EVT_000471,FDR_013,06/08/2010 22:00,07/08/2010 02:00,Insulator failure reported on cross-arm
+EVT_000472,FDR_001,25/02/2010 20:00,26/02/2010 02:00,Insulator failure reported on cross-arm
+EVT_000473,FDR_012,03/04/2010 07:00,03/04/2010 15:00,"Storm-related outage, multiple spans affected"
+EVT_000474,FDR_018,16/09/2010 17:00,17/09/2010 02:00,Swan strike mid span over river
+EVT_000475,FDR_021,19/02/2010 00:00,19/02/2010 06:00,Unknown cause – reset successful
+EVT_000476,FDR_008,17/03/2010 19:00,17/03/2010 20:00,UG cable insulation breakdown
+EVT_000476_DUP,FDR_008,17/03/2010 19:02,17/03/2010 20:00,Duplicate trip record from control system
+EVT_000477,FDR_017,14/01/2010 07:00,14/01/2010 13:00,UG cable strike during excavation works
+EVT_000478,FDR_011,17/06/2010 02:00,17/06/2010 15:00,UG cable strike during excavation works
+EVT_000479,FDR_014,23/06/2010 17:00,24/06/2010 04:00,"Storm-related outage, multiple spans affected"
+EVT_000480,FDR_007,22/02/2010 16:00,23/02/2010 02:00,Insulator failure reported on cross-arm
+EVT_000480_DUP,FDR_007,22/02/2010 16:02,23/02/2010 02:00,Duplicate trip record from control system
+EVT_000481,FDR_010,14/07/2010 19:00,15/07/2010 07:00,Foil balloon contact on overhead line
+EVT_000482,FDR_009,08/07/2010 20:00,09/07/2010 06:00,Conductor damage mid span
+EVT_000483,FDR_006,11/07/2010 13:00,11/07/2010 22:00,UG cable strike during excavation works
+EVT_000484,FDR_016,20/07/2010 14:00,21/07/2010 04:00,UG cable insulation breakdown
+EVT_000485,FDR_014,30/05/2010 16:00,30/05/2010 22:00,Unknown cause – reset successful
+EVT_000486,FDR_015,07/03/2010 00:00,07/03/2010 03:00,Insulator failure reported on cross-arm
+EVT_000487,FDR_012,23/11/2010 08:00,23/11/2010 11:00,Unknown cause – reset successful
+EVT_000488,FDR_004,15/06/2010 03:00,15/06/2010 11:00,Unknown cause – reset successful
+EVT_000489,FDR_025,11/08/2010 01:00,11/08/2010 14:00,UG cable insulation breakdown
+EVT_000490,FDR_009,22/12/2010 23:00,23/12/2010 03:00,Squirrel on cross-arm causing fault
+EVT_000491,FDR_012,22/06/2010 04:00,22/06/2010 14:00,"HV trip – cause unclear, no defects found"
+EVT_000492,FDR_002,28/12/2010 18:00,28/12/2010 20:00,Insulator failure reported on cross-arm
+EVT_000493,FDR_002,09/02/2010 22:00,10/02/2010 11:00,Conductor damage mid span
+EVT_000494,FDR_021,06/03/2010 12:00,07/03/2010 00:00,Foil balloon contact on overhead line
+EVT_000495,FDR_024,07/02/2010 00:00,07/02/2010 09:00,"Storm-related outage, multiple spans affected"
+EVT_000496,FDR_019,21/02/2010 10:00,21/02/2010 15:00,Squirrel on cross-arm causing fault
+EVT_000497,FDR_022,13/09/2010 22:00,14/09/2010 09:00,Conductor damage mid span
+EVT_000498,FDR_016,17/11/2010 21:00,18/11/2010 08:00,Insulator failure reported on cross-arm
+EVT_000499,FDR_025,10/05/2010 17:00,10/05/2010 22:00,"HV trip – cause unclear, no defects found"
+EVT_000500,FDR_022,03/01/2010 08:00,03/01/2010 10:00,Foil balloon contact on overhead line
+EVT_000501,FDR_013,22/04/2010 17:00,22/04/2010 21:00,"HV trip – cause unclear, no defects found"
+EVT_000502,FDR_017,29/05/2010 14:00,29/05/2010 16:00,Conductor damage mid span
+EVT_000502_DUP,FDR_017,29/05/2010 14:02,29/05/2010 16:00,Duplicate trip record from control system
+EVT_000503,FDR_013,06/10/2011 15:00,07/10/2011 05:00,UG cable insulation breakdown
+EVT_000504,FDR_019,17/08/2011 23:00,18/08/2011 13:00,Unknown cause – reset successful
+EVT_000505,FDR_017,23/10/2011 09:00,23/10/2011 12:00,Insulator failure reported on cross-arm
+EVT_000506,FDR_008,18/09/2011 13:00,18/09/2011 17:00,Swan strike mid span over river
+EVT_000507,FDR_002,25/03/2011 07:00,25/03/2011 15:00,Squirrel on cross-arm causing fault
+EVT_000508,FDR_009,26/08/2011 12:00,26/08/2011 13:00,Conductor damage mid span
+EVT_000509,FDR_021,20/10/2011 18:00,21/10/2011 05:00,Swan strike mid span over river
+EVT_000510,FDR_007,29/05/2011 06:00,29/05/2011 08:00,Foil balloon contact on overhead line
+EVT_000511,FDR_011,29/01/2011 05:00,29/01/2011 19:00,UG cable strike during excavation works
+EVT_000512,FDR_022,27/01/2011 00:00,27/01/2011 12:00,Insulator failure reported on cross-arm
+EVT_000513,FDR_011,19/05/2011 08:00,19/05/2011 22:00,"HV trip – cause unclear, no defects found"
+EVT_000514,FDR_011,26/01/2011 05:00,26/01/2011 19:00,Conductor damage mid span
+EVT_000515,FDR_001,06/08/2011 13:00,07/08/2011 02:00,UG cable insulation breakdown
+EVT_000516,FDR_005,10/10/2011 00:00,10/10/2011 01:00,Insulator failure reported on cross-arm
+EVT_000517,FDR_007,17/09/2011 14:00,17/09/2011 16:00,Foil balloon contact on overhead line
+EVT_000518,FDR_006,25/09/2011 11:00,26/09/2011 01:00,"HV trip – cause unclear, no defects found"
+EVT_000518_DUP,FDR_006,25/09/2011 11:02,26/09/2011 01:00,Duplicate trip record from control system
+EVT_000519,FDR_017,18/12/2011 12:00,19/12/2011 01:00,Insulator failure reported on cross-arm
+EVT_000520,FDR_025,18/08/2011 00:00,18/08/2011 05:00,UG cable strike during excavation works
+EVT_000521,FDR_011,05/07/2011 10:00,05/07/2011 23:00,"Storm-related outage, multiple spans affected"
+EVT_000522,FDR_013,15/05/2011 07:00,15/05/2011 15:00,Insulator failure reported on cross-arm
+EVT_000523,FDR_010,10/04/2011 20:00,11/04/2011 06:00,Tree contact on overhead line during high winds
+EVT_000524,FDR_017,05/06/2011 03:00,05/06/2011 17:00,Unknown cause – reset successful
+EVT_000525,FDR_024,20/02/2011 05:00,20/02/2011 09:00,UG cable insulation breakdown
+EVT_000526,FDR_010,26/02/2011 08:00,26/02/2011 10:00,UG cable insulation breakdown
+EVT_000527,FDR_002,26/01/2011 09:00,26/01/2011 23:00,"HV trip – cause unclear, no defects found"
+EVT_000528,FDR_017,29/08/2011 06:00,29/08/2011 14:00,UG cable insulation breakdown
+EVT_000528_DUP,FDR_017,29/08/2011 06:02,29/08/2011 14:00,Duplicate trip record from control system
+EVT_000529,FDR_006,13/02/2011 22:00,14/02/2011 10:00,Insulator failure reported on cross-arm
+EVT_000530,FDR_016,18/06/2011 11:00,18/06/2011 20:00,"HV trip – cause unclear, no defects found"
+EVT_000530_DUP,FDR_016,18/06/2011 11:02,18/06/2011 20:00,Duplicate trip record from control system
+EVT_000531,FDR_008,13/05/2011 13:00,13/05/2011 23:00,Insulator failure reported on cross-arm
+EVT_000532,FDR_007,04/12/2011 04:00,04/12/2011 15:00,"HV trip – cause unclear, no defects found"
+EVT_000533,FDR_013,11/05/2011 11:00,11/05/2011 15:00,"HV trip – cause unclear, no defects found"
+EVT_000534,FDR_018,25/02/2011 00:00,25/02/2011 07:00,Conductor damage mid span
+EVT_000535,FDR_008,26/12/2011 09:00,26/12/2011 20:00,Unknown cause – reset successful
+EVT_000536,FDR_022,01/05/2011 01:00,01/05/2011 08:00,Conductor damage mid span
+EVT_000537,FDR_018,26/11/2011 15:00,26/11/2011 17:00,UG cable strike during excavation works
+EVT_000538,FDR_007,08/02/2011 18:00,09/02/2011 02:00,Foil balloon contact on overhead line
+EVT_000539,FDR_009,12/06/2011 10:00,12/06/2011 15:00,"HV trip – cause unclear, no defects found"
+EVT_000540,FDR_006,19/03/2011 02:00,19/03/2011 03:00,Swan strike mid span over river
+EVT_000541,FDR_024,11/06/2011 02:00,11/06/2011 13:00,"Storm-related outage, multiple spans affected"
+EVT_000542,FDR_012,18/05/2011 04:00,18/05/2011 16:00,Insulator failure reported on cross-arm
+EVT_000543,FDR_018,31/05/2011 08:00,31/05/2011 13:00,"HV trip – cause unclear, no defects found"
+EVT_000544,FDR_003,23/01/2011 11:00,23/01/2011 23:00,Bird strike on overhead conductor
+EVT_000545,FDR_003,16/11/2011 20:00,17/11/2011 06:00,Conductor damage mid span
+EVT_000546,FDR_004,14/01/2011 22:00,15/01/2011 01:00,Foil balloon contact on overhead line
+EVT_000546_DUP,FDR_004,14/01/2011 22:02,15/01/2011 01:00,Duplicate trip record from control system
+EVT_000547,FDR_010,11/01/2011 12:00,11/01/2011 16:00,Cable joint failure suspected
+EVT_000548,FDR_009,14/09/2011 01:00,14/09/2011 04:00,UG cable insulation breakdown
+EVT_000549,FDR_008,25/09/2011 04:00,25/09/2011 05:00,Insulator failure reported on cross-arm
+EVT_000550,FDR_013,28/05/2011 20:00,29/05/2011 01:00,Conductor damage mid span
+EVT_000551,FDR_024,10/07/2011 10:00,10/07/2011 21:00,Tree contact on overhead line during high winds
+EVT_000552,FDR_008,26/04/2011 20:00,27/04/2011 09:00,Insulator failure reported on cross-arm
+EVT_000553,FDR_003,20/06/2011 00:00,20/06/2011 12:00,Unknown cause – reset successful
+EVT_000554,FDR_001,18/07/2011 08:00,18/07/2011 22:00,Insulator failure reported on cross-arm
+EVT_000555,FDR_007,10/11/2011 23:00,11/11/2011 10:00,Tree contact on overhead line during high winds
+EVT_000556,FDR_019,09/07/2012 04:00,09/07/2012 10:00,Cable joint failure suspected
+EVT_000557,FDR_020,04/05/2012 09:00,04/05/2012 22:00,"Storm-related outage, multiple spans affected"
+EVT_000558,FDR_012,04/09/2012 09:00,04/09/2012 12:00,Unknown cause – reset successful
+EVT_000559,FDR_006,17/01/2012 02:00,17/01/2012 14:00,UG cable insulation breakdown
+EVT_000560,FDR_020,31/03/2012 17:00,31/03/2012 22:00,UG cable strike during excavation works
+EVT_000561,FDR_025,23/12/2012 00:00,23/12/2012 04:00,Tree contact on overhead line during high winds
+EVT_000562,FDR_002,15/08/2012 10:00,15/08/2012 21:00,Squirrel on cross-arm causing fault
+EVT_000563,FDR_019,19/07/2012 23:00,20/07/2012 03:00,Squirrel on cross-arm causing fault
+EVT_000563_DUP,FDR_019,19/07/2012 23:02,20/07/2012 03:00,Duplicate trip record from control system
+EVT_000564,FDR_021,19/03/2012 16:00,19/03/2012 20:00,UG cable strike during excavation works
+EVT_000564_DUP,FDR_021,19/03/2012 16:02,19/03/2012 20:00,Duplicate trip record from control system
+EVT_000565,FDR_016,26/05/2012 06:00,26/05/2012 18:00,UG cable insulation breakdown
+EVT_000566,FDR_025,27/12/2012 11:00,27/12/2012 19:00,Conductor damage mid span
+EVT_000567,FDR_022,08/09/2012 07:00,08/09/2012 15:00,UG cable strike during excavation works
+EVT_000567_DUP,FDR_022,08/09/2012 07:02,08/09/2012 15:00,Duplicate trip record from control system
+EVT_000568,FDR_010,01/03/2012 18:00,01/03/2012 19:00,Insulator failure reported on cross-arm
+EVT_000569,FDR_012,02/11/2012 15:00,03/11/2012 05:00,Unknown cause – reset successful
+EVT_000570,FDR_006,06/12/2012 15:00,07/12/2012 05:00,Insulator failure reported on cross-arm
+EVT_000571,FDR_018,15/08/2012 05:00,15/08/2012 16:00,Squirrel on cross-arm causing fault
+EVT_000572,FDR_015,16/07/2012 14:00,16/07/2012 21:00,"HV trip – cause unclear, no defects found"
+EVT_000573,FDR_008,29/06/2012 15:00,30/06/2012 03:00,"HV trip – cause unclear, no defects found"
+EVT_000574,FDR_020,23/10/2012 10:00,23/10/2012 16:00,Tree contact on overhead line during high winds
+EVT_000575,FDR_013,07/06/2012 17:00,08/06/2012 04:00,UG cable insulation breakdown
+EVT_000576,FDR_016,14/04/2012 18:00,14/04/2012 22:00,Foil balloon contact on overhead line
+EVT_000577,FDR_021,01/10/2012 22:00,02/10/2012 10:00,Insulator failure reported on cross-arm
+EVT_000578,FDR_002,28/03/2012 21:00,29/03/2012 07:00,Insulator failure reported on cross-arm
+EVT_000579,FDR_021,30/03/2012 18:00,31/03/2012 08:00,Cable joint failure suspected
+EVT_000580,FDR_016,12/12/2012 23:00,13/12/2012 01:00,Unknown cause – reset successful
+EVT_000581,FDR_025,12/08/2012 14:00,12/08/2012 21:00,Swan strike mid span over river
+EVT_000582,FDR_017,08/07/2012 13:00,09/07/2012 02:00,Cable joint failure suspected
+EVT_000583,FDR_021,22/01/2012 14:00,22/01/2012 23:00,Tree contact on overhead line during high winds
+EVT_000583_DUP,FDR_021,22/01/2012 14:02,22/01/2012 23:00,Duplicate trip record from control system
+EVT_000584,FDR_016,17/02/2012 05:00,17/02/2012 06:00,Conductor damage mid span
+EVT_000584_DUP,FDR_016,17/02/2012 05:02,17/02/2012 06:00,Duplicate trip record from control system
+EVT_000585,FDR_003,06/01/2012 14:00,06/01/2012 19:00,Swan strike mid span over river
+EVT_000585_DUP,FDR_003,06/01/2012 14:02,06/01/2012 19:00,Duplicate trip record from control system
+EVT_000586,FDR_002,29/02/2012 20:00,01/03/2012 02:00,Insulator failure reported on cross-arm
+EVT_000586_DUP,FDR_002,29/02/2012 20:02,01/03/2012 02:00,Duplicate trip record from control system
+EVT_000587,FDR_010,06/04/2012 17:00,07/04/2012 03:00,UG cable insulation breakdown
+EVT_000588,FDR_005,19/02/2012 12:00,20/02/2012 02:00,UG cable insulation breakdown
+EVT_000589,FDR_004,19/03/2012 05:00,19/03/2012 07:00,Swan strike mid span over river
+EVT_000590,FDR_009,21/01/2012 22:00,22/01/2012 09:00,UG cable insulation breakdown
+EVT_000591,FDR_024,23/05/2012 20:00,24/05/2012 01:00,Tree contact on overhead line during high winds
+EVT_000592,FDR_008,21/09/2012 01:00,21/09/2012 05:00,Conductor damage mid span
+EVT_000593,FDR_021,17/04/2012 18:00,17/04/2012 23:00,Tree contact on overhead line during high winds
+EVT_000594,FDR_017,21/09/2012 06:00,21/09/2012 19:00,Conductor damage mid span
+EVT_000595,FDR_004,01/11/2012 06:00,01/11/2012 17:00,"Storm-related outage, multiple spans affected"
+EVT_000596,FDR_012,15/01/2012 17:00,15/01/2012 18:00,Unknown cause – reset successful
+EVT_000597,FDR_005,23/10/2012 16:00,23/10/2012 17:00,Insulator failure reported on cross-arm
+EVT_000598,FDR_016,26/08/2012 13:00,27/08/2012 02:00,UG cable insulation breakdown
+EVT_000599,FDR_023,25/01/2012 14:00,26/01/2012 01:00,"HV trip – cause unclear, no defects found"
+EVT_000600,FDR_018,16/10/2012 00:00,16/10/2012 10:00,UG cable insulation breakdown
+EVT_000601,FDR_025,19/11/2012 08:00,19/11/2012 20:00,Bird strike on overhead conductor
+EVT_000602,FDR_006,11/12/2012 11:00,12/12/2012 01:00,"Storm-related outage, multiple spans affected"
+EVT_000603,FDR_001,26/08/2012 23:00,27/08/2012 13:00,"Storm-related outage, multiple spans affected"
+EVT_000604,FDR_013,18/02/2012 11:00,18/02/2012 14:00,Squirrel on cross-arm causing fault
+EVT_000605,FDR_022,14/10/2012 03:00,14/10/2012 09:00,Cable joint failure suspected
+EVT_000606,FDR_014,06/12/2012 20:00,07/12/2012 04:00,Swan strike mid span over river
+EVT_000607,FDR_005,26/12/2012 13:00,27/12/2012 02:00,Unknown cause – reset successful
+EVT_000608,FDR_003,26/08/2012 06:00,26/08/2012 18:00,UG cable strike during excavation works
+EVT_000609,FDR_006,22/05/2012 12:00,22/05/2012 13:00,Swan strike mid span over river
+EVT_000610,FDR_019,23/11/2013 02:00,23/11/2013 03:00,UG cable strike during excavation works
+EVT_000611,FDR_011,06/05/2013 13:00,06/05/2013 15:00,Bird strike on overhead conductor
+EVT_000612,FDR_013,12/07/2013 06:00,12/07/2013 20:00,Unknown cause – reset successful
+EVT_000613,FDR_019,02/09/2013 20:00,03/09/2013 10:00,Foil balloon contact on overhead line
+EVT_000614,FDR_005,16/02/2013 03:00,16/02/2013 15:00,Insulator failure reported on cross-arm
+EVT_000615,FDR_013,18/01/2013 09:00,18/01/2013 13:00,Foil balloon contact on overhead line
+EVT_000616,FDR_004,24/03/2013 02:00,24/03/2013 15:00,Conductor damage mid span
+EVT_000617,FDR_005,26/11/2013 10:00,26/11/2013 21:00,Cable joint failure suspected
+EVT_000618,FDR_001,07/06/2013 11:00,08/06/2013 01:00,"Storm-related outage, multiple spans affected"
+EVT_000618_DUP,FDR_001,07/06/2013 11:02,08/06/2013 01:00,Duplicate trip record from control system
+EVT_000619,FDR_007,29/11/2013 15:00,30/11/2013 01:00,"Storm-related outage, multiple spans affected"
+EVT_000620,FDR_016,05/08/2013 22:00,06/08/2013 00:00,Bird strike on overhead conductor
+EVT_000621,FDR_001,03/07/2013 16:00,04/07/2013 05:00,"Storm-related outage, multiple spans affected"
+EVT_000622,FDR_004,23/09/2013 01:00,23/09/2013 04:00,Insulator failure reported on cross-arm
+EVT_000623,FDR_016,04/11/2013 20:00,04/11/2013 21:00,UG cable strike during excavation works
+EVT_000624,FDR_009,04/01/2013 09:00,04/01/2013 17:00,Cable joint failure suspected
+EVT_000625,FDR_018,02/09/2013 00:00,02/09/2013 13:00,Insulator failure reported on cross-arm
+EVT_000626,FDR_006,08/11/2013 12:00,09/11/2013 01:00,Conductor damage mid span
+EVT_000627,FDR_005,16/01/2013 01:00,16/01/2013 06:00,"Storm-related outage, multiple spans affected"
+EVT_000628,FDR_016,02/10/2013 09:00,02/10/2013 17:00,Cable joint failure suspected
+EVT_000629,FDR_022,24/03/2013 19:00,25/03/2013 05:00,Tree contact on overhead line during high winds
+EVT_000630,FDR_010,01/11/2013 05:00,01/11/2013 13:00,Conductor damage mid span
+EVT_000631,FDR_003,29/04/2013 07:00,29/04/2013 14:00,"HV trip – cause unclear, no defects found"
+EVT_000632,FDR_010,03/09/2013 04:00,03/09/2013 08:00,Squirrel on cross-arm causing fault
+EVT_000633,FDR_024,21/08/2013 18:00,21/08/2013 21:00,Conductor damage mid span
+EVT_000634,FDR_015,29/11/2013 12:00,29/11/2013 16:00,Insulator failure reported on cross-arm
+EVT_000635,FDR_023,08/11/2013 19:00,09/11/2013 05:00,Squirrel on cross-arm causing fault
+EVT_000636,FDR_019,10/06/2013 11:00,10/06/2013 19:00,Conductor damage mid span
+EVT_000636_DUP,FDR_019,10/06/2013 11:02,10/06/2013 19:00,Duplicate trip record from control system
+EVT_000637,FDR_021,07/06/2013 02:00,07/06/2013 13:00,Swan strike mid span over river
+EVT_000637_DUP,FDR_021,07/06/2013 02:02,07/06/2013 13:00,Duplicate trip record from control system
+EVT_000638,FDR_006,19/07/2013 21:00,20/07/2013 08:00,Bird strike on overhead conductor
+EVT_000639,FDR_007,25/12/2013 11:00,26/12/2013 00:00,UG cable strike during excavation works
+EVT_000640,FDR_025,26/07/2013 19:00,26/07/2013 20:00,Insulator failure reported on cross-arm
+EVT_000641,FDR_005,31/12/2013 02:00,31/12/2013 06:00,Insulator failure reported on cross-arm
+EVT_000642,FDR_015,16/03/2013 11:00,16/03/2013 12:00,UG cable insulation breakdown
+EVT_000643,FDR_022,11/08/2013 02:00,11/08/2013 05:00,Swan strike mid span over river
+EVT_000644,FDR_017,20/12/2013 21:00,21/12/2013 03:00,Swan strike mid span over river
+EVT_000645,FDR_016,22/09/2013 15:00,23/09/2013 05:00,Squirrel on cross-arm causing fault
+EVT_000646,FDR_014,06/04/2013 16:00,07/04/2013 02:00,UG cable insulation breakdown
+EVT_000647,FDR_023,08/03/2013 12:00,08/03/2013 19:00,Insulator failure reported on cross-arm
+EVT_000648,FDR_011,21/08/2013 15:00,22/08/2013 03:00,Unknown cause – reset successful
+EVT_000649,FDR_007,06/04/2013 00:00,06/04/2013 05:00,Swan strike mid span over river
+EVT_000650,FDR_022,03/11/2013 19:00,04/11/2013 06:00,Tree contact on overhead line during high winds
+EVT_000651,FDR_005,16/10/2013 02:00,16/10/2013 15:00,Bird strike on overhead conductor
+EVT_000652,FDR_015,01/12/2013 15:00,01/12/2013 18:00,Foil balloon contact on overhead line
+EVT_000653,FDR_018,17/02/2013 20:00,18/02/2013 02:00,UG cable strike during excavation works
+EVT_000654,FDR_022,15/07/2013 17:00,16/07/2013 02:00,Foil balloon contact on overhead line
+EVT_000655,FDR_016,09/07/2013 22:00,10/07/2013 10:00,Swan strike mid span over river
+EVT_000656,FDR_014,20/12/2013 03:00,20/12/2013 04:00,Conductor damage mid span
+EVT_000656_DUP,FDR_014,20/12/2013 03:02,20/12/2013 04:00,Duplicate trip record from control system
+EVT_000657,FDR_011,11/11/2013 21:00,12/11/2013 01:00,UG cable strike during excavation works
+EVT_000658,FDR_019,23/07/2013 15:00,24/07/2013 05:00,Conductor damage mid span
+EVT_000659,FDR_002,05/06/2013 12:00,06/06/2013 01:00,Cable joint failure suspected
+EVT_000659_DUP,FDR_002,05/06/2013 12:02,06/06/2013 01:00,Duplicate trip record from control system
+EVT_000660,FDR_019,18/09/2013 12:00,18/09/2013 17:00,UG cable insulation breakdown
+EVT_000661,FDR_012,04/09/2013 19:00,05/09/2013 07:00,Cable joint failure suspected
+EVT_000662,FDR_016,01/09/2013 08:00,01/09/2013 18:00,"HV trip – cause unclear, no defects found"
+EVT_000663,FDR_003,08/09/2013 16:00,09/09/2013 04:00,Insulator failure reported on cross-arm
+EVT_000664,FDR_007,28/05/2013 05:00,28/05/2013 09:00,"Storm-related outage, multiple spans affected"
+EVT_000664_DUP,FDR_007,28/05/2013 05:02,28/05/2013 09:00,Duplicate trip record from control system
+EVT_000665,FDR_021,09/07/2014 14:00,09/07/2014 21:00,Tree contact on overhead line during high winds
+EVT_000666,FDR_017,20/11/2014 16:00,21/11/2014 06:00,Foil balloon contact on overhead line
+EVT_000667,FDR_021,09/03/2014 05:00,09/03/2014 17:00,Foil balloon contact on overhead line
+EVT_000668,FDR_011,20/09/2014 23:00,21/09/2014 00:00,UG cable strike during excavation works
+EVT_000669,FDR_004,11/01/2014 19:00,12/01/2014 09:00,Foil balloon contact on overhead line
+EVT_000669_DUP,FDR_004,11/01/2014 19:02,12/01/2014 09:00,Duplicate trip record from control system
+EVT_000670,FDR_025,10/12/2014 16:00,11/12/2014 02:00,Conductor damage mid span
+EVT_000671,FDR_008,19/11/2014 23:00,20/11/2014 01:00,Cable joint failure suspected
+EVT_000672,FDR_010,31/03/2014 22:00,01/04/2014 01:00,Conductor damage mid span
+EVT_000673,FDR_012,18/01/2014 16:00,18/01/2014 17:00,Tree contact on overhead line during high winds
+EVT_000674,FDR_004,27/07/2014 11:00,28/07/2014 01:00,Conductor damage mid span
+EVT_000675,FDR_025,27/11/2014 09:00,27/11/2014 10:00,Tree contact on overhead line during high winds
+EVT_000676,FDR_013,04/09/2014 06:00,04/09/2014 12:00,Tree contact on overhead line during high winds
+EVT_000677,FDR_007,01/12/2014 18:00,02/12/2014 00:00,Foil balloon contact on overhead line
+EVT_000678,FDR_021,20/07/2014 20:00,21/07/2014 06:00,Insulator failure reported on cross-arm
+EVT_000678_DUP,FDR_021,20/07/2014 20:02,21/07/2014 06:00,Duplicate trip record from control system
+EVT_000679,FDR_008,21/11/2014 07:00,21/11/2014 10:00,UG cable insulation breakdown
+EVT_000680,FDR_021,01/03/2014 01:00,01/03/2014 06:00,Unknown cause – reset successful
+EVT_000681,FDR_025,28/12/2014 04:00,28/12/2014 08:00,Foil balloon contact on overhead line
+EVT_000682,FDR_018,13/10/2014 21:00,13/10/2014 23:00,UG cable strike during excavation works
+EVT_000683,FDR_010,15/01/2014 00:00,15/01/2014 13:00,Insulator failure reported on cross-arm
+EVT_000684,FDR_019,29/09/2014 19:00,30/09/2014 08:00,UG cable insulation breakdown
+EVT_000685,FDR_007,12/03/2014 12:00,12/03/2014 18:00,Tree contact on overhead line during high winds
+EVT_000686,FDR_010,22/10/2014 04:00,22/10/2014 15:00,UG cable strike during excavation works
+EVT_000687,FDR_019,08/03/2014 07:00,08/03/2014 12:00,Swan strike mid span over river
+EVT_000688,FDR_015,02/03/2014 21:00,03/03/2014 06:00,"Storm-related outage, multiple spans affected"
+EVT_000689,FDR_018,19/12/2014 17:00,20/12/2014 02:00,Bird strike on overhead conductor
+EVT_000690,FDR_013,05/09/2014 16:00,06/09/2014 03:00,Insulator failure reported on cross-arm
+EVT_000691,FDR_020,05/06/2014 00:00,05/06/2014 08:00,Squirrel on cross-arm causing fault
+EVT_000692,FDR_022,02/11/2014 08:00,02/11/2014 16:00,Unknown cause – reset successful
+EVT_000693,FDR_005,27/08/2014 00:00,27/08/2014 02:00,Foil balloon contact on overhead line
+EVT_000694,FDR_023,05/09/2014 04:00,05/09/2014 17:00,Cable joint failure suspected
+EVT_000695,FDR_012,21/02/2014 04:00,21/02/2014 16:00,Bird strike on overhead conductor
+EVT_000696,FDR_009,06/04/2014 10:00,06/04/2014 11:00,Insulator failure reported on cross-arm
+EVT_000697,FDR_012,03/07/2014 20:00,04/07/2014 06:00,Conductor damage mid span
+EVT_000698,FDR_020,06/05/2014 15:00,06/05/2014 23:00,Conductor damage mid span
+EVT_000699,FDR_023,26/06/2014 23:00,27/06/2014 11:00,Swan strike mid span over river
+EVT_000699_DUP,FDR_023,26/06/2014 23:02,27/06/2014 11:00,Duplicate trip record from control system
+EVT_000700,FDR_023,17/03/2014 00:00,17/03/2014 05:00,Cable joint failure suspected
+EVT_000701,FDR_024,16/06/2014 16:00,17/06/2014 00:00,Bird strike on overhead conductor
+EVT_000702,FDR_021,20/11/2014 09:00,20/11/2014 13:00,Cable joint failure suspected
+EVT_000702_DUP,FDR_021,20/11/2014 09:02,20/11/2014 13:00,Duplicate trip record from control system
+EVT_000703,FDR_017,16/05/2014 15:00,16/05/2014 17:00,Squirrel on cross-arm causing fault
+EVT_000703_DUP,FDR_017,16/05/2014 15:02,16/05/2014 17:00,Duplicate trip record from control system
+EVT_000704,FDR_010,11/02/2014 14:00,11/02/2014 22:00,Cable joint failure suspected
+EVT_000704_DUP,FDR_010,11/02/2014 14:02,11/02/2014 22:00,Duplicate trip record from control system
+EVT_000705,FDR_004,07/08/2014 23:00,08/08/2014 08:00,Cable joint failure suspected
+EVT_000706,FDR_011,31/08/2014 00:00,31/08/2014 11:00,"HV trip – cause unclear, no defects found"
+EVT_000707,FDR_004,09/05/2014 02:00,09/05/2014 12:00,Unknown cause – reset successful
+EVT_000708,FDR_001,20/04/2014 00:00,20/04/2014 04:00,Foil balloon contact on overhead line
+EVT_000709,FDR_007,16/07/2014 07:00,16/07/2014 21:00,Tree contact on overhead line during high winds
+EVT_000710,FDR_009,26/11/2014 13:00,26/11/2014 14:00,Foil balloon contact on overhead line
+EVT_000711,FDR_003,14/07/2014 14:00,14/07/2014 17:00,Insulator failure reported on cross-arm
+EVT_000712,FDR_007,30/10/2014 16:00,30/10/2014 18:00,"HV trip – cause unclear, no defects found"
+EVT_000713,FDR_005,02/04/2014 11:00,02/04/2014 18:00,Tree contact on overhead line during high winds
+EVT_000714,FDR_020,02/12/2014 16:00,02/12/2014 23:00,Squirrel on cross-arm causing fault
+EVT_000715,FDR_020,28/10/2014 06:00,28/10/2014 10:00,Conductor damage mid span
+EVT_000716,FDR_014,06/10/2014 01:00,06/10/2014 08:00,Unknown cause – reset successful
+EVT_000717,FDR_022,14/07/2014 11:00,14/07/2014 16:00,"Storm-related outage, multiple spans affected"
+EVT_000718,FDR_008,15/06/2014 14:00,15/06/2014 17:00,"HV trip – cause unclear, no defects found"
+EVT_000719,FDR_023,05/04/2014 05:00,05/04/2014 06:00,"Storm-related outage, multiple spans affected"
+EVT_000720,FDR_001,04/12/2014 19:00,05/12/2014 08:00,Conductor damage mid span
+EVT_000721,FDR_019,02/09/2015 00:00,02/09/2015 02:00,"HV trip – cause unclear, no defects found"
+EVT_000722,FDR_009,20/04/2015 01:00,20/04/2015 10:00,Insulator failure reported on cross-arm
+EVT_000723,FDR_014,02/08/2015 06:00,02/08/2015 20:00,"Storm-related outage, multiple spans affected"
+EVT_000724,FDR_004,26/02/2015 01:00,26/02/2015 12:00,UG cable strike during excavation works
+EVT_000725,FDR_024,22/12/2015 06:00,22/12/2015 13:00,"HV trip – cause unclear, no defects found"
+EVT_000726,FDR_016,14/03/2015 22:00,15/03/2015 10:00,"Storm-related outage, multiple spans affected"
+EVT_000727,FDR_019,17/10/2015 06:00,17/10/2015 12:00,Tree contact on overhead line during high winds
+EVT_000728,FDR_012,24/06/2015 05:00,24/06/2015 07:00,Foil balloon contact on overhead line
+EVT_000729,FDR_021,19/10/2015 05:00,19/10/2015 13:00,Insulator failure reported on cross-arm
+EVT_000729_DUP,FDR_021,19/10/2015 05:02,19/10/2015 13:00,Duplicate trip record from control system
+EVT_000730,FDR_003,08/09/2015 21:00,08/09/2015 23:00,Conductor damage mid span
+EVT_000731,FDR_020,12/06/2015 07:00,12/06/2015 10:00,Cable joint failure suspected
+EVT_000732,FDR_010,20/07/2015 23:00,21/07/2015 01:00,Conductor damage mid span
+EVT_000733,FDR_004,16/09/2015 08:00,16/09/2015 13:00,Insulator failure reported on cross-arm
+EVT_000734,FDR_012,27/07/2015 23:00,28/07/2015 02:00,UG cable insulation breakdown
+EVT_000734_DUP,FDR_012,27/07/2015 23:02,28/07/2015 02:00,Duplicate trip record from control system
+EVT_000735,FDR_025,05/12/2015 00:00,05/12/2015 14:00,Squirrel on cross-arm causing fault
+EVT_000736,FDR_001,03/02/2015 20:00,04/02/2015 07:00,Squirrel on cross-arm causing fault
+EVT_000737,FDR_008,02/11/2015 18:00,02/11/2015 22:00,Squirrel on cross-arm causing fault
+EVT_000738,FDR_022,20/11/2015 20:00,21/11/2015 09:00,UG cable insulation breakdown
+EVT_000739,FDR_020,17/11/2015 15:00,18/11/2015 00:00,UG cable insulation breakdown
+EVT_000740,FDR_019,11/12/2015 03:00,11/12/2015 13:00,Cable joint failure suspected
+EVT_000741,FDR_018,23/02/2015 22:00,24/02/2015 04:00,UG cable insulation breakdown
+EVT_000742,FDR_024,05/09/2015 16:00,05/09/2015 22:00,Squirrel on cross-arm causing fault
+EVT_000743,FDR_017,03/09/2015 00:00,03/09/2015 03:00,"HV trip – cause unclear, no defects found"
+EVT_000744,FDR_014,01/05/2015 19:00,02/05/2015 04:00,Bird strike on overhead conductor
+EVT_000745,FDR_014,26/12/2015 16:00,26/12/2015 21:00,Insulator failure reported on cross-arm
+EVT_000746,FDR_009,12/06/2015 20:00,13/06/2015 08:00,Swan strike mid span over river
+EVT_000747,FDR_018,06/01/2015 15:00,06/01/2015 20:00,UG cable insulation breakdown
+EVT_000748,FDR_002,23/02/2015 11:00,23/02/2015 23:00,Insulator failure reported on cross-arm
+EVT_000749,FDR_009,20/05/2015 17:00,20/05/2015 21:00,Squirrel on cross-arm causing fault
+EVT_000750,FDR_001,21/11/2015 11:00,21/11/2015 22:00,Bird strike on overhead conductor
+EVT_000751,FDR_022,30/09/2015 16:00,30/09/2015 22:00,Cable joint failure suspected
+EVT_000752,FDR_011,27/09/2015 18:00,28/09/2015 04:00,Bird strike on overhead conductor
+EVT_000753,FDR_008,10/11/2015 15:00,11/11/2015 03:00,Insulator failure reported on cross-arm
+EVT_000754,FDR_010,07/08/2015 07:00,07/08/2015 21:00,Foil balloon contact on overhead line
+EVT_000754_DUP,FDR_010,07/08/2015 07:02,07/08/2015 21:00,Duplicate trip record from control system
+EVT_000755,FDR_011,10/09/2015 19:00,10/09/2015 22:00,Conductor damage mid span
+EVT_000756,FDR_023,14/02/2015 20:00,14/02/2015 22:00,Swan strike mid span over river
+EVT_000757,FDR_021,18/07/2015 20:00,19/07/2015 03:00,Insulator failure reported on cross-arm
+EVT_000758,FDR_014,25/06/2015 23:00,26/06/2015 02:00,Bird strike on overhead conductor
+EVT_000759,FDR_020,18/01/2015 15:00,19/01/2015 00:00,"Storm-related outage, multiple spans affected"
+EVT_000760,FDR_012,24/10/2015 10:00,24/10/2015 11:00,Bird strike on overhead conductor
+EVT_000761,FDR_014,10/02/2015 03:00,10/02/2015 13:00,Bird strike on overhead conductor
+EVT_000762,FDR_005,22/05/2015 21:00,23/05/2015 03:00,Foil balloon contact on overhead line
+EVT_000763,FDR_003,22/06/2015 01:00,22/06/2015 10:00,Conductor damage mid span
+EVT_000764,FDR_017,17/01/2015 04:00,17/01/2015 12:00,UG cable insulation breakdown
+EVT_000765,FDR_010,12/08/2015 15:00,12/08/2015 20:00,UG cable strike during excavation works
+EVT_000766,FDR_023,06/01/2015 07:00,06/01/2015 12:00,Insulator failure reported on cross-arm
+EVT_000767,FDR_008,06/05/2015 06:00,06/05/2015 13:00,Foil balloon contact on overhead line
+EVT_000768,FDR_016,25/07/2015 13:00,26/07/2015 01:00,Squirrel on cross-arm causing fault
+EVT_000769,FDR_020,30/11/2015 02:00,30/11/2015 11:00,Unknown cause – reset successful
+EVT_000770,FDR_009,26/03/2015 16:00,27/03/2015 03:00,Squirrel on cross-arm causing fault
+EVT_000771,FDR_005,26/12/2015 11:00,26/12/2015 20:00,"HV trip – cause unclear, no defects found"
+EVT_000772,FDR_010,25/05/2015 14:00,26/05/2015 01:00,Conductor damage mid span
+EVT_000773,FDR_017,01/05/2015 09:00,01/05/2015 12:00,Unknown cause – reset successful
+EVT_000774,FDR_019,30/10/2015 02:00,30/10/2015 10:00,Conductor damage mid span
+EVT_000774_DUP,FDR_019,30/10/2015 02:02,30/10/2015 10:00,Duplicate trip record from control system
+EVT_000775,FDR_002,27/05/2015 01:00,27/05/2015 04:00,Insulator failure reported on cross-arm
+EVT_000776,FDR_021,07/02/2015 13:00,07/02/2015 17:00,"Storm-related outage, multiple spans affected"
+EVT_000777,FDR_004,13/12/2015 15:00,14/12/2015 03:00,Conductor damage mid span
+EVT_000778,FDR_022,16/03/2015 10:00,16/03/2015 17:00,"Storm-related outage, multiple spans affected"
+EVT_000779,FDR_005,28/09/2016 19:00,29/09/2016 07:00,UG cable insulation breakdown
+EVT_000780,FDR_016,14/07/2016 02:00,14/07/2016 03:00,Tree contact on overhead line during high winds
+EVT_000781,FDR_025,20/11/2016 06:00,20/11/2016 08:00,UG cable strike during excavation works
+EVT_000782,FDR_005,13/11/2016 10:00,13/11/2016 14:00,UG cable strike during excavation works
+EVT_000783,FDR_005,03/06/2016 00:00,03/06/2016 13:00,Bird strike on overhead conductor
+EVT_000784,FDR_005,02/04/2016 21:00,03/04/2016 07:00,Insulator failure reported on cross-arm
+EVT_000785,FDR_013,19/11/2016 00:00,19/11/2016 13:00,UG cable insulation breakdown
+EVT_000786,FDR_008,28/04/2016 03:00,28/04/2016 05:00,Squirrel on cross-arm causing fault
+EVT_000787,FDR_007,18/09/2016 01:00,18/09/2016 08:00,Tree contact on overhead line during high winds
+EVT_000788,FDR_008,03/02/2016 00:00,03/02/2016 13:00,"Storm-related outage, multiple spans affected"
+EVT_000789,FDR_009,29/09/2016 06:00,29/09/2016 15:00,Cable joint failure suspected
+EVT_000790,FDR_005,09/03/2016 14:00,09/03/2016 22:00,Insulator failure reported on cross-arm
+EVT_000791,FDR_021,01/01/2016 00:00,01/01/2016 13:00,Cable joint failure suspected
+EVT_000792,FDR_022,03/11/2016 08:00,03/11/2016 12:00,Foil balloon contact on overhead line
+EVT_000793,FDR_010,22/04/2016 20:00,23/04/2016 07:00,Swan strike mid span over river
+EVT_000794,FDR_007,03/12/2016 08:00,03/12/2016 11:00,Conductor damage mid span
+EVT_000795,FDR_005,19/08/2016 14:00,20/08/2016 04:00,"Storm-related outage, multiple spans affected"
+EVT_000796,FDR_015,15/10/2016 20:00,16/10/2016 09:00,Tree contact on overhead line during high winds
+EVT_000797,FDR_019,18/05/2016 18:00,18/05/2016 19:00,Bird strike on overhead conductor
+EVT_000798,FDR_002,08/12/2016 22:00,09/12/2016 07:00,"Storm-related outage, multiple spans affected"
+EVT_000799,FDR_008,13/09/2016 21:00,14/09/2016 02:00,Conductor damage mid span
+EVT_000800,FDR_018,11/08/2016 00:00,11/08/2016 11:00,Foil balloon contact on overhead line
+EVT_000801,FDR_015,15/04/2016 18:00,15/04/2016 23:00,Unknown cause – reset successful
+EVT_000802,FDR_009,27/12/2016 00:00,27/12/2016 12:00,Swan strike mid span over river
+EVT_000803,FDR_004,15/10/2016 03:00,15/10/2016 12:00,"HV trip – cause unclear, no defects found"
+EVT_000804,FDR_006,13/01/2016 05:00,13/01/2016 07:00,Cable joint failure suspected
+EVT_000805,FDR_015,18/04/2016 15:00,19/04/2016 05:00,Insulator failure reported on cross-arm
+EVT_000805_DUP,FDR_015,18/04/2016 15:02,19/04/2016 05:00,Duplicate trip record from control system
+EVT_000806,FDR_016,16/06/2016 17:00,17/06/2016 06:00,Insulator failure reported on cross-arm
+EVT_000807,FDR_020,29/10/2016 16:00,30/10/2016 00:00,Cable joint failure suspected
+EVT_000808,FDR_009,17/05/2016 12:00,17/05/2016 20:00,Conductor damage mid span
+EVT_000809,FDR_015,24/02/2016 18:00,25/02/2016 04:00,Conductor damage mid span
+EVT_000810,FDR_019,10/03/2016 03:00,10/03/2016 11:00,"Storm-related outage, multiple spans affected"
+EVT_000811,FDR_017,16/05/2016 18:00,17/05/2016 07:00,Foil balloon contact on overhead line
+EVT_000812,FDR_022,02/01/2016 09:00,02/01/2016 13:00,Foil balloon contact on overhead line
+EVT_000813,FDR_024,01/08/2016 09:00,01/08/2016 15:00,Foil balloon contact on overhead line
+EVT_000814,FDR_001,25/09/2016 18:00,25/09/2016 23:00,Tree contact on overhead line during high winds
+EVT_000815,FDR_024,18/06/2016 17:00,19/06/2016 07:00,Conductor damage mid span
+EVT_000816,FDR_014,08/02/2016 14:00,08/02/2016 15:00,Bird strike on overhead conductor
+EVT_000817,FDR_021,06/11/2016 01:00,06/11/2016 09:00,Cable joint failure suspected
+EVT_000818,FDR_024,06/08/2016 12:00,06/08/2016 22:00,Cable joint failure suspected
+EVT_000819,FDR_001,05/11/2016 08:00,05/11/2016 19:00,Conductor damage mid span
+EVT_000820,FDR_024,07/06/2016 10:00,07/06/2016 16:00,Tree contact on overhead line during high winds
+EVT_000820_DUP,FDR_024,07/06/2016 10:02,07/06/2016 16:00,Duplicate trip record from control system
+EVT_000821,FDR_016,22/08/2016 08:00,22/08/2016 21:00,Squirrel on cross-arm causing fault
+EVT_000822,FDR_011,21/04/2016 09:00,21/04/2016 10:00,UG cable strike during excavation works
+EVT_000823,FDR_011,02/10/2016 23:00,03/10/2016 12:00,Foil balloon contact on overhead line
+EVT_000824,FDR_016,26/05/2016 00:00,26/05/2016 05:00,Squirrel on cross-arm causing fault
+EVT_000825,FDR_017,02/03/2016 15:00,03/03/2016 03:00,"HV trip – cause unclear, no defects found"
+EVT_000826,FDR_010,11/11/2016 05:00,11/11/2016 15:00,Insulator failure reported on cross-arm
+EVT_000827,FDR_024,10/05/2016 23:00,11/05/2016 03:00,UG cable strike during excavation works
+EVT_000828,FDR_003,16/04/2016 10:00,16/04/2016 16:00,Conductor damage mid span
+EVT_000829,FDR_004,04/08/2016 07:00,04/08/2016 13:00,Unknown cause – reset successful
+EVT_000830,FDR_009,10/01/2016 06:00,10/01/2016 15:00,Squirrel on cross-arm causing fault
+EVT_000831,FDR_001,25/12/2016 15:00,25/12/2016 18:00,UG cable strike during excavation works
+EVT_000832,FDR_022,27/04/2016 19:00,28/04/2016 06:00,Conductor damage mid span
+EVT_000833,FDR_023,20/06/2016 05:00,20/06/2016 15:00,Swan strike mid span over river
+EVT_000834,FDR_002,23/10/2016 08:00,23/10/2016 22:00,Insulator failure reported on cross-arm
+EVT_000835,FDR_018,15/04/2016 15:00,15/04/2016 20:00,Swan strike mid span over river
+EVT_000835_DUP,FDR_018,15/04/2016 15:02,15/04/2016 20:00,Duplicate trip record from control system
+EVT_000836,FDR_010,28/01/2016 02:00,28/01/2016 07:00,"Storm-related outage, multiple spans affected"
+EVT_000837,FDR_005,02/01/2016 16:00,02/01/2016 22:00,"Storm-related outage, multiple spans affected"
+EVT_000837_DUP,FDR_005,02/01/2016 16:02,02/01/2016 22:00,Duplicate trip record from control system
+EVT_000838,FDR_011,03/01/2017 20:00,03/01/2017 21:00,Tree contact on overhead line during high winds
+EVT_000839,FDR_017,11/03/2017 23:00,12/03/2017 00:00,Bird strike on overhead conductor
+EVT_000840,FDR_012,28/12/2017 19:00,29/12/2017 07:00,Swan strike mid span over river
+EVT_000840_DUP,FDR_012,28/12/2017 19:02,29/12/2017 07:00,Duplicate trip record from control system
+EVT_000841,FDR_020,20/06/2017 00:00,20/06/2017 05:00,Bird strike on overhead conductor
+EVT_000842,FDR_025,02/06/2017 22:00,03/06/2017 02:00,Bird strike on overhead conductor
+EVT_000843,FDR_025,17/07/2017 21:00,18/07/2017 11:00,Unknown cause – reset successful
+EVT_000844,FDR_023,20/03/2017 04:00,20/03/2017 08:00,Swan strike mid span over river
+EVT_000845,FDR_011,03/09/2017 11:00,03/09/2017 19:00,Cable joint failure suspected
+EVT_000846,FDR_024,22/02/2017 08:00,22/02/2017 13:00,UG cable strike during excavation works
+EVT_000847,FDR_011,16/11/2017 10:00,16/11/2017 17:00,Swan strike mid span over river
+EVT_000848,FDR_003,03/09/2017 05:00,03/09/2017 06:00,"Storm-related outage, multiple spans affected"
+EVT_000849,FDR_023,13/08/2017 14:00,14/08/2017 01:00,"HV trip – cause unclear, no defects found"
+EVT_000850,FDR_021,29/07/2017 03:00,29/07/2017 15:00,Tree contact on overhead line during high winds
+EVT_000851,FDR_005,08/10/2017 11:00,08/10/2017 23:00,Cable joint failure suspected
+EVT_000851_DUP,FDR_005,08/10/2017 11:02,08/10/2017 23:00,Duplicate trip record from control system
+EVT_000852,FDR_002,07/03/2017 07:00,07/03/2017 13:00,UG cable insulation breakdown
+EVT_000853,FDR_007,21/12/2017 10:00,21/12/2017 20:00,Foil balloon contact on overhead line
+EVT_000854,FDR_025,08/02/2017 18:00,08/02/2017 21:00,"HV trip – cause unclear, no defects found"
+EVT_000854_DUP,FDR_025,08/02/2017 18:02,08/02/2017 21:00,Duplicate trip record from control system
+EVT_000855,FDR_001,06/04/2017 00:00,06/04/2017 06:00,"Storm-related outage, multiple spans affected"
+EVT_000856,FDR_018,07/04/2017 12:00,07/04/2017 17:00,Foil balloon contact on overhead line
+EVT_000857,FDR_019,26/07/2017 15:00,26/07/2017 21:00,Conductor damage mid span
+EVT_000858,FDR_007,22/06/2017 23:00,23/06/2017 03:00,Conductor damage mid span
+EVT_000858_DUP,FDR_007,22/06/2017 23:02,23/06/2017 03:00,Duplicate trip record from control system
+EVT_000859,FDR_022,28/03/2017 11:00,28/03/2017 17:00,Conductor damage mid span
+EVT_000860,FDR_022,06/01/2017 01:00,06/01/2017 03:00,Foil balloon contact on overhead line
+EVT_000861,FDR_018,10/05/2017 03:00,10/05/2017 14:00,Swan strike mid span over river
+EVT_000862,FDR_003,06/11/2017 03:00,06/11/2017 17:00,Unknown cause – reset successful
+EVT_000863,FDR_016,13/09/2017 17:00,13/09/2017 19:00,Insulator failure reported on cross-arm
+EVT_000864,FDR_013,25/05/2017 00:00,25/05/2017 07:00,Squirrel on cross-arm causing fault
+EVT_000865,FDR_006,30/11/2017 19:00,01/12/2017 04:00,UG cable insulation breakdown
+EVT_000866,FDR_016,29/01/2017 07:00,29/01/2017 11:00,"HV trip – cause unclear, no defects found"
+EVT_000866_DUP,FDR_016,29/01/2017 07:02,29/01/2017 11:00,Duplicate trip record from control system
+EVT_000867,FDR_025,09/06/2017 14:00,09/06/2017 20:00,Insulator failure reported on cross-arm
+EVT_000868,FDR_002,21/10/2017 21:00,22/10/2017 08:00,"Storm-related outage, multiple spans affected"
+EVT_000869,FDR_013,06/11/2017 05:00,06/11/2017 15:00,Tree contact on overhead line during high winds
+EVT_000870,FDR_006,16/10/2017 18:00,16/10/2017 20:00,Insulator failure reported on cross-arm
+EVT_000871,FDR_025,08/08/2017 01:00,08/08/2017 13:00,"HV trip – cause unclear, no defects found"
+EVT_000872,FDR_018,10/06/2017 13:00,10/06/2017 22:00,Unknown cause – reset successful
+EVT_000872_DUP,FDR_018,10/06/2017 13:02,10/06/2017 22:00,Duplicate trip record from control system
+EVT_000873,FDR_024,06/04/2017 09:00,06/04/2017 20:00,UG cable strike during excavation works
+EVT_000874,FDR_024,12/07/2017 20:00,12/07/2017 21:00,Tree contact on overhead line during high winds
+EVT_000875,FDR_023,13/02/2017 10:00,13/02/2017 17:00,UG cable strike during excavation works
+EVT_000876,FDR_023,20/12/2017 14:00,21/12/2017 04:00,UG cable insulation breakdown
+EVT_000876_DUP,FDR_023,20/12/2017 14:02,21/12/2017 04:00,Duplicate trip record from control system
+EVT_000877,FDR_003,23/05/2017 11:00,23/05/2017 19:00,Foil balloon contact on overhead line
+EVT_000877_DUP,FDR_003,23/05/2017 11:02,23/05/2017 19:00,Duplicate trip record from control system
+EVT_000878,FDR_008,14/02/2017 04:00,14/02/2017 13:00,Cable joint failure suspected
+EVT_000879,FDR_002,22/07/2017 12:00,22/07/2017 19:00,Swan strike mid span over river
+EVT_000880,FDR_002,14/09/2017 04:00,14/09/2017 05:00,Tree contact on overhead line during high winds
+EVT_000880_DUP,FDR_002,14/09/2017 04:02,14/09/2017 05:00,Duplicate trip record from control system
+EVT_000881,FDR_021,04/04/2017 18:00,05/04/2017 01:00,Insulator failure reported on cross-arm
+EVT_000882,FDR_019,16/11/2017 23:00,17/11/2017 01:00,Cable joint failure suspected
+EVT_000882_DUP,FDR_019,16/11/2017 23:02,17/11/2017 01:00,Duplicate trip record from control system
+EVT_000883,FDR_011,01/06/2017 23:00,02/06/2017 02:00,Unknown cause – reset successful
+EVT_000884,FDR_004,31/03/2017 03:00,31/03/2017 05:00,UG cable strike during excavation works
+EVT_000885,FDR_013,14/11/2017 05:00,14/11/2017 11:00,Swan strike mid span over river
+EVT_000886,FDR_024,24/07/2017 01:00,24/07/2017 09:00,Unknown cause – reset successful
+EVT_000887,FDR_002,19/01/2017 22:00,20/01/2017 01:00,Bird strike on overhead conductor
+EVT_000888,FDR_022,04/04/2017 13:00,05/04/2017 02:00,Foil balloon contact on overhead line
+EVT_000889,FDR_010,06/12/2017 09:00,06/12/2017 20:00,UG cable strike during excavation works
+EVT_000889_DUP,FDR_010,06/12/2017 09:02,06/12/2017 20:00,Duplicate trip record from control system
+EVT_000890,FDR_020,19/06/2017 18:00,20/06/2017 01:00,Tree contact on overhead line during high winds
+EVT_000890_DUP,FDR_020,19/06/2017 18:02,20/06/2017 01:00,Duplicate trip record from control system
+EVT_000891,FDR_001,05/05/2017 01:00,05/05/2017 10:00,"HV trip – cause unclear, no defects found"
+EVT_000892,FDR_007,24/10/2017 21:00,25/10/2017 02:00,"Storm-related outage, multiple spans affected"
+EVT_000893,FDR_022,31/05/2017 12:00,31/05/2017 23:00,Insulator failure reported on cross-arm
+EVT_000894,FDR_014,10/01/2017 14:00,11/01/2017 02:00,UG cable strike during excavation works
+EVT_000895,FDR_015,06/07/2017 11:00,06/07/2017 18:00,"HV trip – cause unclear, no defects found"
+EVT_000896,FDR_024,16/07/2017 22:00,17/07/2017 05:00,Cable joint failure suspected
+EVT_000897,FDR_005,23/06/2017 14:00,23/06/2017 20:00,Tree contact on overhead line during high winds
+EVT_000898,FDR_001,27/05/2018 01:00,27/05/2018 15:00,Conductor damage mid span
+EVT_000899,FDR_013,05/11/2018 16:00,06/11/2018 06:00,"Storm-related outage, multiple spans affected"
+EVT_000900,FDR_003,22/10/2018 00:00,22/10/2018 12:00,Insulator failure reported on cross-arm
+EVT_000901,FDR_005,31/10/2018 18:00,01/11/2018 01:00,Cable joint failure suspected
+EVT_000902,FDR_001,26/09/2018 16:00,26/09/2018 18:00,Foil balloon contact on overhead line
+EVT_000903,FDR_020,24/09/2018 02:00,24/09/2018 13:00,Tree contact on overhead line during high winds
+EVT_000904,FDR_015,01/07/2018 16:00,02/07/2018 04:00,Insulator failure reported on cross-arm
+EVT_000905,FDR_005,21/06/2018 20:00,22/06/2018 08:00,Cable joint failure suspected
+EVT_000906,FDR_009,25/12/2018 00:00,25/12/2018 11:00,UG cable insulation breakdown
+EVT_000907,FDR_015,13/12/2018 09:00,13/12/2018 20:00,Swan strike mid span over river
+EVT_000908,FDR_017,19/05/2018 21:00,20/05/2018 09:00,Unknown cause – reset successful
+EVT_000909,FDR_011,08/01/2018 22:00,09/01/2018 04:00,Cable joint failure suspected
+EVT_000909_DUP,FDR_011,08/01/2018 22:02,09/01/2018 04:00,Duplicate trip record from control system
+EVT_000910,FDR_003,20/12/2018 11:00,20/12/2018 17:00,"HV trip – cause unclear, no defects found"
+EVT_000911,FDR_023,26/04/2018 02:00,26/04/2018 13:00,Tree contact on overhead line during high winds
+EVT_000912,FDR_015,27/01/2018 23:00,28/01/2018 12:00,"Storm-related outage, multiple spans affected"
+EVT_000913,FDR_005,03/05/2018 06:00,03/05/2018 19:00,UG cable insulation breakdown
+EVT_000913_DUP,FDR_005,03/05/2018 06:02,03/05/2018 19:00,Duplicate trip record from control system
+EVT_000914,FDR_020,17/06/2018 13:00,17/06/2018 15:00,Insulator failure reported on cross-arm
+EVT_000915,FDR_024,23/04/2018 01:00,23/04/2018 06:00,Swan strike mid span over river
+EVT_000916,FDR_004,23/02/2018 09:00,23/02/2018 17:00,Foil balloon contact on overhead line
+EVT_000917,FDR_018,19/12/2018 15:00,20/12/2018 04:00,Foil balloon contact on overhead line
+EVT_000918,FDR_001,07/11/2018 08:00,07/11/2018 16:00,"HV trip – cause unclear, no defects found"
+EVT_000918_DUP,FDR_001,07/11/2018 08:02,07/11/2018 16:00,Duplicate trip record from control system
+EVT_000919,FDR_019,22/02/2018 08:00,22/02/2018 11:00,UG cable insulation breakdown
+EVT_000920,FDR_021,01/10/2018 03:00,01/10/2018 04:00,Foil balloon contact on overhead line
+EVT_000921,FDR_009,17/05/2018 04:00,17/05/2018 14:00,Conductor damage mid span
+EVT_000922,FDR_012,08/01/2018 03:00,08/01/2018 15:00,Squirrel on cross-arm causing fault
+EVT_000922_DUP,FDR_012,08/01/2018 03:02,08/01/2018 15:00,Duplicate trip record from control system
+EVT_000923,FDR_005,02/02/2018 05:00,02/02/2018 11:00,UG cable insulation breakdown
+EVT_000924,FDR_014,10/04/2018 15:00,10/04/2018 21:00,Conductor damage mid span
+EVT_000925,FDR_007,23/10/2018 02:00,23/10/2018 04:00,Conductor damage mid span
+EVT_000926,FDR_017,23/07/2018 21:00,24/07/2018 08:00,Squirrel on cross-arm causing fault
+EVT_000927,FDR_013,13/08/2018 07:00,13/08/2018 12:00,Insulator failure reported on cross-arm
+EVT_000928,FDR_018,05/09/2018 20:00,06/09/2018 09:00,Squirrel on cross-arm causing fault
+EVT_000929,FDR_017,08/03/2018 20:00,08/03/2018 21:00,Conductor damage mid span
+EVT_000930,FDR_020,14/10/2018 09:00,14/10/2018 19:00,Foil balloon contact on overhead line
+EVT_000931,FDR_016,26/07/2018 16:00,27/07/2018 00:00,UG cable insulation breakdown
+EVT_000932,FDR_022,11/09/2018 14:00,11/09/2018 19:00,Squirrel on cross-arm causing fault
+EVT_000933,FDR_006,31/12/2018 06:00,31/12/2018 13:00,"Storm-related outage, multiple spans affected"
+EVT_000933_DUP,FDR_006,31/12/2018 06:02,31/12/2018 13:00,Duplicate trip record from control system
+EVT_000934,FDR_016,24/06/2018 22:00,25/06/2018 08:00,"Storm-related outage, multiple spans affected"
+EVT_000935,FDR_004,20/09/2018 21:00,21/09/2018 03:00,Unknown cause – reset successful
+EVT_000936,FDR_019,11/01/2018 06:00,11/01/2018 17:00,"HV trip – cause unclear, no defects found"
+EVT_000936_DUP,FDR_019,11/01/2018 06:02,11/01/2018 17:00,Duplicate trip record from control system
+EVT_000937,FDR_023,25/05/2018 08:00,25/05/2018 16:00,Conductor damage mid span
+EVT_000938,FDR_005,10/01/2018 00:00,10/01/2018 04:00,"HV trip – cause unclear, no defects found"
+EVT_000939,FDR_020,10/04/2018 18:00,10/04/2018 23:00,Insulator failure reported on cross-arm
+EVT_000940,FDR_016,15/11/2018 11:00,15/11/2018 13:00,Unknown cause – reset successful
+EVT_000941,FDR_015,30/10/2018 23:00,31/10/2018 07:00,"HV trip – cause unclear, no defects found"
+EVT_000942,FDR_025,23/10/2018 08:00,23/10/2018 17:00,UG cable strike during excavation works
+EVT_000942_DUP,FDR_025,23/10/2018 08:02,23/10/2018 17:00,Duplicate trip record from control system
+EVT_000943,FDR_021,15/05/2018 01:00,15/05/2018 06:00,Insulator failure reported on cross-arm
+EVT_000944,FDR_009,02/09/2018 22:00,03/09/2018 06:00,Insulator failure reported on cross-arm
+EVT_000945,FDR_009,27/11/2018 16:00,27/11/2018 19:00,Conductor damage mid span
+EVT_000946,FDR_008,16/08/2018 01:00,16/08/2018 04:00,Tree contact on overhead line during high winds
+EVT_000947,FDR_015,16/05/2018 10:00,16/05/2018 16:00,Unknown cause – reset successful
+EVT_000948,FDR_013,27/05/2018 04:00,27/05/2018 11:00,Unknown cause – reset successful
+EVT_000949,FDR_003,24/05/2018 04:00,24/05/2018 07:00,Insulator failure reported on cross-arm
+EVT_000950,FDR_001,16/06/2018 16:00,16/06/2018 21:00,UG cable strike during excavation works
+EVT_000950_DUP,FDR_001,16/06/2018 16:02,16/06/2018 21:00,Duplicate trip record from control system
+EVT_000951,FDR_001,16/06/2018 18:00,17/06/2018 06:00,UG cable strike during excavation works
+EVT_000952,FDR_022,21/06/2018 19:00,21/06/2018 22:00,Insulator failure reported on cross-arm
+EVT_000953,FDR_021,05/12/2018 13:00,05/12/2018 21:00,"Storm-related outage, multiple spans affected"
+EVT_000953_DUP,FDR_021,05/12/2018 13:02,05/12/2018 21:00,Duplicate trip record from control system
+EVT_000954,FDR_001,11/12/2018 19:00,12/12/2018 06:00,Unknown cause – reset successful
+EVT_000955,FDR_015,15/06/2018 20:00,15/06/2018 21:00,Squirrel on cross-arm causing fault
+EVT_000956,FDR_009,07/09/2018 09:00,07/09/2018 18:00,Unknown cause – reset successful
+EVT_000957,FDR_004,12/12/2018 20:00,13/12/2018 06:00,Insulator failure reported on cross-arm
+EVT_000958,FDR_022,25/12/2018 07:00,25/12/2018 21:00,Insulator failure reported on cross-arm
+EVT_000959,FDR_020,17/10/2019 00:00,17/10/2019 10:00,Foil balloon contact on overhead line
+EVT_000959_DUP,FDR_020,17/10/2019 00:02,17/10/2019 10:00,Duplicate trip record from control system
+EVT_000960,FDR_019,21/11/2019 16:00,21/11/2019 23:00,Conductor damage mid span
+EVT_000961,FDR_008,06/09/2019 23:00,07/09/2019 10:00,Foil balloon contact on overhead line
+EVT_000962,FDR_020,12/09/2019 15:00,13/09/2019 02:00,UG cable strike during excavation works
+EVT_000963,FDR_002,31/01/2019 09:00,31/01/2019 14:00,Unknown cause – reset successful
+EVT_000964,FDR_009,17/03/2019 22:00,18/03/2019 06:00,"HV trip – cause unclear, no defects found"
+EVT_000965,FDR_004,21/05/2019 07:00,21/05/2019 17:00,"HV trip – cause unclear, no defects found"
+EVT_000966,FDR_019,25/10/2019 05:00,25/10/2019 10:00,UG cable insulation breakdown
+EVT_000966_DUP,FDR_019,25/10/2019 05:02,25/10/2019 10:00,Duplicate trip record from control system
+EVT_000967,FDR_025,12/11/2019 06:00,12/11/2019 11:00,Cable joint failure suspected
+EVT_000968,FDR_024,13/12/2019 01:00,13/12/2019 08:00,Insulator failure reported on cross-arm
+EVT_000969,FDR_013,12/11/2019 06:00,12/11/2019 16:00,Unknown cause – reset successful
+EVT_000969_DUP,FDR_013,12/11/2019 06:02,12/11/2019 16:00,Duplicate trip record from control system
+EVT_000970,FDR_003,30/11/2019 11:00,30/11/2019 20:00,Swan strike mid span over river
+EVT_000971,FDR_022,13/12/2019 16:00,14/12/2019 00:00,Squirrel on cross-arm causing fault
+EVT_000972,FDR_022,19/07/2019 03:00,19/07/2019 17:00,Bird strike on overhead conductor
+EVT_000973,FDR_017,16/02/2019 05:00,16/02/2019 08:00,Cable joint failure suspected
+EVT_000974,FDR_005,14/12/2019 08:00,14/12/2019 19:00,Insulator failure reported on cross-arm
+EVT_000975,FDR_002,18/02/2019 16:00,18/02/2019 19:00,Unknown cause – reset successful
+EVT_000975_DUP,FDR_002,18/02/2019 16:02,18/02/2019 19:00,Duplicate trip record from control system
+EVT_000976,FDR_013,06/09/2019 09:00,06/09/2019 15:00,Insulator failure reported on cross-arm
+EVT_000976_DUP,FDR_013,06/09/2019 09:02,06/09/2019 15:00,Duplicate trip record from control system
+EVT_000977,FDR_010,07/07/2019 00:00,07/07/2019 02:00,Foil balloon contact on overhead line
+EVT_000978,FDR_010,25/04/2019 00:00,25/04/2019 09:00,Swan strike mid span over river
+EVT_000979,FDR_023,06/07/2019 17:00,07/07/2019 05:00,Squirrel on cross-arm causing fault
+EVT_000980,FDR_018,14/07/2019 10:00,15/07/2019 00:00,Conductor damage mid span
+EVT_000981,FDR_003,10/07/2019 13:00,10/07/2019 23:00,UG cable strike during excavation works
+EVT_000982,FDR_014,04/12/2019 08:00,04/12/2019 18:00,Cable joint failure suspected
+EVT_000983,FDR_009,17/11/2019 01:00,17/11/2019 14:00,Foil balloon contact on overhead line
+EVT_000984,FDR_006,08/01/2019 04:00,08/01/2019 12:00,Insulator failure reported on cross-arm
+EVT_000984_DUP,FDR_006,08/01/2019 04:02,08/01/2019 12:00,Duplicate trip record from control system
+EVT_000985,FDR_009,24/04/2019 04:00,24/04/2019 12:00,Foil balloon contact on overhead line
+EVT_000985_DUP,FDR_009,24/04/2019 04:02,24/04/2019 12:00,Duplicate trip record from control system
+EVT_000986,FDR_025,17/06/2019 07:00,17/06/2019 14:00,Insulator failure reported on cross-arm
+EVT_000987,FDR_013,07/05/2019 11:00,07/05/2019 14:00,Conductor damage mid span
+EVT_000988,FDR_022,17/06/2019 16:00,18/06/2019 04:00,"Storm-related outage, multiple spans affected"
+EVT_000989,FDR_007,15/05/2019 01:00,15/05/2019 15:00,"Storm-related outage, multiple spans affected"
+EVT_000990,FDR_018,17/09/2019 12:00,17/09/2019 14:00,Conductor damage mid span
+EVT_000991,FDR_001,28/03/2019 21:00,29/03/2019 09:00,Insulator failure reported on cross-arm
+EVT_000992,FDR_009,07/02/2019 22:00,08/02/2019 05:00,Conductor damage mid span
+EVT_000992_DUP,FDR_009,07/02/2019 22:02,08/02/2019 05:00,Duplicate trip record from control system
+EVT_000993,FDR_007,25/09/2019 14:00,26/09/2019 04:00,Foil balloon contact on overhead line
+EVT_000994,FDR_025,08/02/2019 22:00,09/02/2019 03:00,Unknown cause – reset successful
+EVT_000995,FDR_003,04/11/2019 18:00,04/11/2019 20:00,UG cable insulation breakdown
+EVT_000996,FDR_006,15/10/2019 03:00,15/10/2019 07:00,Conductor damage mid span
+EVT_000997,FDR_010,30/06/2019 22:00,01/07/2019 06:00,Conductor damage mid span
+EVT_000998,FDR_019,16/07/2019 22:00,17/07/2019 02:00,Conductor damage mid span
+EVT_000999,FDR_013,01/12/2019 19:00,02/12/2019 07:00,Unknown cause – reset successful
+EVT_001000,FDR_016,07/06/2019 07:00,07/06/2019 21:00,Conductor damage mid span
+EVT_001001,FDR_018,11/10/2019 07:00,11/10/2019 12:00,Tree contact on overhead line during high winds
+EVT_001002,FDR_011,06/02/2019 18:00,07/02/2019 01:00,Foil balloon contact on overhead line
+EVT_001003,FDR_014,31/05/2019 12:00,31/05/2019 22:00,Foil balloon contact on overhead line
+EVT_001004,FDR_002,22/01/2019 23:00,23/01/2019 09:00,UG cable insulation breakdown
+EVT_001005,FDR_008,24/05/2019 03:00,24/05/2019 15:00,Squirrel on cross-arm causing fault
+EVT_001006,FDR_021,29/07/2019 19:00,30/07/2019 04:00,Foil balloon contact on overhead line
+EVT_001007,FDR_023,14/11/2019 21:00,15/11/2019 05:00,Tree contact on overhead line during high winds
+EVT_001008,FDR_019,18/03/2019 15:00,19/03/2019 04:00,Swan strike mid span over river
+EVT_001009,FDR_016,26/01/2019 15:00,26/01/2019 21:00,Tree contact on overhead line during high winds
+EVT_001010,FDR_012,30/04/2019 17:00,01/05/2019 01:00,Cable joint failure suspected
+EVT_001011,FDR_017,05/05/2019 07:00,05/05/2019 12:00,Bird strike on overhead conductor
+EVT_001012,FDR_007,27/04/2019 05:00,27/04/2019 11:00,Conductor damage mid span
+EVT_001013,FDR_003,13/04/2019 13:00,13/04/2019 21:00,Insulator failure reported on cross-arm
+EVT_001014,FDR_014,28/03/2019 01:00,28/03/2019 08:00,UG cable strike during excavation works
+EVT_001015,FDR_011,28/11/2019 00:00,28/11/2019 10:00,"HV trip – cause unclear, no defects found"
+EVT_001015_DUP,FDR_011,28/11/2019 00:02,28/11/2019 10:00,Duplicate trip record from control system
+EVT_001016,FDR_004,15/08/2019 08:00,15/08/2019 10:00,Tree contact on overhead line during high winds
+EVT_001017,FDR_011,02/07/2019 16:00,02/07/2019 21:00,Unknown cause – reset successful
+EVT_001018,FDR_010,03/08/2019 00:00,03/08/2019 09:00,"Storm-related outage, multiple spans affected"
+EVT_001019,FDR_023,22/03/2019 18:00,23/03/2019 05:00,Foil balloon contact on overhead line
+EVT_001020,FDR_001,22/11/2019 13:00,22/11/2019 14:00,"HV trip – cause unclear, no defects found"
+EVT_001021,FDR_006,16/02/2020 10:00,16/02/2020 22:00,Bird strike on overhead conductor
+EVT_001022,FDR_013,14/01/2020 17:00,14/01/2020 23:00,Unknown cause – reset successful
+EVT_001023,FDR_002,25/09/2020 09:00,25/09/2020 20:00,Unknown cause – reset successful
+EVT_001023_DUP,FDR_002,25/09/2020 09:02,25/09/2020 20:00,Duplicate trip record from control system
+EVT_001024,FDR_019,21/01/2020 16:00,22/01/2020 00:00,Insulator failure reported on cross-arm
+EVT_001025,FDR_007,13/03/2020 08:00,13/03/2020 11:00,Foil balloon contact on overhead line
+EVT_001026,FDR_015,02/06/2020 02:00,02/06/2020 13:00,Bird strike on overhead conductor
+EVT_001027,FDR_023,23/09/2020 10:00,23/09/2020 20:00,Tree contact on overhead line during high winds
+EVT_001028,FDR_025,11/07/2020 02:00,11/07/2020 12:00,Bird strike on overhead conductor
+EVT_001029,FDR_011,04/06/2020 21:00,05/06/2020 07:00,Foil balloon contact on overhead line
+EVT_001030,FDR_002,06/01/2020 06:00,06/01/2020 20:00,"Storm-related outage, multiple spans affected"
+EVT_001031,FDR_018,24/06/2020 16:00,24/06/2020 18:00,Tree contact on overhead line during high winds
+EVT_001032,FDR_006,28/01/2020 20:00,29/01/2020 08:00,Bird strike on overhead conductor
+EVT_001033,FDR_017,29/02/2020 19:00,01/03/2020 04:00,UG cable strike during excavation works
+EVT_001033_DUP,FDR_017,29/02/2020 19:02,01/03/2020 04:00,Duplicate trip record from control system
+EVT_001034,FDR_011,07/05/2020 08:00,07/05/2020 16:00,Cable joint failure suspected
+EVT_001034_DUP,FDR_011,07/05/2020 08:02,07/05/2020 16:00,Duplicate trip record from control system
+EVT_001035,FDR_020,08/09/2020 00:00,08/09/2020 11:00,UG cable insulation breakdown
+EVT_001036,FDR_011,27/06/2020 17:00,27/06/2020 18:00,Foil balloon contact on overhead line
+EVT_001037,FDR_004,01/07/2020 06:00,01/07/2020 11:00,Foil balloon contact on overhead line
+EVT_001038,FDR_010,03/08/2020 03:00,03/08/2020 06:00,"HV trip – cause unclear, no defects found"
+EVT_001039,FDR_023,19/06/2020 07:00,19/06/2020 10:00,Swan strike mid span over river
+EVT_001040,FDR_021,04/01/2020 19:00,05/01/2020 08:00,"HV trip – cause unclear, no defects found"
+EVT_001040_DUP,FDR_021,04/01/2020 19:02,05/01/2020 08:00,Duplicate trip record from control system
+EVT_001041,FDR_021,27/08/2020 20:00,28/08/2020 05:00,"Storm-related outage, multiple spans affected"
+EVT_001042,FDR_023,27/11/2020 22:00,28/11/2020 04:00,Squirrel on cross-arm causing fault
+EVT_001043,FDR_011,21/07/2020 21:00,21/07/2020 23:00,Insulator failure reported on cross-arm
+EVT_001044,FDR_012,21/07/2020 23:00,22/07/2020 10:00,"HV trip – cause unclear, no defects found"
+EVT_001045,FDR_020,13/07/2020 10:00,13/07/2020 21:00,Insulator failure reported on cross-arm
+EVT_001046,FDR_007,04/10/2020 18:00,05/10/2020 06:00,Conductor damage mid span
+EVT_001047,FDR_022,17/10/2020 10:00,17/10/2020 16:00,Insulator failure reported on cross-arm
+EVT_001048,FDR_021,11/01/2020 01:00,11/01/2020 02:00,UG cable strike during excavation works
+EVT_001049,FDR_001,07/02/2020 19:00,08/02/2020 00:00,Bird strike on overhead conductor
+EVT_001049_DUP,FDR_001,07/02/2020 19:02,08/02/2020 00:00,Duplicate trip record from control system
+EVT_001050,FDR_004,28/07/2020 02:00,28/07/2020 09:00,Conductor damage mid span
+EVT_001051,FDR_005,18/07/2020 23:00,19/07/2020 06:00,UG cable insulation breakdown
+EVT_001052,FDR_011,18/07/2020 11:00,18/07/2020 20:00,UG cable insulation breakdown
+EVT_001053,FDR_017,02/12/2020 17:00,03/12/2020 04:00,UG cable strike during excavation works
+EVT_001054,FDR_021,08/10/2020 07:00,08/10/2020 10:00,Tree contact on overhead line during high winds
+EVT_001055,FDR_001,04/08/2020 19:00,05/08/2020 04:00,Insulator failure reported on cross-arm
+EVT_001056,FDR_007,27/06/2020 13:00,27/06/2020 21:00,Bird strike on overhead conductor
+EVT_001057,FDR_019,09/04/2020 22:00,10/04/2020 11:00,Bird strike on overhead conductor
+EVT_001057_DUP,FDR_019,09/04/2020 22:02,10/04/2020 11:00,Duplicate trip record from control system
+EVT_001058,FDR_007,22/10/2020 04:00,22/10/2020 12:00,Conductor damage mid span
+EVT_001059,FDR_023,05/07/2020 14:00,05/07/2020 22:00,Bird strike on overhead conductor
+EVT_001060,FDR_003,06/09/2020 18:00,06/09/2020 22:00,Conductor damage mid span
+EVT_001061,FDR_019,04/03/2020 11:00,04/03/2020 19:00,Insulator failure reported on cross-arm
+EVT_001062,FDR_025,11/09/2020 07:00,11/09/2020 17:00,"HV trip – cause unclear, no defects found"
+EVT_001062_DUP,FDR_025,11/09/2020 07:02,11/09/2020 17:00,Duplicate trip record from control system
+EVT_001063,FDR_022,28/05/2020 19:00,29/05/2020 01:00,Swan strike mid span over river
+EVT_001063_DUP,FDR_022,28/05/2020 19:02,29/05/2020 01:00,Duplicate trip record from control system
+EVT_001064,FDR_022,11/08/2020 16:00,12/08/2020 05:00,Cable joint failure suspected
+EVT_001065,FDR_001,04/05/2020 00:00,04/05/2020 11:00,Cable joint failure suspected
+EVT_001066,FDR_011,09/09/2020 07:00,09/09/2020 18:00,Foil balloon contact on overhead line
+EVT_001067,FDR_003,08/04/2020 04:00,08/04/2020 10:00,"HV trip – cause unclear, no defects found"
+EVT_001068,FDR_011,31/05/2020 15:00,31/05/2020 21:00,Tree contact on overhead line during high winds
+EVT_001069,FDR_015,02/01/2020 08:00,02/01/2020 18:00,Tree contact on overhead line during high winds
+EVT_001069_DUP,FDR_015,02/01/2020 08:02,02/01/2020 18:00,Duplicate trip record from control system
+EVT_001070,FDR_010,20/02/2020 15:00,20/02/2020 18:00,UG cable insulation breakdown
+EVT_001071,FDR_021,06/03/2020 23:00,07/03/2020 08:00,Swan strike mid span over river
+EVT_001071_DUP,FDR_021,06/03/2020 23:02,07/03/2020 08:00,Duplicate trip record from control system
+EVT_001072,FDR_004,24/01/2020 09:00,24/01/2020 17:00,Tree contact on overhead line during high winds
+EVT_001073,FDR_002,23/03/2020 21:00,24/03/2020 02:00,Squirrel on cross-arm causing fault
+EVT_001074,FDR_011,21/09/2020 09:00,21/09/2020 11:00,Insulator failure reported on cross-arm
+EVT_001075,FDR_016,20/01/2020 18:00,21/01/2020 08:00,Unknown cause – reset successful
+EVT_001076,FDR_017,05/06/2020 15:00,06/06/2020 04:00,"Storm-related outage, multiple spans affected"
+EVT_001077,FDR_018,25/06/2020 00:00,25/06/2020 13:00,"HV trip – cause unclear, no defects found"
+EVT_001078,FDR_022,19/11/2020 18:00,19/11/2020 23:00,Conductor damage mid span
+EVT_001079,FDR_008,28/11/2020 01:00,28/11/2020 08:00,UG cable insulation breakdown
+EVT_001080,FDR_016,26/08/2020 12:00,27/08/2020 00:00,Swan strike mid span over river
+EVT_001081,FDR_007,01/12/2020 08:00,01/12/2020 18:00,Conductor damage mid span
+EVT_001081_DUP,FDR_007,01/12/2020 08:02,01/12/2020 18:00,Duplicate trip record from control system
+EVT_001082,FDR_010,21/12/2020 09:00,21/12/2020 19:00,Insulator failure reported on cross-arm
+EVT_001083,FDR_023,19/11/2020 20:00,20/11/2020 04:00,Insulator failure reported on cross-arm
+EVT_001084,FDR_016,27/05/2020 06:00,27/05/2020 09:00,UG cable insulation breakdown
+EVT_001085,FDR_016,24/03/2021 17:00,24/03/2021 19:00,"HV trip – cause unclear, no defects found"
+EVT_001086,FDR_017,15/07/2021 07:00,15/07/2021 09:00,Bird strike on overhead conductor
+EVT_001087,FDR_001,30/04/2021 17:00,01/05/2021 00:00,"HV trip – cause unclear, no defects found"
+EVT_001088,FDR_011,11/10/2021 19:00,12/10/2021 02:00,Squirrel on cross-arm causing fault
+EVT_001089,FDR_015,06/11/2021 19:00,07/11/2021 04:00,Tree contact on overhead line during high winds
+EVT_001090,FDR_013,20/10/2021 20:00,20/10/2021 21:00,Unknown cause – reset successful
+EVT_001091,FDR_022,22/10/2021 11:00,23/10/2021 00:00,Cable joint failure suspected
+EVT_001092,FDR_008,23/01/2021 00:00,23/01/2021 13:00,Insulator failure reported on cross-arm
+EVT_001093,FDR_018,16/12/2021 06:00,16/12/2021 18:00,Conductor damage mid span
+EVT_001094,FDR_003,08/01/2021 03:00,08/01/2021 09:00,Foil balloon contact on overhead line
+EVT_001095,FDR_009,25/05/2021 14:00,26/05/2021 01:00,UG cable strike during excavation works
+EVT_001096,FDR_009,18/07/2021 05:00,18/07/2021 13:00,Conductor damage mid span
+EVT_001097,FDR_021,11/10/2021 23:00,12/10/2021 00:00,"Storm-related outage, multiple spans affected"
+EVT_001098,FDR_010,24/04/2021 06:00,24/04/2021 16:00,UG cable insulation breakdown
+EVT_001099,FDR_002,07/02/2021 08:00,07/02/2021 17:00,Conductor damage mid span
+EVT_001100,FDR_011,01/03/2021 23:00,02/03/2021 11:00,Swan strike mid span over river
+EVT_001100_DUP,FDR_011,01/03/2021 23:02,02/03/2021 11:00,Duplicate trip record from control system
+EVT_001101,FDR_020,10/09/2021 05:00,10/09/2021 11:00,"Storm-related outage, multiple spans affected"
+EVT_001102,FDR_021,25/09/2021 16:00,26/09/2021 04:00,Insulator failure reported on cross-arm
+EVT_001103,FDR_014,04/07/2021 03:00,04/07/2021 06:00,Tree contact on overhead line during high winds
+EVT_001104,FDR_021,28/05/2021 04:00,28/05/2021 11:00,Conductor damage mid span
+EVT_001105,FDR_023,30/12/2021 05:00,30/12/2021 12:00,Tree contact on overhead line during high winds
+EVT_001106,FDR_025,26/06/2021 07:00,26/06/2021 15:00,Conductor damage mid span
+EVT_001107,FDR_004,17/05/2021 06:00,17/05/2021 18:00,Conductor damage mid span
+EVT_001108,FDR_012,06/04/2021 07:00,06/04/2021 13:00,"HV trip – cause unclear, no defects found"
+EVT_001109,FDR_009,08/02/2021 10:00,08/02/2021 19:00,Bird strike on overhead conductor
+EVT_001110,FDR_004,06/10/2021 16:00,06/10/2021 21:00,Unknown cause – reset successful
+EVT_001111,FDR_015,24/06/2021 17:00,25/06/2021 00:00,"HV trip – cause unclear, no defects found"
+EVT_001112,FDR_016,04/01/2021 00:00,04/01/2021 10:00,Tree contact on overhead line during high winds
+EVT_001113,FDR_021,18/09/2021 15:00,19/09/2021 00:00,Unknown cause – reset successful
+EVT_001114,FDR_014,09/02/2021 19:00,10/02/2021 06:00,Bird strike on overhead conductor
+EVT_001115,FDR_007,17/10/2021 09:00,17/10/2021 11:00,UG cable insulation breakdown
+EVT_001115_DUP,FDR_007,17/10/2021 09:02,17/10/2021 11:00,Duplicate trip record from control system
+EVT_001116,FDR_014,27/05/2021 20:00,28/05/2021 07:00,UG cable strike during excavation works
+EVT_001117,FDR_022,05/11/2021 06:00,05/11/2021 11:00,Bird strike on overhead conductor
+EVT_001118,FDR_019,22/04/2021 09:00,22/04/2021 22:00,Insulator failure reported on cross-arm
+EVT_001119,FDR_009,11/02/2021 21:00,11/02/2021 22:00,Swan strike mid span over river
+EVT_001120,FDR_021,12/05/2021 23:00,13/05/2021 13:00,Squirrel on cross-arm causing fault
+EVT_001120_DUP,FDR_021,12/05/2021 23:02,13/05/2021 13:00,Duplicate trip record from control system
+EVT_001121,FDR_015,03/11/2021 09:00,03/11/2021 16:00,Unknown cause – reset successful
+EVT_001122,FDR_004,17/05/2021 07:00,17/05/2021 17:00,Cable joint failure suspected
+EVT_001123,FDR_004,12/07/2021 00:00,12/07/2021 06:00,"Storm-related outage, multiple spans affected"
+EVT_001124,FDR_024,30/10/2021 16:00,30/10/2021 17:00,UG cable insulation breakdown
+EVT_001125,FDR_009,24/12/2021 09:00,24/12/2021 11:00,Bird strike on overhead conductor
+EVT_001126,FDR_001,15/12/2021 12:00,15/12/2021 13:00,Swan strike mid span over river
+EVT_001127,FDR_024,24/07/2021 09:00,24/07/2021 21:00,UG cable strike during excavation works
+EVT_001128,FDR_011,21/07/2021 06:00,21/07/2021 08:00,Conductor damage mid span
+EVT_001129,FDR_023,21/04/2021 17:00,22/04/2021 02:00,Conductor damage mid span
+EVT_001129_DUP,FDR_023,21/04/2021 17:02,22/04/2021 02:00,Duplicate trip record from control system
+EVT_001130,FDR_018,10/10/2021 12:00,10/10/2021 13:00,Cable joint failure suspected
+EVT_001131,FDR_024,03/02/2021 06:00,03/02/2021 10:00,Insulator failure reported on cross-arm
+EVT_001131_DUP,FDR_024,03/02/2021 06:02,03/02/2021 10:00,Duplicate trip record from control system
+EVT_001132,FDR_023,06/07/2021 02:00,06/07/2021 09:00,Swan strike mid span over river
+EVT_001133,FDR_016,15/09/2021 08:00,15/09/2021 19:00,Swan strike mid span over river
+EVT_001134,FDR_017,30/11/2021 21:00,01/12/2021 05:00,Swan strike mid span over river
+EVT_001135,FDR_022,09/03/2021 19:00,10/03/2021 04:00,Unknown cause – reset successful
+EVT_001136,FDR_018,04/10/2021 16:00,05/10/2021 05:00,Foil balloon contact on overhead line
+EVT_001136_DUP,FDR_018,04/10/2021 16:02,05/10/2021 05:00,Duplicate trip record from control system
+EVT_001137,FDR_004,17/02/2021 00:00,17/02/2021 12:00,Tree contact on overhead line during high winds
+EVT_001138,FDR_013,28/09/2021 06:00,28/09/2021 13:00,UG cable strike during excavation works
+EVT_001139,FDR_019,29/03/2021 02:00,29/03/2021 16:00,Swan strike mid span over river
+EVT_001140,FDR_016,22/02/2021 04:00,22/02/2021 18:00,Insulator failure reported on cross-arm
+EVT_001141,FDR_022,03/04/2021 14:00,04/04/2021 02:00,UG cable strike during excavation works
+EVT_001142,FDR_022,01/09/2021 01:00,01/09/2021 09:00,Insulator failure reported on cross-arm
+EVT_001143,FDR_015,16/06/2021 10:00,16/06/2021 23:00,Insulator failure reported on cross-arm
+EVT_001144,FDR_017,05/10/2021 19:00,06/10/2021 01:00,Foil balloon contact on overhead line
+EVT_001145,FDR_010,27/02/2021 05:00,27/02/2021 06:00,Bird strike on overhead conductor
+EVT_001146,FDR_011,24/03/2021 16:00,25/03/2021 04:00,Foil balloon contact on overhead line
+EVT_001147,FDR_013,23/08/2021 00:00,23/08/2021 10:00,"Storm-related outage, multiple spans affected"
+EVT_001148,FDR_024,24/11/2021 21:00,25/11/2021 09:00,Tree contact on overhead line during high winds
+EVT_001149,FDR_007,03/04/2021 09:00,03/04/2021 20:00,"HV trip – cause unclear, no defects found"
+EVT_001150,FDR_006,03/10/2022 13:00,03/10/2022 16:00,Conductor damage mid span
+EVT_001151,FDR_022,25/09/2022 15:00,26/09/2022 02:00,UG cable insulation breakdown
+EVT_001152,FDR_013,21/02/2022 19:00,22/02/2022 09:00,Conductor damage mid span
+EVT_001152_DUP,FDR_013,21/02/2022 19:02,22/02/2022 09:00,Duplicate trip record from control system
+EVT_001153,FDR_013,21/11/2022 14:00,21/11/2022 15:00,Unknown cause – reset successful
+EVT_001154,FDR_017,17/01/2022 02:00,17/01/2022 13:00,Bird strike on overhead conductor
+EVT_001154_DUP,FDR_017,17/01/2022 02:02,17/01/2022 13:00,Duplicate trip record from control system
+EVT_001155,FDR_013,29/12/2022 03:00,29/12/2022 13:00,UG cable strike during excavation works
+EVT_001156,FDR_023,14/12/2022 17:00,15/12/2022 02:00,"Storm-related outage, multiple spans affected"
+EVT_001157,FDR_022,04/12/2022 06:00,04/12/2022 12:00,"Storm-related outage, multiple spans affected"
+EVT_001158,FDR_013,27/02/2022 00:00,27/02/2022 05:00,Foil balloon contact on overhead line
+EVT_001159,FDR_018,12/06/2022 08:00,12/06/2022 12:00,"HV trip – cause unclear, no defects found"
+EVT_001160,FDR_013,16/07/2022 04:00,16/07/2022 05:00,Swan strike mid span over river
+EVT_001161,FDR_005,21/11/2022 23:00,22/11/2022 09:00,Conductor damage mid span
+EVT_001162,FDR_011,03/03/2022 23:00,04/03/2022 10:00,UG cable insulation breakdown
+EVT_001163,FDR_024,04/02/2022 13:00,05/02/2022 02:00,Foil balloon contact on overhead line
+EVT_001164,FDR_015,27/08/2022 14:00,28/08/2022 01:00,Foil balloon contact on overhead line
+EVT_001165,FDR_021,12/03/2022 23:00,13/03/2022 11:00,"HV trip – cause unclear, no defects found"
+EVT_001166,FDR_022,05/01/2022 21:00,05/01/2022 22:00,"HV trip – cause unclear, no defects found"
+EVT_001167,FDR_021,06/08/2022 06:00,06/08/2022 18:00,Swan strike mid span over river
+EVT_001168,FDR_010,11/11/2022 17:00,11/11/2022 23:00,UG cable strike during excavation works
+EVT_001169,FDR_024,26/02/2022 02:00,26/02/2022 16:00,Squirrel on cross-arm causing fault
+EVT_001170,FDR_025,02/10/2022 14:00,02/10/2022 22:00,Swan strike mid span over river
+EVT_001170_DUP,FDR_025,02/10/2022 14:02,02/10/2022 22:00,Duplicate trip record from control system
+EVT_001171,FDR_014,15/04/2022 15:00,16/04/2022 00:00,Tree contact on overhead line during high winds
+EVT_001171_DUP,FDR_014,15/04/2022 15:02,16/04/2022 00:00,Duplicate trip record from control system
+EVT_001172,FDR_014,16/02/2022 03:00,16/02/2022 04:00,Insulator failure reported on cross-arm
+EVT_001173,FDR_025,10/03/2022 07:00,10/03/2022 10:00,Swan strike mid span over river
+EVT_001174,FDR_017,03/03/2022 21:00,04/03/2022 09:00,Squirrel on cross-arm causing fault
+EVT_001175,FDR_006,13/04/2022 01:00,13/04/2022 12:00,"HV trip – cause unclear, no defects found"
+EVT_001176,FDR_021,10/03/2022 00:00,10/03/2022 06:00,UG cable insulation breakdown
+EVT_001177,FDR_012,30/09/2022 20:00,01/10/2022 06:00,Conductor damage mid span
+EVT_001178,FDR_022,25/03/2022 08:00,25/03/2022 17:00,"HV trip – cause unclear, no defects found"
+EVT_001179,FDR_012,03/09/2022 21:00,03/09/2022 23:00,UG cable insulation breakdown
+EVT_001180,FDR_020,14/03/2022 07:00,14/03/2022 18:00,Swan strike mid span over river
+EVT_001181,FDR_010,27/02/2022 14:00,27/02/2022 22:00,Cable joint failure suspected
+EVT_001182,FDR_009,16/02/2022 01:00,16/02/2022 12:00,Bird strike on overhead conductor
+EVT_001183,FDR_011,12/11/2022 18:00,13/11/2022 00:00,Squirrel on cross-arm causing fault
+EVT_001184,FDR_008,20/07/2022 10:00,20/07/2022 18:00,Insulator failure reported on cross-arm
+EVT_001185,FDR_018,28/01/2022 09:00,28/01/2022 17:00,UG cable insulation breakdown
+EVT_001186,FDR_001,30/04/2022 09:00,30/04/2022 22:00,Cable joint failure suspected
+EVT_001187,FDR_013,27/07/2022 18:00,27/07/2022 21:00,Insulator failure reported on cross-arm
+EVT_001188,FDR_025,02/11/2022 17:00,03/11/2022 06:00,Conductor damage mid span
+EVT_001189,FDR_012,11/12/2022 18:00,12/12/2022 07:00,Conductor damage mid span
+EVT_001190,FDR_023,23/09/2022 00:00,23/09/2022 07:00,UG cable strike during excavation works
+EVT_001191,FDR_020,30/12/2022 07:00,30/12/2022 18:00,Insulator failure reported on cross-arm
+EVT_001192,FDR_021,29/05/2022 17:00,30/05/2022 02:00,Unknown cause – reset successful
+EVT_001193,FDR_009,01/11/2022 07:00,01/11/2022 08:00,UG cable strike during excavation works
+EVT_001194,FDR_002,01/04/2022 02:00,01/04/2022 05:00,UG cable insulation breakdown
+EVT_001194_DUP,FDR_002,01/04/2022 02:02,01/04/2022 05:00,Duplicate trip record from control system
+EVT_001195,FDR_009,27/03/2022 00:00,27/03/2022 03:00,Squirrel on cross-arm causing fault
+EVT_001195_DUP,FDR_009,27/03/2022 00:02,27/03/2022 03:00,Duplicate trip record from control system
+EVT_001196,FDR_015,19/10/2022 08:00,19/10/2022 14:00,Bird strike on overhead conductor
+EVT_001196_DUP,FDR_015,19/10/2022 08:02,19/10/2022 14:00,Duplicate trip record from control system
+EVT_001197,FDR_001,08/04/2022 07:00,08/04/2022 20:00,Conductor damage mid span
+EVT_001198,FDR_001,28/05/2022 18:00,29/05/2022 08:00,Conductor damage mid span
+EVT_001199,FDR_001,31/07/2022 08:00,31/07/2022 18:00,Tree contact on overhead line during high winds
+EVT_001200,FDR_024,18/07/2022 07:00,18/07/2022 13:00,"HV trip – cause unclear, no defects found"
+EVT_001201,FDR_009,08/02/2022 13:00,08/02/2022 18:00,UG cable strike during excavation works
+EVT_001202,FDR_021,22/01/2022 21:00,23/01/2022 08:00,"HV trip – cause unclear, no defects found"
+EVT_001203,FDR_003,17/07/2022 02:00,17/07/2022 09:00,Bird strike on overhead conductor
+EVT_001204,FDR_025,05/07/2022 22:00,05/07/2022 23:00,"HV trip – cause unclear, no defects found"
+EVT_001205,FDR_003,03/11/2022 06:00,03/11/2022 17:00,Unknown cause – reset successful
+EVT_001206,FDR_016,09/05/2022 07:00,09/05/2022 12:00,Cable joint failure suspected
+EVT_001207,FDR_014,01/02/2022 00:00,01/02/2022 14:00,Cable joint failure suspected
+EVT_001208,FDR_007,23/01/2022 06:00,23/01/2022 12:00,Foil balloon contact on overhead line
+EVT_001209,FDR_002,14/03/2022 23:00,15/03/2022 06:00,Cable joint failure suspected
+EVT_001210,FDR_015,18/09/2022 09:00,18/09/2022 11:00,Unknown cause – reset successful
+EVT_001211,FDR_003,20/11/2022 07:00,20/11/2022 20:00,Swan strike mid span over river
+EVT_001211_DUP,FDR_003,20/11/2022 07:02,20/11/2022 20:00,Duplicate trip record from control system
+EVT_001212,FDR_005,01/09/2022 05:00,01/09/2022 13:00,UG cable insulation breakdown
+EVT_001213,FDR_011,21/01/2022 20:00,22/01/2022 01:00,Insulator failure reported on cross-arm
+EVT_001214,FDR_022,17/10/2022 21:00,18/10/2022 06:00,UG cable strike during excavation works
+EVT_001215,FDR_023,25/08/2022 10:00,25/08/2022 13:00,Conductor damage mid span
+EVT_001216,FDR_020,23/04/2023 10:00,23/04/2023 16:00,UG cable insulation breakdown
+EVT_001217,FDR_023,09/12/2023 22:00,10/12/2023 12:00,Squirrel on cross-arm causing fault
+EVT_001218,FDR_002,07/03/2023 16:00,07/03/2023 18:00,"Storm-related outage, multiple spans affected"
+EVT_001219,FDR_022,14/12/2023 20:00,14/12/2023 22:00,UG cable strike during excavation works
+EVT_001220,FDR_014,13/07/2023 20:00,13/07/2023 22:00,UG cable strike during excavation works
+EVT_001221,FDR_025,22/02/2023 22:00,23/02/2023 01:00,Swan strike mid span over river
+EVT_001222,FDR_011,06/02/2023 10:00,06/02/2023 22:00,Unknown cause – reset successful
+EVT_001223,FDR_023,19/12/2023 17:00,20/12/2023 07:00,Tree contact on overhead line during high winds
+EVT_001224,FDR_003,06/09/2023 17:00,07/09/2023 00:00,Foil balloon contact on overhead line
+EVT_001225,FDR_022,21/08/2023 19:00,22/08/2023 01:00,UG cable insulation breakdown
+EVT_001225_DUP,FDR_022,21/08/2023 19:02,22/08/2023 01:00,Duplicate trip record from control system
+EVT_001226,FDR_023,04/09/2023 10:00,04/09/2023 19:00,Squirrel on cross-arm causing fault
+EVT_001227,FDR_013,13/03/2023 22:00,14/03/2023 03:00,Conductor damage mid span
+EVT_001228,FDR_018,14/02/2023 09:00,14/02/2023 14:00,Insulator failure reported on cross-arm
+EVT_001229,FDR_008,21/06/2023 00:00,21/06/2023 14:00,Tree contact on overhead line during high winds
+EVT_001230,FDR_012,05/01/2023 16:00,05/01/2023 23:00,UG cable insulation breakdown
+EVT_001231,FDR_020,25/01/2023 21:00,26/01/2023 11:00,Cable joint failure suspected
+EVT_001232,FDR_017,09/01/2023 15:00,09/01/2023 23:00,"HV trip – cause unclear, no defects found"
+EVT_001233,FDR_017,12/02/2023 09:00,12/02/2023 12:00,Insulator failure reported on cross-arm
+EVT_001234,FDR_011,27/12/2023 01:00,27/12/2023 07:00,Unknown cause – reset successful
+EVT_001235,FDR_004,17/10/2023 03:00,17/10/2023 08:00,"HV trip – cause unclear, no defects found"
+EVT_001236,FDR_015,19/10/2023 16:00,19/10/2023 17:00,Conductor damage mid span
+EVT_001237,FDR_018,30/09/2023 17:00,01/10/2023 04:00,Insulator failure reported on cross-arm
+EVT_001238,FDR_004,16/11/2023 13:00,16/11/2023 19:00,Swan strike mid span over river
+EVT_001239,FDR_008,01/08/2023 11:00,01/08/2023 23:00,Conductor damage mid span
+EVT_001240,FDR_013,09/10/2023 17:00,10/10/2023 00:00,Foil balloon contact on overhead line
+EVT_001241,FDR_013,29/10/2023 03:00,29/10/2023 17:00,Cable joint failure suspected
+EVT_001242,FDR_008,17/12/2023 09:00,17/12/2023 16:00,Conductor damage mid span
+EVT_001243,FDR_008,10/12/2023 17:00,11/12/2023 04:00,UG cable insulation breakdown
+EVT_001244,FDR_018,08/08/2023 15:00,08/08/2023 21:00,"HV trip – cause unclear, no defects found"
+EVT_001245,FDR_007,27/04/2023 16:00,27/04/2023 18:00,Cable joint failure suspected
+EVT_001246,FDR_016,20/11/2023 12:00,20/11/2023 14:00,Foil balloon contact on overhead line
+EVT_001247,FDR_012,22/08/2023 19:00,22/08/2023 23:00,Swan strike mid span over river
+EVT_001248,FDR_022,19/01/2023 16:00,19/01/2023 23:00,Insulator failure reported on cross-arm
+EVT_001249,FDR_004,19/03/2023 00:00,19/03/2023 14:00,Foil balloon contact on overhead line
+EVT_001250,FDR_007,27/07/2023 12:00,27/07/2023 14:00,"HV trip – cause unclear, no defects found"
+EVT_001251,FDR_024,04/09/2023 05:00,04/09/2023 11:00,Swan strike mid span over river
+EVT_001252,FDR_019,24/01/2023 14:00,24/01/2023 20:00,Cable joint failure suspected
+EVT_001253,FDR_011,10/02/2023 00:00,10/02/2023 08:00,Unknown cause – reset successful
+EVT_001254,FDR_022,22/03/2023 21:00,23/03/2023 07:00,UG cable strike during excavation works
+EVT_001255,FDR_006,19/08/2023 16:00,20/08/2023 01:00,Unknown cause – reset successful
+EVT_001256,FDR_004,21/11/2023 17:00,21/11/2023 18:00,Swan strike mid span over river
+EVT_001256_DUP,FDR_004,21/11/2023 17:02,21/11/2023 18:00,Duplicate trip record from control system
+EVT_001257,FDR_020,04/11/2023 18:00,05/11/2023 07:00,Conductor damage mid span
+EVT_001258,FDR_018,06/07/2023 08:00,06/07/2023 17:00,Insulator failure reported on cross-arm
+EVT_001259,FDR_001,01/10/2023 22:00,02/10/2023 04:00,Conductor damage mid span
+EVT_001260,FDR_006,26/07/2023 21:00,26/07/2023 23:00,UG cable insulation breakdown
+EVT_001261,FDR_004,09/02/2023 18:00,10/02/2023 04:00,Cable joint failure suspected
+EVT_001262,FDR_006,17/10/2023 01:00,17/10/2023 12:00,Conductor damage mid span
+EVT_001263,FDR_011,21/12/2023 17:00,22/12/2023 00:00,Conductor damage mid span
+EVT_001264,FDR_020,26/08/2023 19:00,27/08/2023 04:00,UG cable strike during excavation works
+EVT_001265,FDR_013,16/05/2023 00:00,16/05/2023 06:00,Swan strike mid span over river
+EVT_001266,FDR_018,19/02/2023 02:00,19/02/2023 09:00,Foil balloon contact on overhead line
+EVT_001267,FDR_022,31/10/2023 18:00,01/11/2023 08:00,Swan strike mid span over river
+EVT_001268,FDR_014,03/09/2023 12:00,03/09/2023 21:00,Insulator failure reported on cross-arm
+EVT_001269,FDR_014,10/04/2023 00:00,10/04/2023 02:00,Conductor damage mid span
+EVT_001270,FDR_006,09/02/2023 09:00,09/02/2023 22:00,Squirrel on cross-arm causing fault
+EVT_001271,FDR_017,18/05/2023 20:00,19/05/2023 06:00,Insulator failure reported on cross-arm
+EVT_001272,FDR_024,14/12/2023 01:00,14/12/2023 12:00,Conductor damage mid span
+EVT_001273,FDR_019,30/08/2023 08:00,30/08/2023 14:00,Swan strike mid span over river
+EVT_001274,FDR_017,11/12/2023 01:00,11/12/2023 07:00,Squirrel on cross-arm causing fault
+EVT_001275,FDR_020,22/10/2023 19:00,23/10/2023 01:00,UG cable insulation breakdown
+EVT_001276,FDR_005,20/09/2023 15:00,20/09/2023 21:00,UG cable insulation breakdown
+EVT_001276_DUP,FDR_005,20/09/2023 15:02,20/09/2023 21:00,Duplicate trip record from control system
+EVT_001277,FDR_006,22/01/2023 12:00,22/01/2023 19:00,Squirrel on cross-arm causing fault
+EVT_001278,FDR_003,15/12/2023 22:00,16/12/2023 09:00,"HV trip – cause unclear, no defects found"
+EVT_001279,FDR_024,29/08/2023 01:00,29/08/2023 02:00,Unknown cause – reset successful
+EVT_001279_DUP,FDR_024,29/08/2023 01:02,29/08/2023 02:00,Duplicate trip record from control system
+EVT_001280,FDR_025,13/06/2023 13:00,13/06/2023 18:00,Cable joint failure suspected
+EVT_001281,FDR_002,10/06/2023 09:00,10/06/2023 11:00,"Storm-related outage, multiple spans affected"
+EVT_001282,FDR_020,21/06/2023 16:00,21/06/2023 19:00,"HV trip – cause unclear, no defects found"
+EVT_001283,FDR_001,09/12/2024 07:00,09/12/2024 16:00,Cable joint failure suspected
+EVT_001284,FDR_019,10/04/2024 22:00,10/04/2024 23:00,Unknown cause – reset successful
+EVT_001285,FDR_010,13/07/2024 16:00,14/07/2024 01:00,Conductor damage mid span
+EVT_001286,FDR_008,04/02/2024 12:00,04/02/2024 20:00,Insulator failure reported on cross-arm
+EVT_001287,FDR_005,26/08/2024 05:00,26/08/2024 07:00,UG cable strike during excavation works
+EVT_001287_DUP,FDR_005,26/08/2024 05:02,26/08/2024 07:00,Duplicate trip record from control system
+EVT_001288,FDR_007,13/10/2024 15:00,14/10/2024 03:00,Unknown cause – reset successful
+EVT_001289,FDR_022,29/09/2024 13:00,30/09/2024 01:00,Tree contact on overhead line during high winds
+EVT_001290,FDR_006,27/05/2024 04:00,27/05/2024 18:00,Squirrel on cross-arm causing fault
+EVT_001290_DUP,FDR_006,27/05/2024 04:02,27/05/2024 18:00,Duplicate trip record from control system
+EVT_001291,FDR_025,05/04/2024 19:00,06/04/2024 05:00,Cable joint failure suspected
+EVT_001292,FDR_005,29/03/2024 03:00,29/03/2024 04:00,UG cable insulation breakdown
+EVT_001293,FDR_004,30/05/2024 17:00,30/05/2024 22:00,UG cable insulation breakdown
+EVT_001293_DUP,FDR_004,30/05/2024 17:02,30/05/2024 22:00,Duplicate trip record from control system
+EVT_001294,FDR_021,16/10/2024 12:00,16/10/2024 20:00,Swan strike mid span over river
+EVT_001295,FDR_023,31/03/2024 23:00,01/04/2024 12:00,Insulator failure reported on cross-arm
+EVT_001296,FDR_014,26/10/2024 20:00,27/10/2024 01:00,Swan strike mid span over river
+EVT_001297,FDR_001,02/05/2024 07:00,02/05/2024 19:00,"HV trip – cause unclear, no defects found"
+EVT_001298,FDR_010,30/04/2024 02:00,30/04/2024 16:00,Conductor damage mid span
+EVT_001299,FDR_012,16/02/2024 18:00,16/02/2024 23:00,Insulator failure reported on cross-arm
+EVT_001300,FDR_001,09/05/2024 03:00,09/05/2024 06:00,"Storm-related outage, multiple spans affected"
+EVT_001301,FDR_024,05/11/2024 14:00,05/11/2024 15:00,Tree contact on overhead line during high winds
+EVT_001302,FDR_004,03/01/2024 23:00,04/01/2024 01:00,Squirrel on cross-arm causing fault
+EVT_001303,FDR_005,24/10/2024 10:00,24/10/2024 15:00,"Storm-related outage, multiple spans affected"
+EVT_001304,FDR_018,29/12/2024 19:00,30/12/2024 09:00,"HV trip – cause unclear, no defects found"
+EVT_001305,FDR_004,14/09/2024 21:00,15/09/2024 10:00,Squirrel on cross-arm causing fault
+EVT_001306,FDR_011,29/04/2024 07:00,29/04/2024 10:00,Conductor damage mid span
+EVT_001307,FDR_001,20/11/2024 04:00,20/11/2024 13:00,Insulator failure reported on cross-arm
+EVT_001308,FDR_015,26/01/2024 13:00,26/01/2024 22:00,"HV trip – cause unclear, no defects found"
+EVT_001308_DUP,FDR_015,26/01/2024 13:02,26/01/2024 22:00,Duplicate trip record from control system
+EVT_001309,FDR_012,25/12/2024 23:00,26/12/2024 00:00,Bird strike on overhead conductor
+EVT_001310,FDR_017,24/08/2024 08:00,24/08/2024 21:00,Bird strike on overhead conductor
+EVT_001311,FDR_009,11/07/2024 18:00,12/07/2024 07:00,Squirrel on cross-arm causing fault
+EVT_001312,FDR_010,12/02/2024 02:00,12/02/2024 09:00,Conductor damage mid span
+EVT_001312_DUP,FDR_010,12/02/2024 02:02,12/02/2024 09:00,Duplicate trip record from control system
+EVT_001313,FDR_011,15/04/2024 12:00,15/04/2024 20:00,UG cable insulation breakdown
+EVT_001314,FDR_003,06/09/2024 06:00,06/09/2024 13:00,Squirrel on cross-arm causing fault
+EVT_001314_DUP,FDR_003,06/09/2024 06:02,06/09/2024 13:00,Duplicate trip record from control system
+EVT_001315,FDR_021,21/09/2024 19:00,22/09/2024 07:00,Unknown cause – reset successful
+EVT_001316,FDR_008,28/05/2024 11:00,28/05/2024 23:00,Unknown cause – reset successful
+EVT_001316_DUP,FDR_008,28/05/2024 11:02,28/05/2024 23:00,Duplicate trip record from control system
+EVT_001317,FDR_014,16/04/2024 07:00,16/04/2024 11:00,Bird strike on overhead conductor
+EVT_001318,FDR_001,07/07/2024 12:00,07/07/2024 17:00,Conductor damage mid span
+EVT_001319,FDR_006,28/12/2024 19:00,29/12/2024 03:00,Conductor damage mid span
+EVT_001319_DUP,FDR_006,28/12/2024 19:02,29/12/2024 03:00,Duplicate trip record from control system
+EVT_001320,FDR_018,30/10/2024 07:00,30/10/2024 15:00,Insulator failure reported on cross-arm
+EVT_001321,FDR_021,22/08/2024 01:00,22/08/2024 07:00,Foil balloon contact on overhead line
+EVT_001322,FDR_013,26/02/2024 12:00,26/02/2024 13:00,Cable joint failure suspected
+EVT_001322_DUP,FDR_013,26/02/2024 12:02,26/02/2024 13:00,Duplicate trip record from control system
+EVT_001323,FDR_020,01/09/2024 11:00,01/09/2024 13:00,Insulator failure reported on cross-arm
+EVT_001323_DUP,FDR_020,01/09/2024 11:02,01/09/2024 13:00,Duplicate trip record from control system
+EVT_001324,FDR_019,20/10/2024 15:00,21/10/2024 05:00,UG cable strike during excavation works
+EVT_001325,FDR_023,17/03/2024 08:00,17/03/2024 14:00,"HV trip – cause unclear, no defects found"
+EVT_001326,FDR_024,28/07/2024 07:00,28/07/2024 19:00,Tree contact on overhead line during high winds
+EVT_001327,FDR_003,13/09/2024 01:00,13/09/2024 05:00,UG cable strike during excavation works
+EVT_001328,FDR_017,29/06/2024 07:00,29/06/2024 17:00,Unknown cause – reset successful
+EVT_001329,FDR_003,10/02/2024 02:00,10/02/2024 08:00,Swan strike mid span over river
+EVT_001330,FDR_003,03/09/2024 16:00,03/09/2024 22:00,Conductor damage mid span
+EVT_001331,FDR_023,21/11/2024 00:00,21/11/2024 10:00,Tree contact on overhead line during high winds
+EVT_001332,FDR_013,01/03/2024 06:00,01/03/2024 14:00,UG cable insulation breakdown
+EVT_001333,FDR_016,08/03/2024 11:00,08/03/2024 22:00,Conductor damage mid span
+EVT_001334,FDR_005,17/09/2024 04:00,17/09/2024 16:00,UG cable insulation breakdown
+EVT_001335,FDR_015,26/07/2024 06:00,26/07/2024 16:00,Tree contact on overhead line during high winds
+EVT_001336,FDR_012,06/04/2024 12:00,06/04/2024 13:00,"HV trip – cause unclear, no defects found"
+EVT_001337,FDR_017,28/08/2024 14:00,28/08/2024 20:00,"HV trip – cause unclear, no defects found"
+EVT_001338,FDR_013,13/02/2024 22:00,14/02/2024 00:00,Foil balloon contact on overhead line
+EVT_001339,FDR_015,09/09/2024 01:00,09/09/2024 10:00,Insulator failure reported on cross-arm
+EVT_001340,FDR_004,25/06/2024 02:00,25/06/2024 11:00,Unknown cause – reset successful
+EVT_001341,FDR_006,25/02/2024 01:00,25/02/2024 02:00,Foil balloon contact on overhead line
+EVT_001342,FDR_003,27/05/2024 04:00,27/05/2024 06:00,Conductor damage mid span
+EVT_001343,FDR_007,13/11/2024 23:00,14/11/2024 10:00,UG cable strike during excavation works
+EVT_001344,FDR_016,31/08/2024 04:00,31/08/2024 10:00,Insulator failure reported on cross-arm
+EVT_001345,FDR_024,19/12/2024 11:00,19/12/2024 21:00,Tree contact on overhead line during high winds
+EVT_001346,FDR_005,02/08/2024 23:00,03/08/2024 10:00,Bird strike on overhead conductor
+EVT_001347,FDR_018,01/10/2024 15:00,01/10/2024 21:00,Foil balloon contact on overhead line
+EVT_001348,FDR_013,19/12/2024 09:00,19/12/2024 17:00,"HV trip – cause unclear, no defects found"
+EVT_001349,FDR_009,19/07/2024 04:00,19/07/2024 10:00,UG cable insulation breakdown
+EVT_001350,FDR_019,30/04/2024 10:00,30/04/2024 12:00,Unknown cause – reset successful
