@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from app_functions import (load_data, process_data, eda_faults_counts_barplot, eda_faults_duration_barplot,
-                           overall_failure_rates, overall_failure_rate_modelling, asset_failure_rates, asset_failures_recent_trend, gamma_fit,
-                           repair_time_histograms, model_distribution_fits)
+                           overall_failure_rates, failure_rate_modelling, asset_failure_rates, repair_rate_modelling,
+                           repair_time_histograms)
 
 # Page config
 st.set_page_config(
@@ -18,7 +18,6 @@ st.markdown("### Generation of Monte Carlo Input Parameters")
 st.markdown("*Brief Analysis Report of historic failure event data of Feeder Assets for probabilistic risk forecasting using National Grid's datasets*")
 st.write("**Author:** Siddharth Ravichandran, Feb 2026")
 st.write("www.linkedin.com/in/sid-ravichandran")
-st.write("Analysis Code hosted at - https://github.com/sid-ravichandran/transmission-grid-failure-analysis")
 st.write('------------------------------------------------------------------------')
 
 # Sidebar
@@ -43,17 +42,20 @@ if section == "Executive Summary":
     st.markdown("""
     ### Key Findings
     
-    1. **Overall failure rate per asset-km** shows linear increasing trend (+0.0027/km per year) with value of 0.154 in 2024, and a Uniformly distributed uncertainty with bounds ()
-    2. **Deterioration related failure rate relatively stable over past 10 years** with mean value at 0.059/km and can be modelled using a Gamma distribution (shape=45.520, loc=0.000, scale=0.001)
-    3. **Repair times** follow uniform distribution (60-840 mins) with discrete values rounded to nearest hour
+    The following were modelled in this analysis - 
+    1. Overall failure rate per km of feeder asset per year
+    2. Failure rate due to asset deterioration per km of feeder asset per year
+    3. Total Repair time for faults in the distribution system
+                
+    All of these were modelled with a linear projection for the mean and a Normal distribution fitted to the residual uncertainty, which can be used as input parameters for a Monte Carlo simulation to generate future scenarios based on historical trends and variability.
     
     ### Monte Carlo Input Summary
     
     | Parameter | Distribution | Notes |
     |-----------|-------------|-------|
-    | Overall Failure Rate | Linearly increasing rate with Uniform (-0.0010, 0.0010) uncertainty (/km) | Linear trend projected |
-    | Deterioration Failure Rate | Gamma(shape=45.520, loc=0.000, scale=0.001) | Recent 10-year stable average |
-    | Repair Time | Uniform(60, 840) mins | Discrete, rounded to nearest hour |
+    | Overall Failure Rate | Linearly increasing rate (0.0027/km/yr) with N(0, 0.0007) uncertainty (/km) | Good fit to data |
+    | Deterioration Failure Rate | Linearly increasing rate (0.0013/km/yr) with N(0, 0.0067) uncertainty (/km) | Noisier residuals |
+    | Repair Time | Linearly increasing rate (52.4803 min/km) with N(0, 199.74) uncertainty (min/km) | Noisy residuals |
     """)
 
     st.markdown("### Likelihood of failure per year of power cuts")
@@ -143,15 +145,23 @@ if section == "Overall Failure Rate":
 
     st.markdown("#### Modelling failure rate per km for a Monte Carlo simulation")
     st.write("To model the failure rate per km for a Monte Carlo simulation, we will need to fit a probability distribution to the historical failure rate data. This allows us to capture the variability and uncertainty in the failure rates, which is essential for generating realistic scenarios in the simulation.")
-    st.write("Since this looks like a linearly increasing trend, the approach to model this will be - **Linear Projection for Mean with a Distribution fitted to the Residual Uncertainty**")
+    st.write("Since this looks like a linearly increasing trend, the approach to model this will be - **Linear Projection for Mean with a Normal Distribution fitted to the Residual Uncertainty**")
 
+    st.markdown("#### Modelling the Residual Uncertainty for Overall Failure Rate")
     st.write("The plot below shows the fitted overall failure rate model, which can be used as an input for the Monte Carlo simulation to generate future failure rate scenarios based on historical trends and variability.")
-    fig1, fig2, residuals = overall_failure_rate_modelling(df_failure_rates)
+    fig0, fig1, fig2, residuals = failure_rate_modelling(df_failure_rates, cause='all')
     st.pyplot(fig1, width='content')
+    st.pyplot(fig0, width='content')
 
     st.write("**An observation**: There is a regular pattern in the residuals w.r.t. mean every 5 years, which could be due to a 5-yearly maintenance cycle that causes a temporary improvement in failure rates after maintenance activities are performed. This pattern should be taken into account when interpreting the results and making projections based on the model.")
-    st.write(f"Analysing the goodness of fit of the Residuals against the different distributions considered, it seems that a **Uniform Distribution** with bounds of {min(residuals):.4f} and {max(residuals):.4f} provides the best fit to the residuals, which represent the uncertainty around the linear trend. This distribution can be used in the Monte Carlo simulation to model the variability in failure rates around the projected linear trend.")
+    st.write(f"Since the residuals are distributed on either side of 0, a **Normal Distribution N(0, {np.std(residuals):.4f})** provides the best fit to the residuals, which represent the uncertainty around the linear trend. This distribution can be used in the Monte Carlo simulation to model the variability in failure rates around the projected linear trend.")
     st.pyplot(fig2, width='content')
+
+    st.markdown("### Monte Carlo Simulation Input Parameters for Overall Failure Rate")
+    st.latex(r"\text{Failure Rate (per km/year)} = \text{Linear Projection} + \text{Uncertainty}")
+    st.latex(r"\text{Linear Projection} = \text{Slope} \times \text{Year} + \text{Intercept}")
+    st.latex(r"\text{Uncertainty} \sim N(0, \sigma^2)")
+    st.write(f"Where the slope is 0.027/km/year, the intercept is -5.31/km, and the standard deviation of the uncertainty is {np.std(residuals):.4f}.")
 
 
 # =====================================
@@ -163,21 +173,24 @@ if section == "Failure Rate due to Asset Deterioration":
     st.markdown("#### Failure Rate Calculation due to Asset Deterioration")
     st.write("The failure rate due to asset deterioration is calculated as the number of faults attributed to asset deterioration per km of feeder asset per year. This metric helps us understand the contribution of asset aging and wear to overall system failures.")
     st.write("Note that a contribution factor of 0.2 was applied to the faults attributed to unknown causes, since some of these may have been due to asset deterioration but lacked sufficient information for accurate classification.")
-    st.write("The plot below shows a **initially increasing trend** of the failure rate over time but **relatively stable over the last 10 years**.")
+    st.write("Like for the raw all-cause failure rate, the plot below shows an **increasing trend** of the failure rate over time but is **noisier**.")
 
     df_asset_failure_rates, fig = asset_failure_rates(df, total_asset_length)
     st.plotly_chart(fig, use_container_width=True)
 
-    st.write("The recent historical data of the past 10 years is more relevant than the older data and seems like a good dataset (albeit sparse) for fitting a probability distribution to model the failure rate due to asset deterioration for the Monte Carlo simulation.")
-
-    fig1, fig2 = asset_failures_recent_trend(df_asset_failure_rates)
+    st.markdown("#### Modelling Residual Uncertainty for Asset Deterioration Failure Rate")
+    fig0, fig1, fig2, residuals = failure_rate_modelling(df_asset_failure_rates, cause='asset')
     st.pyplot(fig1, width='content')
+    st.pyplot(fig0, width='content')
+
+    st.write(f"As before, since the residuals are distributed on either side of 0, a **Normal Distribution N(0, {np.std(residuals):.4f})** provides a good fit to the residuals, which represent the uncertainty around the linear trend. This distribution can be used in the Monte Carlo simulation to model the variability in failure rates around the projected linear trend.")
     st.pyplot(fig2, width='content')
 
-    st.write("The data can be seen to be slightly skewed to the right, which makes the **Gamma distribution** a suitable candidate. This is also borne out by the goodness of fit tests against the different distributions considered")
-
-    fig = gamma_fit(df_asset_failure_rates)
-    st.pyplot(fig, width='content')
+    st.markdown("### Monte Carlo Simulation Input Parameters for Asset-related Failure Rate")
+    st.latex(r"\text{Failure Rate (per km/year)} = \text{Linear Projection} + \text{Uncertainty}")
+    st.latex(r"\text{Linear Projection} = \text{Slope} \times \text{Year} + \text{Intercept}")
+    st.latex(r"\text{Uncertainty} \sim N(0, \sigma^2)")
+    st.write(f"Where the slope is 0.013/km/year, the intercept is -2.627/km, and the standard deviation of the uncertainty is {np.std(residuals):.4f}.")
 
 
 # =====================================
@@ -186,24 +199,32 @@ if section == "Failure Rate due to Asset Deterioration":
 if section == "Repair Time Modelling":
     st.header("Repair Time Modelling")
 
-    st.markdown("### Distributions of Time to Repair for All Fault Types and Asset Deterioration Related Faults")
-    st.write("The time to repair for all fault types and asset deterioration related faults can be modelled using probability distributions. This allows us to capture the variability in repair times, which is crucial for accurate risk forecasting and resource planning.")
-    st.write("The following observations can be made from the distribution of time to repair:")
-    st.markdown("- Both distributions are quite 'flat' over a wide range of repair times (60 - 840 minutes), which initially suggests that a uniform distribution may be a good fit for modelling repair times.")
+    st.markdown("### Distributions and Trend in Time to Repair for Faults")
+    st.write("As for the failure rates, the time to repair for faults in the distribution system can be modelled using probability distributions. This will allow us to generate realistic repair time scenarios in the Monte Carlo simulation.")
+    st.write("The following observations can be made from the raw distribution of customer time lost per km for all fault types as well as asset-deterioration related fault types:")
+    st.markdown("- Both distributions are quite long-tailed, with a significant number of faults taking a long time to repair. This indicates that these are **LogNormal distributed**")
     st.markdown("- The discrete bars suggest that the repair times are rounded to the nearest hour, which is common in operational data and should be taken into account when fitting distributions.")
 
-    fig1, fig2 = repair_time_histograms(df)
+    fig1, fig2, fig3 = repair_time_histograms(df)
     st.plotly_chart(fig1, use_container_width=True)
     st.plotly_chart(fig2, use_container_width=True)
 
-    st.markdown("### Choosing a Probability Distribution for Modelling Repair Times")
-    st.write("To choose a probability distribution for modelling repair times, we can perform goodness-of-fit tests and visual assessments such as Q-Q plots. The goal is to identify a distribution that closely matches the empirical data, allowing us to generate realistic repair time scenarios in the Monte Carlo simulation.")
-    st.write("Consider the overall fault type data. 4 distributions were looked at for evaluating fits - Normal, Uniform, Gamma, and Lognormal. The Q-Q plots show that the **uniform distribution provides the best fit to the repair time data**, as the points in the Q-Q plot for the uniform distribution are closest to the reference line compared to the other distributions.")
-    fig = model_distribution_fits(df['fault_duration_minutes'])
-    st.pyplot(fig, width='content')
+    st.write("Looking at the Trend for the **total customer time lost** (i.e., sum of all fault durations), we see that it is increasing over time as could be expected having looked at the failure rate trends.")
+    st.plotly_chart(fig3, use_container_width=True)
 
-    st.write("Based on the analysis, we can conclude that the uniform distribution is the most appropriate choice for modelling repair times in this context.")
-    st.write("**Properties:** Min (a) = 60 minutes, Max (b) = 840 minutes, Results to be rounded to nearest hour in Monte Carlo simulation")
+    st.markdown("### Modelling the Total Customer Time Lost")
+    st.write("For consistency with the failure rate modelling approach, we can fit a linear trend to the total customer time lost and model the distribution to the residuals with a suitable Normal distribution")
+
+    fig1, fig2, residuals = repair_rate_modelling(df)
+    st.pyplot(fig1, width='content')
+    st.pyplot(fig2, width='content')
+
+    st.markdown("### Monte Carlo Simulation Input Parameters for Total Customer Time lost due to Faults")
+    st.latex(r"\text{Total Customer Time Lost (minutes)} = \text{Linear Projection} \times \text{Uncertainty}")
+    st.latex(r"\text{Linear Projection} = \text{Slope} \times \text{Year} + \text{Intercept}")
+    st.latex(r"\text{Uncertainty} \sim Normal(mean, std)")
+    st.write(f"Where the slope is 52.4803 min/km/year, the intercept is -103554.15 min/km, and the standard deviation of the uncertainty is {np.std(residuals):.4f}..")
+
 
 
 # =====================================
