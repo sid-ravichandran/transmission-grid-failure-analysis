@@ -18,6 +18,7 @@ st.markdown("### Generation of Monte Carlo Input Parameters")
 st.markdown("*Brief Analysis Report of historic failure event data of Feeder Assets for probabilistic risk forecasting using National Grid's datasets*")
 st.write("**Author:** Siddharth Ravichandran, Feb 2026")
 st.write("www.linkedin.com/in/sid-ravichandran")
+st.write("Analysis and dashboard Code hosted at - https://github.com/sid-ravichandran/transmission-grid-failure-analysis")
 st.write('------------------------------------------------------------------------')
 
 # Sidebar
@@ -245,3 +246,4 @@ if section == "Scaling to Real Operational Datasets":
     st.markdown("- Tools such as **ML flow** could be used to deploy models and track performance and drift in real time")
     st.markdown("**Domain Expertise**: Collaborating with domain experts is essential to interpret the results correctly and to ensure that the assumptions made in the analysis are valid in the context of real operational data.")
     st.markdown("**Continuous Monitoring and Updating**: As new data becomes available, it is important to continuously monitor the performance of the models and update them as necessary to maintain their accuracy and relevance over time.")
+
