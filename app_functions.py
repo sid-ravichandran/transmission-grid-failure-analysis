@@ -6,7 +6,7 @@ from collections import Counter
 from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy.stats import linregress, gamma, probplot, norm
+from scipy.stats import linregress, probplot, norm
 
 ######################### Load and Process Data #########################
 @st.cache_data
@@ -84,37 +84,28 @@ def eda_faults_duration_barplot(df):
     return fig1, fig2
 
 
+############################ Failure Rate Analysis #########################
 @st.cache_data
-def model_distribution_fits(input_data):
-    """ Fit probability distributions to repair times for all fault types and asset deterioration related faults for use in Monte Carlo simulation """
+def model_normal_distribution_fit(input_data):
+    """ Fit Normal distribution to input fault rate (residual) data for use in Monte Carlo simulation """
 
-    fig, axes = plt.subplots(2, 2, figsize=(5, 5))
-    probplot(input_data, sparams=(1,), dist="lognorm", plot=axes[0, 0])
-    axes[0, 0].set_title('Q-Q Plot vs Lognormal')
-
-    probplot(input_data, sparams=(1,), dist="norm", plot=axes[0, 1])
-    axes[0, 1].set_title('Q-Q Plot vs Normal')
-
-    probplot(input_data, sparams=(1,), dist="uniform", plot=axes[1, 0])
-    axes[1, 0].set_title('Q-Q Plot vs Uniform')
-
-    probplot(input_data, sparams=(1,), dist="gamma", plot=axes[1, 1])
-    axes[1, 1].set_title('Q-Q Plot vs Gamma')
+    fig, ax = plt.subplots(figsize=(3, 3))
+    _, (slope, intercept, r) = probplot(input_data, sparams=(1,), dist='norm', plot=ax)
+    ax.set_title(f"Q-Q for Normal\nR-squared: {r**2:.4f}")
 
     plt.tight_layout()
     # scale down font sizes in plot and dot size in Q-Q plot
-    for ax in axes.flat:
-        for line in ax.get_lines():
-            line.set_markersize(3)
-        ax.title.set_fontsize(6)
-        ax.xaxis.label.set_fontsize(6)
-        ax.yaxis.label.set_fontsize(6)
-        ax.legend(fontsize=5)
-        ax.tick_params(axis='both', which='major', labelsize=5)
+    for line in ax.get_lines():
+        line.set_markersize(3)
+    ax.title.set_fontsize(6)
+    ax.xaxis.label.set_fontsize(6)
+    ax.yaxis.label.set_fontsize(6)
+    ax.legend(fontsize=5)
+    ax.tick_params(axis='both', which='major', labelsize=5)
 
     return fig
 
-############################ Failure Rate Analysis #########################
+
 @st.cache_data
 def overall_failure_rates(df, total_asset_length):
     """ Calculate overall failure rates and create barplot of trend of failure rates over time """
@@ -140,7 +131,7 @@ def overall_failure_rates(df, total_asset_length):
 
 
 @st.cache_data
-def overall_failure_rate_modelling(df_failure_rates):
+def failure_rate_modelling(df_failure_rates, cause='all'):
     """ Modelling failure rate per km for a Monte Carlo simulation - Linear Projection with Normally Distributed Residual Uncertainty """
 
     years = df_failure_rates['year'].tolist()
@@ -148,13 +139,31 @@ def overall_failure_rate_modelling(df_failure_rates):
     slope, intercept, r_value, p_value, std_err = linregress(years, rates)
 
     st.write("**Linear regression results for failure rate trend:**")
-    st.write(f"Slope: {slope:.4f}, Intercept: {intercept:.2f}, R-squared: {r_value**2:.4f}, P-value: {p_value:.4f}, Std Err: {std_err:.4f}")
+    st.write(f"Slope: {slope:.4f}, Intercept: {intercept:.2f}, R-squared: {r_value**2:.4f}")
+
+    if cause == 'all':
+        st.write(f"The overall failure rate/km is increasing by approximately {slope:.4f}/km per year. The high R-squared value indicates that the linear model explains almost all of the variability in the failure rates.")
+    elif cause == 'asset':
+        st.write(f"The asset deterioration related failure rate/km is increasing by approximately {slope:.4f}/km per year. The lower R-squared value indicates that the linear model does not capture all of variability in the failure rates.")
 
     fitted_values = [slope * y + intercept for y in years]
     residuals = [r - f for r, f in zip(rates, fitted_values)]
     sigma = np.std(residuals, ddof=2)
 
     st.write(f"Estimated standard deviation of Normally distributed residuals (σ): {sigma:.4f}")
+
+    # Histogram distribution of residuals
+    fig0, ax0 = plt.subplots(figsize=(3, 3))
+    sns.histplot(residuals, kde=True, ax=ax0, bins=10)
+    ax0.set_title('Distribution of Residuals from Linear Fit')
+    ax0.set_xlabel('Residual (Actual - Fitted Failure Rate)')
+    ax0.set_ylabel('Frequency')
+    # scale down font sizes in plot
+    ax0.title.set_fontsize(6)
+    ax0.xaxis.label.set_fontsize(6)
+    ax0.yaxis.label.set_fontsize(6)
+    ax0.legend(fontsize=5)
+    ax0.tick_params(axis='both', which='major', labelsize=5)
 
     # failure rate trend and projection chart
     # Projection horizon (e.g., next 5 years)
@@ -182,9 +191,9 @@ def overall_failure_rate_modelling(df_failure_rates):
     for line in ax.get_lines():
         line.set_markersize(3)
 
-    fig2 = model_distribution_fits(residuals)
+    fig2 = model_normal_distribution_fit(residuals)
 
-    return fig, fig2, residuals
+    return fig0, fig, fig2, residuals
 
 
 @st.cache_data
@@ -217,79 +226,83 @@ def asset_failure_rates(df, total_asset_length):
     return df_failure_rates, fig
 
 
+############################ Repair Time Modelling #########################
 @st.cache_data
-def asset_failures_recent_trend(df_failure_rates_asset):
-    """ Visual and statistical check of recent failure rates to assess if it is "stationary enough" """
+def model_lognormal_distribution_fit(input_data):
+    """ Fit Lognormal distribution to input fault rate (residual) data for use in Monte Carlo simulation """
 
-    recent_period = 10
-
-    # Check if recent period is "stationary enough"
-    recent = df_failure_rates_asset['Failure Rate per km'].tail(recent_period)
-
-    # 1. Visual check
     fig, ax = plt.subplots(figsize=(3, 3))
-    ax.plot(recent, 'o-')
-    ax.axhline(np.mean(recent), color='r', linestyle='--')
+    shape, loc, scale = stats.lognorm.fit(input_data)
+    st.write(f"**LogNormal distribution parameters:** shape={shape:.3f}, loc={loc:.3f}, scale={scale:.3f}")
     
-    # 2. Statistical check
-    x = np.arange(len(recent))
-    slope, _, _, p_val, _ = linregress(x, recent)
+    _, (slope, intercept, r) = probplot(input_data, sparams=(shape, loc, scale), dist='lognorm', plot=ax)
+    ax.set_title(f"Q-Q for Lognormal\nR-squared: {r**2:.4f}")
 
-    ax.set_title(f'Recent Asset Deterioration Failure Rates - stable\nLin Regression: p-value for trend ({p_val:.3f}) > 0.1 and abs(slope) ({abs(slope):.3f}) < 0.1')
-    ax.set_xlabel('Year')
-    ax.set_ylabel('Failure Rate per km')
-
-    # scale down font sizes in plot
+    plt.tight_layout()
+    # scale down font sizes in plot and dot size in Q-Q plot
+    for line in ax.get_lines():
+        line.set_markersize(3)
     ax.title.set_fontsize(6)
     ax.xaxis.label.set_fontsize(6)
     ax.yaxis.label.set_fontsize(6)
     ax.legend(fontsize=5)
     ax.tick_params(axis='both', which='major', labelsize=5)
-    for line in ax.get_lines():
-        line.set_markersize(3)
 
-    fig2 = model_distribution_fits(recent)
-    return fig, fig2
-
-
-@st.cache_data
-def gamma_fit(df_failure_rates_asset):
-    """ Fit a Gamma distribution to the recent failure rates due to asset deterioration for use in Monte Carlo simulation """
-
-    recent_years = 10
-    recent_rates = df_failure_rates_asset['Failure Rate per km'].tail(recent_years)
-
-    # Fit Gamma distribution (good for positive skewed data)
-    shape, loc, scale = gamma.fit(recent_rates, floc=0)  # floc=0 forces location=0
-
-    st.write(f"**Gamma distribution parameters:** shape={shape:.3f}, loc={loc:.3f}, scale={scale:.3f}")
-    st.write(f"Mean: {shape*scale:.3f}, Std: {np.sqrt(shape)*scale:.3f}")
-
-    fig, ax = plt.subplots(figsize=(3, 3))
-    ax.hist(recent_rates, bins=6, density=True, alpha=0.6, label='Recent Data')
-    x = np.linspace(0, max(recent_rates)*1.5, 100)
-    ax.plot(x, gamma.pdf(x, shape, loc, scale), 'r-', label='Gamma fit')
-    ax.legend()
-    ax.set_title('Deterioration Failure Rate Distribution')
-
-    # scale down font sizes in plot
-    ax.title.set_fontsize(6)
-    ax.xaxis.label.set_fontsize(6)
-    ax.yaxis.label.set_fontsize(6)
-    ax.legend(fontsize=5)
-    ax.tick_params(axis='both', which='major', labelsize=5)
-    for line in ax.get_lines():
-        line.set_markersize(3)
     return fig
 
-############################ Repair Time Modelling #########################
+
 @st.cache_data
 def repair_time_histograms(df):
     """ Histograms of repair times for all fault types and asset deterioration related faults in plotly """
 
     df_asset_deterioration = df[df['fault_description'].isin(['Conductor damage mid span', 'Insulator failure reported on cross-arm', 'UG cable insulation breakdown', 'Cable joint failure suspected'])]
     
-    fig1 = px.histogram(df, x='fault_duration_minutes', nbins=50, title='Distribution of Repair Times for All Fault Types')
-    fig2 = px.histogram(df_asset_deterioration, x='fault_duration_minutes', nbins=50, title='Distribution of Repair Times for Asset Deterioration Related Faults')
+    fig1 = px.histogram(df, x='fault_duration_minutes_per_km', nbins=50, title='Distribution of Repair Times for All Fault Types', labels={'fault_duration_minutes_per_km': 'Customer Time Lost per km (minutes/km)'})
+    fig2 = px.histogram(df_asset_deterioration, x='fault_duration_minutes_per_km', nbins=50, title='Distribution of Repair Times for Asset Deterioration Related Faults', labels={'fault_duration_minutes_per_km': 'Customer Time Lost per km (minutes/km)'})
     
-    return fig1, fig2
+    # Repair duration per km by year
+    df_yearly = df.groupby('year')['fault_duration_minutes_per_km'].sum().reset_index()
+    fig3 = px.bar(df_yearly, x='year', y='fault_duration_minutes_per_km', 
+                   title='Total Repair Duration per km by Year',
+                   labels={'fault_duration_minutes_per_km': 'Total Duration (min/km)', 'year': 'Year'})
+    fig3.update_xaxes(tickangle=-45)
+    
+    return fig1, fig2, fig3
+
+
+@st.cache_data
+def repair_rate_modelling(df):
+    """ Modelling repair time per km for a Monte Carlo simulation - Linear Projection with Normally Distributed Residual Uncertainty """
+
+    df_yearly = df.groupby('year')['fault_duration_minutes_per_km'].sum().reset_index()
+    years = df_yearly['year'].tolist()
+    rates = df_yearly['fault_duration_minutes_per_km'].tolist()
+    slope, intercept, r_value, p_value, std_err = linregress(years, rates)
+
+    st.write("**Linear regression results for repair time trend:**")
+    st.write(f"Slope: {slope:.4f}, Intercept: {intercept:.2f}, R-squared: {r_value**2:.4f}")
+
+    st.write(f"The overall repair time/km is increasing by approximately {slope:.4f} min/km per year. The R-squared value indicates that the linear model explains almost all of the variability in the repair times.")
+
+    fitted_values = [slope * y + intercept for y in years]
+    residuals = [r - f for r, f in zip(rates, fitted_values)]
+    sigma = np.std(residuals, ddof=2)
+
+    st.write(f"Estimated standard deviation of the residuals (σ): {sigma:.4f}")
+
+    # Histogram distribution of residuals
+    fig0, ax0 = plt.subplots(figsize=(3, 3))
+    sns.histplot(residuals, kde=True, ax=ax0, bins=10)
+    ax0.set_title('Distribution of Residuals from Linear Fit')
+    ax0.set_xlabel('Residual (Actual - Fitted Failure Rate)')
+    ax0.set_ylabel('Frequency')
+    # scale down font sizes in plot
+    ax0.title.set_fontsize(6)
+    ax0.xaxis.label.set_fontsize(6)
+    ax0.yaxis.label.set_fontsize(6)
+    ax0.legend(fontsize=5)
+    ax0.tick_params(axis='both', which='major', labelsize=5)
+
+    fig2 = model_normal_distribution_fit(residuals)
+
+    return fig0, fig2, residuals
